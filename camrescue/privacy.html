@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Privacy policy for CamRescue (찰나 카메라) by Mudol Labs.">
+<title>CamRescue Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+  /* Layout: a single readable column, like a document a store reviewer opens; language anchors at the top. */
+  :root {
+    --bg: #faf9f6;
+    --surface: #ffffff;
+    --fg: #1b1a17;
+    --muted: #66625a;
+    --line: #e6e2d9;
+    --accent: #b07800;
+    --accent-soft: #fff4d6;
+    --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e0e11; --surface: #17171c; --fg: #f1f0ec; --muted: #a29e95;
+      --line: #2b2a30; --accent: #ffc531; --accent-soft: #2a2414; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e0e11; --surface: #17171c; --fg: #f1f0ec; --muted: #a29e95;
+    --line: #2b2a30; --accent: #ffc531; --accent-soft: #2a2414; color-scheme: dark;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .page {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding-block: 2.5rem 4rem;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    display: grid;
+    gap: 2.5rem;
+  }
+  header { display: grid; gap: 0.75rem; }
+  .mark { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 1.05rem; }
+  .mark svg { width: 28px; height: 28px; flex: none; }
+  h1 { font-size: clamp(1.8rem, 5vw, 2.4rem); line-height: 1.2; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+  .meta { font-family: var(--font-mono); font-size: 0.82rem; color: var(--muted); }
+  nav { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  nav a {
+    font-size: 0.9rem; font-weight: 600; color: var(--fg); text-decoration: none;
+    padding: 0.35rem 0.9rem; border: 1px solid var(--line); border-radius: 999px; background: var(--surface);
+  }
+  nav a:hover { border-color: var(--accent); }
+  nav a:focus-visible, .copy:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .summary {
+    background: var(--accent-soft);
+    border-radius: 14px;
+    padding: 1.1rem 1.25rem;
+    font-weight: 600;
+    text-wrap: pretty;
+  }
+  section { display: grid; gap: 1.25rem; }
+  section > h2 {
+    font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--accent); margin: 0; padding-top: 1.5rem; border-top: 1px solid var(--line);
+  }
+  h3 { font-size: 1.1rem; margin: 0; }
+  p { margin: 0; max-width: 65ch; }
+  .block { display: grid; gap: 0.5rem; }
+
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; min-width: 32rem; font-size: 0.93rem; }
+  th, td { text-align: start; padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  code { font-family: var(--font-mono); font-size: 0.88em; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 0.05em 0.35em; }
+
+  .contact { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+  .email { font-family: var(--font-mono); user-select: all; }
+  .copy {
+    font: inherit; font-size: 0.85rem; font-weight: 600; cursor: pointer;
+    color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 0.25rem 0.8rem;
+  }
+  .draft {
+    font-size: 0.85rem; color: var(--muted); border: 1px dashed var(--line); border-radius: 12px; padding: 0.8rem 1rem;
+  }
+  @media (prefers-reduced-motion: no-preference) { nav a, .copy { transition: border-color .15s ease; } }
+</style>
+<style>html,body{margin:0} *{box-sizing:border-box}</style>
+</head>
+<body>
+
+<div class="page">
+  <header>
+    <div class="mark">
+      <svg viewBox="0 0 56 56" aria-hidden="true">
+        <g transform="translate(-26 -26)" fill="none">
+          <path d="M54,36 a18,18 0 1,1 0,36 a18,18 0 1,1 0,-36" stroke="var(--accent)" stroke-width="6"/>
+          <path d="M54,49 a5,5 0 1,1 0,10 a5,5 0 1,1 0,-10z" fill="var(--accent)"/>
+          <path d="M73,29 Q73,35 79,35 Q73,35 73,41 Q73,35 67,35 Q73,35 73,29Z" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round"/>
+        </g>
+      </svg>
+      CamRescue · 찰나 카메라
+    </div>
+    <h1>Privacy Policy<br>개인정보처리방침</h1>
+    <div class="meta">Mudol Labs · Effective 2026-10-21 · Version 1.0</div>
+    <nav aria-label="Language">
+      <a href="#en">English</a>
+      <a href="#ko">한국어</a>
+    </nav>
+  </header>
+
+  <section id="en" aria-labelledby="en-title">
+    <h2 id="en-title">English</h2>
+    <p class="summary">CamRescue does not collect personal data. It does not use the internet, and everything it creates stays on your phone.</p>
+
+    <div class="block">
+      <h3>What the app uses and why</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Access</th><th>Used for</th><th>Where it goes</th></tr></thead>
+          <tbody>
+            <tr><td>Camera</td><td>Taking photos and videos, reading QR codes, running the camera check</td><td>Your gallery only, in <code>DCIM/CamRescue</code></td></tr>
+            <tr><td>Microphone (optional)</td><td>Recording sound with videos</td><td>Inside the video file on your phone</td></tr>
+            <tr><td>A photo you pick</td><td>Reading a QR code from that photo</td><td>Read on the phone, never uploaded</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>Camera check results</h3>
+      <p>The camera check records which lenses work, how long each stayed on, and your phone model. These results are kept in the app's private storage on your phone. If you tap “Save &amp; share as image”, a report image is saved to <code>Pictures/CamRescue</code> and sent only to the app you choose.</p>
+    </div>
+
+    <div class="block">
+      <h3>No network, no tracking</h3>
+      <p>The app has no internet permission. It contains no analytics, advertising or tracking code, and nothing is sold or shared with anyone.</p>
+    </div>
+
+    <div class="block">
+      <h3>Deleting your data</h3>
+      <p>Uninstalling the app removes the camera check results. Photos, videos and report images stay in your gallery until you delete them.</p>
+    </div>
+
+    <div class="block">
+      <h3>Children</h3>
+      <p>The app is not directed at children and collects no data from anyone.</p>
+    </div>
+
+    <div class="block">
+      <h3>Changes and contact</h3>
+      <p>If this policy changes, the new version will be posted here with a new effective date. Questions:</p>
+      <div class="contact"><span class="email" id="email-en">mudollabs@gmail.com</span><button class="copy" id="copy-en" type="button" data-target="email-en">Copy</button></div>
+    </div>
+  </section>
+
+  <section id="ko" aria-labelledby="ko-title" lang="ko">
+    <h2 id="ko-title">한국어</h2>
+    <p class="summary">찰나 카메라는 개인정보를 수집하지 않아요. 인터넷을 쓰지 않고, 앱이 만든 모든 것은 휴대폰에만 남아요.</p>
+
+    <div class="block">
+      <h3>사용하는 권한과 이유</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>권한</th><th>용도</th><th>저장 위치</th></tr></thead>
+          <tbody>
+            <tr><td>카메라</td><td>사진·동영상 촬영, QR 인식, 카메라 진단</td><td>휴대폰 갤러리 <code>DCIM/CamRescue</code> 에만 저장</td></tr>
+            <tr><td>마이크 (선택)</td><td>동영상 소리 녹음</td><td>휴대폰 안의 동영상 파일에만 저장</td></tr>
+            <tr><td>직접 고른 사진</td><td>사진 속 QR 읽기</td><td>휴대폰 안에서만 읽고 어디에도 올리지 않음</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>카메라 진단 결과</h3>
+      <p>진단 결과(어떤 렌즈가 되는지, 얼마나 버텼는지, 휴대폰 기종)는 앱 전용 저장공간에만 보관돼요. "이미지로 저장·공유"를 누르면 리포트 이미지가 <code>Pictures/CamRescue</code> 에 저장되고, 사용자가 고른 앱으로만 전달돼요.</p>
+    </div>
+
+    <div class="block">
+      <h3>인터넷·추적 없음</h3>
+      <p>앱에는 인터넷 권한이 없어요. 분석, 광고, 추적 도구가 들어 있지 않고, 어떤 정보도 판매하거나 제3자에게 제공하지 않아요.</p>
+    </div>
+
+    <div class="block">
+      <h3>데이터 삭제</h3>
+      <p>앱을 지우면 진단 결과가 함께 삭제돼요. 갤러리의 사진, 동영상, 리포트 이미지는 직접 지우기 전까지 남아 있어요.</p>
+    </div>
+
+    <div class="block">
+      <h3>아동</h3>
+      <p>이 앱은 아동을 대상으로 하지 않으며, 누구의 정보도 수집하지 않아요.</p>
+    </div>
+
+    <div class="block">
+      <h3>변경 및 문의</h3>
+      <p>방침이 바뀌면 이 페이지에 새 시행일과 함께 올려요. 문의:</p>
+      <div class="contact"><span class="email" id="email-ko">mudollabs@gmail.com</span><button class="copy" id="copy-ko" type="button" data-target="email-ko">복사</button></div>
+    </div>
+  </section>
+</div>
+
+<script>
+  document.querySelectorAll('.copy').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var target = document.getElementById(button.dataset.target);
+      var text = target.textContent.trim();
+      var original = button.textContent;
+      var done = function () { button.textContent = original === '복사' ? '복사됨' : 'Copied'; setTimeout(function () { button.textContent = original; }, 1500); };
+      var select = function () { var range = document.createRange(); range.selectNodeContents(target); var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range); };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, select);
+      } else {
+        select();
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
