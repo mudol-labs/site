@@ -2,25 +2,267 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Mudol Labs</title>
+<meta name="description" content="Mudol Labs makes small, focused Android apps that each fix one everyday problem well.">
+<meta property="og:title" content="Mudol Labs">
+<meta property="og:description" content="Small apps that fix one everyday problem well.">
+<meta property="og:image" content="https://mudol-labs.github.io/site/assets/og.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1e2133">
+<link rel="icon" type="image/png" href="assets/mudol-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
 <style>
-  :root { --bg:#faf9f6; --fg:#1b1a17; --muted:#66625a; --accent:#b07800; --line:#e6e2d9 }
-  @media (prefers-color-scheme: dark) { :root { --bg:#0e0e11; --fg:#f1f0ec; --muted:#a29e95; --accent:#ffc531; --line:#2b2a30 } }
-  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Apple SD Gothic Neo", sans-serif }
-  main { max-width:40rem; margin:0 auto; padding:3rem max(16px, env(safe-area-inset-left)) }
-  h1 { font-size:1.6rem; margin:0 0 .25rem } p { color:var(--muted); margin:0 0 2rem }
-  a { color:var(--fg); text-decoration:none } li { padding:.9rem 0; border-top:1px solid var(--line); list-style:none }
-  ul { padding:0; margin:0 } small { color:var(--muted) } a:hover b { color:var(--accent) }
+  /* 로고(어두운 남색 + 분홍·보라·하늘·주황 그라데이션)에 맞춘 어두운 한 장짜리 소개 페이지 */
+  :root {
+    --bg: #14161f;
+    --bg-hero: #1e2133;
+    --surface: #1b1e2b;
+    --surface-2: #232737;
+    --fg: #f3f3f6;
+    --muted: #a3a6b8;
+    --line: #2c3043;
+    --pink: #e64ea0;
+    --violet: #8b5cf6;
+    --cyan: #3cc8d8;
+    --orange: #ff9a4a;
+    --amber: #ffc531;
+    --brand-grad: linear-gradient(100deg, var(--pink), var(--violet) 35%, var(--cyan) 65%, var(--orange));
+    --font: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Noto Sans KR", system-ui, -apple-system, sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box }
+  html { -webkit-text-size-adjust: 100% }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 var(--font); overflow-x: hidden }
+  a { color: inherit }
+  img { display: block; max-width: 100% }
+  .wrap { max-width: 64rem; margin: 0 auto; padding: 0 max(16px, env(safe-area-inset-left)) }
+
+  /* 위쪽 바 */
+  .top { position: absolute; inset: 0 0 auto; z-index: 2 }
+  .top .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px }
+  .mark { display: flex; align-items: center; gap: .6rem; font-weight: 700; text-decoration: none; letter-spacing: -.01em }
+  .mark img { width: 30px; height: 30px }
+  .lang { display: flex; background: rgba(255,255,255,.06); border: 1px solid var(--line); border-radius: 999px; padding: 3px }
+  .lang button { all: unset; cursor: pointer; padding: .3rem .8rem; border-radius: 999px; font-size: .85rem; color: var(--muted) }
+  .lang button[aria-pressed="true"] { background: var(--fg); color: var(--bg); font-weight: 600 }
+  .lang button:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px }
+
+  /* 첫 화면 */
+  .hero { position: relative; background: var(--bg-hero); overflow: hidden; padding: 128px 0 96px; text-align: center }
+  .hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; filter: blur(90px); opacity: .45; pointer-events: none }
+  .hero::before { width: 520px; height: 520px; left: 50%; top: 40px; transform: translateX(-75%); background: var(--violet) }
+  .hero::after { width: 420px; height: 420px; left: 50%; top: 140px; transform: translateX(10%); background: var(--cyan); opacity: .25 }
+  .hero > .wrap { position: relative }
+  .hero .logo { width: 132px; height: 132px; margin: 0 auto 28px; border-radius: 50%; box-shadow: 0 20px 60px rgba(0,0,0,.45) }
+  .hero h1 { margin: 0; font-size: clamp(2.4rem, 7vw, 4rem); line-height: 1.1; letter-spacing: -.03em }
+  .hero h1 span { background: var(--brand-grad); -webkit-background-clip: text; background-clip: text; color: transparent }
+  .hero p { margin: 1rem auto 0; max-width: 34rem; color: var(--muted); font-size: clamp(1.05rem, 2.6vw, 1.2rem) }
+  .values { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; margin: 2rem 0 0; padding: 0; list-style: none }
+  .values li { padding: .35rem .85rem; border: 1px solid var(--line); border-radius: 999px; background: rgba(255,255,255,.04); font-size: .9rem; color: var(--fg) }
+
+  section { padding: 80px 0 }
+  .eyebrow { font-size: .8rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); margin: 0 0 .75rem }
+  h2 { margin: 0 0 2rem; font-size: clamp(1.6rem, 4vw, 2.1rem); letter-spacing: -.02em; line-height: 1.25 }
+
+  /* 앱 카드 */
+  .app { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 40px; align-items: center;
+         background: var(--surface); border: 1px solid var(--line); border-radius: 28px; padding: 40px; overflow: hidden }
+  .app-head { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.25rem }
+  .app-head img { width: 72px; height: 72px; border-radius: 18px; flex: none }
+  .app-head h3 { margin: 0; font-size: 1.45rem; letter-spacing: -.01em; line-height: 1.25 }
+  .app-head .sub { color: var(--muted); font-size: .95rem }
+  .app .lead { margin: 0 0 1.25rem; font-size: 1.05rem }
+  .features { margin: 0 0 1.75rem; padding: 0; list-style: none; display: grid; gap: .55rem }
+  .features li { display: flex; gap: .65rem; color: var(--muted) }
+  .features li::before { content: ""; flex: none; width: 8px; height: 8px; margin-top: .62em; border-radius: 50%; background: var(--amber) }
+  .features b { color: var(--fg); font-weight: 600 }
+  .badges { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center }
+  .btn { display: inline-flex; align-items: center; gap: .45rem; padding: .7rem 1.15rem; border-radius: 999px; font-weight: 600; font-size: .95rem; text-decoration: none }
+  .btn.soon { background: var(--amber); color: #1a1400; cursor: default }
+  .btn.ghost { border: 1px solid var(--line); color: var(--fg) }
+  .btn.ghost:hover { border-color: var(--muted) }
+  .btn:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px }
+
+  .shots { display: flex; align-items: flex-start; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 4px 4px 12px; margin: -4px;
+           scrollbar-width: thin; scrollbar-color: var(--line) transparent }
+  .shots img { flex: none; width: 46%; max-width: 216px; height: auto; aspect-ratio: 9 / 16; border-radius: 16px;
+               border: 1px solid var(--line); scroll-snap-align: start; background: var(--surface-2) }
+
+  /* 원칙 */
+  .principles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px }
+  .principle { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 24px }
+  .principle .dot { width: 36px; height: 36px; border-radius: 12px; margin-bottom: 1rem }
+  .principle h3 { margin: 0 0 .35rem; font-size: 1.1rem }
+  .principle p { margin: 0; color: var(--muted); font-size: .95rem }
+
+  /* 연락처 */
+  .contact { text-align: center; background: var(--surface); border: 1px solid var(--line); border-radius: 28px; padding: 48px 24px }
+  .contact h2 { margin-bottom: .75rem }
+  .contact p { margin: 0 0 1.5rem; color: var(--muted) }
+  .mail { font-size: clamp(1.1rem, 3.5vw, 1.4rem); font-weight: 600; text-decoration: none;
+          background: var(--brand-grad); -webkit-background-clip: text; background-clip: text; color: transparent }
+
+  footer { padding: 40px 0 56px; color: var(--muted); font-size: .85rem; text-align: center }
+
+  /* 보이는 언어만 남기고 나머지는 숨긴다 (보이는 쪽은 원래 레이아웃 그대로) */
+  html:not([lang="ko"]) [data-ko], html[lang="ko"] [data-en] { display: none !important }
+  html[lang="ko"] body { word-break: keep-all; overflow-wrap: anywhere } /* 한국어는 어절 단위로 줄바꿈 */
+
+  @media (max-width: 760px) {
+    .hero { padding: 104px 0 72px }
+    section { padding: 56px 0 }
+    .app { grid-template-columns: minmax(0, 1fr); padding: 24px; gap: 28px; border-radius: 22px }
+    .principles { grid-template-columns: minmax(0, 1fr) }
+  }
+  @media (prefers-reduced-motion: no-preference) { .btn, .shots img { transition: transform .2s } .btn.ghost:hover { transform: translateY(-1px) } }
 </style>
 </head>
 <body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="./"><img src="assets/mudol-logo.png" alt="" width="30" height="30">Mudol Labs</a>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-set-lang="ko" aria-pressed="false">한국어</button>
+    </div>
+  </div>
+</header>
+
 <main>
-  <h1>mudol</h1>
-  <p>Mudol Labs · mudollabs@gmail.com</p>
-  <ul>
-    <li><a href="camrescue/privacy.html"><b>CamRescue · 찰나 카메라</b><br><small>Privacy policy · 개인정보처리방침</small></a></li>
-  </ul>
+  <div class="hero">
+    <div class="wrap">
+      <img class="logo" src="assets/mudol-logo.png" alt="Mudol Labs logo" width="132" height="132">
+      <h1><span>Mudol Labs</span></h1>
+      <p data-en>Small, focused Android apps that each fix one everyday problem well.</p>
+      <p data-ko>일상의 불편 하나를 제대로 해결하는, 작고 단순한 안드로이드 앱을 만들어요.</p>
+      <ul class="values" data-en>
+        <li>One job, done well</li><li>Privacy first</li><li>No account needed</li>
+      </ul>
+      <ul class="values" data-ko>
+        <li>한 가지를 제대로</li><li>개인정보 우선</li><li>회원가입 없음</li>
+      </ul>
+    </div>
+  </div>
+
+  <section id="apps">
+    <div class="wrap">
+      <p class="eyebrow" data-en>Apps</p><p class="eyebrow" data-ko>앱</p>
+      <h2 data-en>Our apps</h2><h2 data-ko>우리가 만든 앱</h2>
+
+      <article class="app">
+        <div>
+          <div class="app-head">
+            <img src="assets/camrescue-icon.png" alt="" width="72" height="72">
+            <div>
+              <h3 data-en>CamRescue</h3><h3 data-ko>찰나 카메라</h3>
+              <div class="sub" data-en>Camera for broken cameras</div><div class="sub" data-ko>고장 난 카메라를 위한 카메라</div>
+            </div>
+          </div>
+          <p class="lead" data-en>Camera freezing, failing, or working only for a moment? CamRescue catches the brief moment it works and saves the photo.</p>
+          <p class="lead" data-ko>카메라가 멈추거나, 오류가 나거나, 잠깐만 켜지나요? 찰나 카메라가 살아나는 순간을 잡아 사진으로 남겨요.</p>
+          <ul class="features" data-en>
+            <li><span><b>Camera check</b> finds which lenses still work</span></li>
+            <li><span><b>Auto retry</b> the moment the camera comes back</span></li>
+            <li><span><b>Video</b> that keeps what was recorded</span></li>
+            <li><span><b>QR reader</b> and flash</span></li>
+          </ul>
+          <ul class="features" data-ko>
+            <li><span><b>카메라 검사</b>로 아직 되는 렌즈를 찾아요</span></li>
+            <li><span>카메라가 살아나는 순간 <b>자동으로 다시</b> 찍어요</span></li>
+            <li><span>끊겨도 거기까지 남는 <b>동영상</b></span></li>
+            <li><span><b>QR 읽기</b>와 플래시</span></li>
+          </ul>
+          <div class="badges">
+            <span class="btn soon" data-en>Coming soon to Google Play</span>
+            <span class="btn soon" data-ko>Google Play 출시 준비 중</span>
+            <a class="btn ghost" href="camrescue/privacy.html"><span data-en>Privacy policy</span><span data-ko>개인정보처리방침</span></a>
+          </div>
+        </div>
+        <div class="shots" tabindex="0" aria-label="CamRescue screenshots">
+          <img data-en src="assets/camrescue-en-1.jpg" alt="Photo saved screen" width="432" height="768" loading="lazy">
+          <img data-en src="assets/camrescue-en-2.jpg" alt="Camera check report" width="432" height="768" loading="lazy">
+          <img data-en src="assets/camrescue-en-3.jpg" alt="Recording video" width="432" height="768" loading="lazy">
+          <img data-en src="assets/camrescue-en-4.jpg" alt="First launch introduction" width="432" height="768" loading="lazy">
+          <img data-ko src="assets/camrescue-ko-1.jpg" alt="사진 저장 화면" width="432" height="768" loading="lazy">
+          <img data-ko src="assets/camrescue-ko-2.jpg" alt="카메라 검사 결과" width="432" height="768" loading="lazy">
+          <img data-ko src="assets/camrescue-ko-3.jpg" alt="동영상 녹화" width="432" height="768" loading="lazy">
+          <img data-ko src="assets/camrescue-ko-4.jpg" alt="첫 실행 안내" width="432" height="768" loading="lazy">
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="principles" style="padding-top:0">
+    <div class="wrap">
+      <p class="eyebrow" data-en>How we build</p><p class="eyebrow" data-ko>만드는 방식</p>
+      <h2 data-en>Simple, honest, private</h2><h2 data-ko>단순하게, 정직하게, 안전하게</h2>
+      <div class="principles">
+        <div class="principle">
+          <div class="dot" style="background:linear-gradient(135deg,var(--pink),var(--violet))"></div>
+          <h3 data-en>One job, done well</h3><h3 data-ko>한 가지를 제대로</h3>
+          <p data-en>Each app solves one real problem and opens straight to it.</p>
+          <p data-ko>앱 하나가 진짜 문제 하나를 풀고, 켜자마자 바로 그 일을 해요.</p>
+        </div>
+        <div class="principle">
+          <div class="dot" style="background:linear-gradient(135deg,var(--violet),var(--cyan))"></div>
+          <h3 data-en>Your data stays yours</h3><h3 data-ko>데이터는 폰에</h3>
+          <p data-en>We collect as little as possible. CamRescue works fully offline.</p>
+          <p data-ko>최소한만 다뤄요. 찰나 카메라는 인터넷을 아예 쓰지 않아요.</p>
+        </div>
+        <div class="principle">
+          <div class="dot" style="background:linear-gradient(135deg,var(--cyan),var(--orange))"></div>
+          <h3 data-en>Honest by default</h3><h3 data-ko>솔직하게</h3>
+          <p data-en>If you don't need an app, it says so. No dark patterns.</p>
+          <p data-ko>필요 없으면 필요 없다고 말해요. 사용자를 속이는 장치는 없어요.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="padding-top:0">
+    <div class="wrap">
+      <div class="contact">
+        <h2 data-en>Get in touch</h2><h2 data-ko>문의</h2>
+        <p data-en>Questions, bug reports or ideas: we read every email.</p>
+        <p data-ko>질문, 문제 제보, 아이디어 모두 환영해요. 메일은 모두 읽어요.</p>
+        <a class="mail" href="mailto:mudollabs@gmail.com">mudollabs@gmail.com</a>
+      </div>
+    </div>
+  </section>
 </main>
+
+<footer>
+  <div class="wrap">© 2026 Mudol Labs</div>
+</footer>
+
+<script>
+  // 언어: 직접 고른 값 > 브라우저 언어(한국어면 ko) > 영어
+  (function () {
+    var root = document.documentElement;
+    var saved = null;
+    try { saved = localStorage.getItem('lang'); } catch (e) {}
+    var param = new URLSearchParams(location.search).get('lang');
+    var lang = (param === 'ko' || param === 'en') ? param
+      : saved || ((navigator.language || '').toLowerCase().indexOf('ko') === 0 ? 'ko' : 'en');
+    function apply(l) {
+      root.lang = l;
+      document.querySelectorAll('[data-set-lang]').forEach(function (b) {
+        b.setAttribute('aria-pressed', String(b.getAttribute('data-set-lang') === l));
+      });
+    }
+    apply(lang);
+    document.querySelectorAll('[data-set-lang]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var l = b.getAttribute('data-set-lang');
+        apply(l);
+        try { localStorage.setItem('lang', l); } catch (e) {}
+      });
+    });
+  })();
+</script>
 </body>
 </html>
