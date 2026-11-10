@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Privacy policy for SleepSonar (잠로그) by Mudol Labs.">
+<title>SleepSonar Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+  /* Layout: a single readable column, like a document a store reviewer opens; language anchors at the top. */
+  :root {
+    --bg: #faf9f6;
+    --surface: #ffffff;
+    --fg: #1b1a17;
+    --muted: #66625a;
+    --line: #e6e2d9;
+    --accent: #b07800;
+    --accent-soft: #fff4d6;
+    --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e0e11; --surface: #17171c; --fg: #f1f0ec; --muted: #a29e95;
+      --line: #2b2a30; --accent: #ffc531; --accent-soft: #2a2414; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e0e11; --surface: #17171c; --fg: #f1f0ec; --muted: #a29e95;
+    --line: #2b2a30; --accent: #ffc531; --accent-soft: #2a2414; color-scheme: dark;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .page {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding-block: 2.5rem 4rem;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    display: grid;
+    gap: 2.5rem;
+  }
+  header { display: grid; gap: 0.75rem; }
+  .mark { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 1.05rem; }
+  .mark svg { width: 28px; height: 28px; flex: none; }
+  h1 { font-size: clamp(1.8rem, 5vw, 2.4rem); line-height: 1.2; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+  .meta { font-family: var(--font-mono); font-size: 0.82rem; color: var(--muted); }
+  nav { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  nav a {
+    font-size: 0.9rem; font-weight: 600; color: var(--fg); text-decoration: none;
+    padding: 0.35rem 0.9rem; border: 1px solid var(--line); border-radius: 999px; background: var(--surface);
+  }
+  nav a:hover { border-color: var(--accent); }
+  nav a:focus-visible, .copy:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .summary {
+    background: var(--accent-soft);
+    border-radius: 14px;
+    padding: 1.1rem 1.25rem;
+    font-weight: 600;
+    text-wrap: pretty;
+  }
+  section { display: grid; gap: 1.25rem; }
+  section > h2 {
+    font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--accent); margin: 0; padding-top: 1.5rem; border-top: 1px solid var(--line);
+  }
+  h3 { font-size: 1.1rem; margin: 0; }
+  p { margin: 0; max-width: 65ch; }
+  .block { display: grid; gap: 0.5rem; }
+
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; min-width: 32rem; font-size: 0.93rem; }
+  th, td { text-align: start; padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  code { font-family: var(--font-mono); font-size: 0.88em; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 0.05em 0.35em; }
+
+  .contact { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+  .email { font-family: var(--font-mono); user-select: all; }
+  .copy {
+    font: inherit; font-size: 0.85rem; font-weight: 600; cursor: pointer;
+    color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 0.25rem 0.8rem;
+  }
+  .draft {
+    font-size: 0.85rem; color: var(--muted); border: 1px dashed var(--line); border-radius: 12px; padding: 0.8rem 1rem;
+  }
+  @media (prefers-reduced-motion: no-preference) { nav a, .copy { transition: border-color .15s ease; } }
+</style>
+<!-- 데이터 동작이 바뀌면 privacy-policy.md 와 함께 고친다.
+     게시: ~/AndroidStudioProjects/mudol-labs-site/sleep/privacy.html 로 복사 → https://mudol-labs.github.io/site/sleep/privacy.html -->
+<style>html,body{margin:0} *{box-sizing:border-box}</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="mark">
+      <svg viewBox="0 0 56 56" aria-hidden="true">
+        <circle cx="28" cy="28" r="18" fill="none" stroke="var(--accent)" stroke-width="6"/>
+        <circle cx="28" cy="28" r="5" fill="var(--accent)"/>
+      </svg>
+      SleepSonar · 잠로그
+    </div>
+    <h1>Privacy Policy<br>개인정보처리방침</h1>
+    <div class="meta">Mudol Labs · Effective 2026-11-10 · Version 1.2</div>
+    <nav aria-label="Language">
+      <a href="#en">English</a>
+      <a href="#ko">한국어</a>
+    </nav>
+  </header>
+
+  <section id="en" aria-labelledby="en-title">
+    <h2 id="en-title">English</h2>
+    <p class="summary">SleepSonar does not collect personal data. It has no internet permission, and everything it records stays on your phone. The developer never receives it.</p>
+
+    <div class="block">
+      <h3>What the app uses and why</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Access</th><th>Used for</th><th>Where it goes</th></tr></thead>
+          <tbody>
+            <tr><td>Microphone (optional)</td><td>Detecting sounds while you sleep (snoring, sleep talk, coughing). Only short clips around detected sounds are saved.</td><td>Phone only</td></tr>
+            <tr><td>Motion sensors</td><td>Measuring movement when the phone is on the mattress, and the smart alarm</td><td>Phone only</td></tr>
+            <tr><td>Notifications</td><td>Showing that sleep tracking is running, and alarms</td><td>Phone only</td></tr>
+            <tr><td>Alarms and reminders, full-screen alarm</td><td>Ringing the alarm on time, including on the lock screen</td><td>Phone only</td></tr>
+            <tr><td>Running after restart</td><td>Re-setting your alarms after the phone restarts</td><td>Phone only</td></tr>
+            <tr><td>Vibration</td><td>Alarm vibration</td><td>–</td></tr>
+            <tr><td>Health Connect (optional)</td><td>Reading your watch’s sleep stages, writing the sleep sessions this app measured</td><td>Phone only (see below)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>If you deny the microphone, the app still tracks movement and alarms still work.</p>
+      <p>Sounds are told apart (snoring, sleep talk, coughing) by a small recognition model built into the app. It runs on the phone; audio is never uploaded.</p>
+    </div>
+    <div class="block">
+      <h3>Data the app keeps</h3>
+      <ul>
+        <li><strong>Sleep records:</strong> start and end times, 30-second activity levels, detected sound events and their audio clips, sleep scores, morning ratings and notes.</li>
+        <li><strong>Pre-sleep check-ins (optional):</strong> when you tap “Go to sleep”, you can tick what applied that day (caffeine, alcohol, exercise, late meal, stress, late screen time, medication, nap) or skip it. What you tick is saved with that night and shown in its morning report.</li>
+        <li><strong>Alarms and settings:</strong> alarm times, labels, sound, vibration and snooze settings, your sleep goal and preferences.</li>
+      </ul>
+      <p>All of this is kept in the app's private storage on your phone and is excluded from cloud backups and device transfers.</p>
+      <p>So that alarms can ring when the phone restarts overnight and has not been unlocked yet, a copy of the alarm information only (times, labels, sound, vibration and snooze settings) is also kept in the phone's device-protected storage. Sleep records are never kept there.</p>
+    </div>
+    <div class="block" id="retention">
+      <h3>How long data is kept</h3>
+      <ul>
+        <li><strong>Sound clips</strong> are deleted automatically <strong>30 days</strong> after they were recorded, unless you choose otherwise in Settings → “Keep sound clips for”: 7 days, 30 days, 90 days or forever. Clips you marked as favourites are never deleted automatically. The app checks about once a day when you open it and whenever a night’s tracking ends; it works on the phone and needs no internet.</li>
+        <li>When a clip is deleted, the night’s record (times, sound type, score) stays; only the audio is gone.</li>
+        <li><strong>Sleep records, pre-sleep check-ins, alarms and settings</strong> are kept until you delete them or uninstall the app.</li>
+      </ul>
+    </div>
+    <div class="block" id="health-connect">
+      <h3>Health Connect (only if you connect it)</h3>
+      <p>If you tap “Connect” (in the first-run steps or under Settings → “Watch”), the app asks for Health Connect permissions. Health Connect is Android’s on-device store for health data; your watch app (for example Samsung Health) can save sleep there.</p>
+      <ul>
+        <li><strong>What we read:</strong> sleep sessions and sleep stages that other apps saved to Health Connect, for the hours around each night you measured with this app (two hours before and after). We use them only to show your watch’s sleep stages next to the night’s sounds and movement in the morning report. A later version may also read heart rate and blood oxygen for the same graph, only after asking you for those permissions. We don’t ask for older history or for reading in the background, so data older than 30 days before you first connected is not visible to the app.</li>
+        <li><strong>What we write:</strong> the sleep sessions this app measured (start and end time only, no stages). Naps only if you turn on “Save naps to Health Connect too”. Sessions this app wrote are never read back as watch data.</li>
+        <li><strong>Where it goes:</strong> nowhere. Health Connect data stays on your phone. The app does not keep its own copy of the watch data, does not send it anywhere, does not share it with anyone and never uses it for advertising.</li>
+        <li><strong>How to stop:</strong> tap “Disconnect” under Settings → “Watch”, or open Health Connect → App permissions → SleepSonar and turn the permissions off. Sessions the app already wrote stay in Health Connect, where you can delete them.</li>
+      </ul>
+    </div>
+    <div class="block">
+      <h3>Home screen widget (only if you add it)</h3>
+      <p>If you add the app’s widget to your home screen, it shows last night’s score and your next alarm time there. Anyone who can see your home screen can see them; remove the widget to hide them. The widget only reads data on the phone and sends nothing.</p>
+    </div>
+    <div class="block">
+      <h3>Review requests</h3>
+      <p>Now and then the app may ask for a Google Play review with Google Play’s in-app review card. Google Play shows the card and handles any rating you leave; the app never sees your rating or review. To decide when to ask, the app keeps a few dates and counts on the phone (when you first opened it, when it last asked).</p>
+    </div>
+    <div class="block">
+      <h3>Recordings of other people</h3>
+      <p>Clips may contain the voices or sounds of other people in the room. Please tell them before you start tracking with the microphone. Before you share a clip, make sure the people in it are OK with it.</p>
+    </div>
+    <div class="block">
+      <h3>Problem reports (only if you choose)</h3>
+      <p>If the app closes unexpectedly, it keeps an error record on your phone. It may then offer to send a report, or you can tap “Report a problem” in Settings. This opens your own email app addressed to us, with the error details, phone model, Android and app version and a recent in-app activity log attached. Sleep recordings are never attached. Nothing is sent unless you send that email, and we use reports only to fix problems.</p>
+    </div>
+    <div class="block">
+      <h3>No network, no tracking</h3>
+      <p>The app has no internet permission. It contains no analytics, advertising or tracking code. No data is provided to third parties or processed by contractors.</p>
+    </div>
+    <div class="block">
+      <h3>Deleting your data</h3>
+      <ul>
+        <li>You can delete individual sound clips in the morning report.</li>
+        <li>You can delete one night or nap at a time: in its report (“More options” → “Delete this record”) or by long-pressing it in the sleep history. After you confirm, the record, its sound clips, its movement data and the pre-sleep check-in saved with it are deleted from this phone. It cannot be undone, and the night being tracked right now cannot be deleted. If the app wrote that session to Health Connect and still has permission to write there, it deletes its own copy too (only the record this app wrote, never your watch’s or other apps’ records).</li>
+        <li><strong>Settings → “Delete all data”</strong> deletes, after you confirm, every sleep record, sound clip (favourites too), pre-sleep check-in, alarm (and the alarm copy) and setting the app stored on this phone, then the app starts over from the first-run steps. It cannot be undone. It is not available while a night is being tracked.</li>
+        <li>“Delete all data” does not touch Health Connect: sessions the app already wrote there, and the app’s Health Connect permissions, stay until you delete them or turn the permissions off in the Health Connect app. When Health Connect is connected, the confirmation says so and offers to open Health Connect.</li>
+        <li>Uninstalling the app also removes everything it stored, including the alarm copy.</li>
+      </ul>
+    </div>
+    <div class="block">
+      <h3>Not a medical device</h3>
+      <p>The app is not a medical device and is not intended to diagnose or treat any condition. If you have ongoing sleep problems, consult a professional.</p>
+    </div>
+    <div class="block">
+      <h3>Children</h3>
+      <p>The app is not directed at children under 13 and collects no data from anyone.</p>
+    </div>
+    <div class="block">
+      <h3>Changes and contact</h3>
+      <p>If this policy changes, the new version will be posted here with a new effective date. Questions:</p>
+      <div class="contact"><span class="email" id="email-en">mudollabs@gmail.com</span><button class="copy" id="copy-en" type="button" data-target="email-en">Copy</button></div>
+    </div>
+  </section>
+
+  <section id="ko" aria-labelledby="ko-title" lang="ko">
+    <h2 id="ko-title">한국어</h2>
+    <p class="summary">잠로그는 개인정보를 수집하지 않아요. 인터넷 권한이 없고, 앱이 기록한 모든 것은 휴대폰에만 남아요. 개발자에게 전송되지 않아요.</p>
+
+    <div class="block">
+      <h3>사용하는 권한과 이유</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>권한</th><th>용도</th><th>저장 위치</th></tr></thead>
+          <tbody>
+            <tr><td>마이크 (선택)</td><td>자는 동안의 소리(코골이, 잠꼬대, 기침) 감지. 소리가 난 구간의 짧은 클립만 저장</td><td>휴대폰 안에만</td></tr>
+            <tr><td>동작 센서</td><td>휴대폰을 매트리스에 두었을 때의 뒤척임 측정과 스마트 알람</td><td>휴대폰 안에만</td></tr>
+            <tr><td>알림</td><td>수면 측정 중 표시와 알람</td><td>휴대폰 안에만</td></tr>
+            <tr><td>알람·리마인더, 전체 화면 알람</td><td>정해진 시각에 잠금 화면에서도 알람 울리기</td><td>휴대폰 안에만</td></tr>
+            <tr><td>재부팅 후 실행</td><td>휴대폰을 다시 켠 뒤 알람 다시 예약</td><td>휴대폰 안에만</td></tr>
+            <tr><td>진동</td><td>알람 진동</td><td>–</td></tr>
+            <tr><td>Health Connect (선택)</td><td>워치의 수면 단계 읽기, 이 앱이 잰 수면 세션 쓰기</td><td>휴대폰 안에서만 (아래 참고)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>마이크를 허용하지 않아도 움직임 측정과 알람은 그대로 쓸 수 있어요.</p>
+      <p>소리 종류(코골이, 잠꼬대, 기침)는 앱에 들어 있는 작은 인식 모델이 휴대폰 안에서 판단해요. 소리는 어디로도 올라가지 않아요.</p>
+    </div>
+    <div class="block">
+      <h3>앱이 보관하는 데이터</h3>
+      <ul>
+        <li><strong>수면 기록:</strong> 측정 시작·종료 시각, 30초 단위 활동량, 감지된 소리와 녹음 클립, 수면 점수, 아침 평가와 메모</li>
+        <li><strong>잠들기 전 체크 (선택):</strong> “자러 가기”를 누르면 그날 해당하는 것(카페인, 술, 운동, 야식, 스트레스, 늦은 화면, 약, 낮잠)을 고르거나 건너뛸 수 있어요. 고른 것은 그 밤의 기록과 함께 저장되고 아침 리포트에 보여요.</li>
+        <li><strong>알람과 설정:</strong> 알람 시각, 이름, 알람음, 진동·스누즈 설정, 수면 목표와 설정값</li>
+      </ul>
+      <p>모두 휴대폰의 앱 전용 저장공간에만 보관하며, 클라우드 백업과 기기 이전에서도 빠져요.</p>
+      <p>밤사이 휴대폰이 재부팅된 뒤 잠금을 풀기 전에도 알람이 울릴 수 있도록, <strong>알람 정보(시각, 이름, 알람음, 진동·스누즈 설정)는 기기 보호 저장소에 함께 보관해요.</strong> 수면 기록은 이곳에 저장하지 않아요.</p>
+    </div>
+    <div class="block" id="retention-ko">
+      <h3>보관 기간</h3>
+      <ul>
+        <li><strong>소리 클립</strong>은 녹음한 지 <strong>30일</strong>이 지나면 자동으로 지워요. 설정 → “소리 클립 보관 기간”에서 7일, 30일, 90일, 계속 보관 중에 고를 수 있어요. 즐겨찾기한 클립은 자동으로 지우지 않아요. 앱을 열 때 하루에 한 번쯤, 그리고 밤 측정이 끝날 때마다 폰 안에서 확인하고, 인터넷은 쓰지 않아요.</li>
+        <li>클립을 지워도 그 밤의 기록(시각, 소리 종류, 점수)은 남고 소리 파일만 없어져요.</li>
+        <li><strong>수면 기록, 잠들기 전 체크, 알람, 설정</strong>은 직접 지우거나 앱을 삭제할 때까지 보관해요.</li>
+      </ul>
+    </div>
+    <div class="block" id="health-connect-ko">
+      <h3>Health Connect (연결할 때만)</h3>
+      <p>첫 실행 안내나 설정 → “워치 연결”에서 “연결”을 누르면 Health Connect 권한을 요청해요. Health Connect 는 건강 데이터를 기기 안에 보관하는 안드로이드 기능이고, 워치 앱(예: 삼성 헬스)이 여기에 수면을 기록할 수 있어요.</p>
+      <ul>
+        <li><strong>읽는 것:</strong> 다른 앱이 Health Connect 에 기록한 수면 세션과 수면 단계 중, 이 앱으로 잰 밤의 앞뒤 2시간 안의 것. 아침 리포트에서 워치의 수면 단계를 그 밤의 소리·움직임 옆에 보여 주는 데만 써요. 다음 버전에서는 같은 그래프를 위해 심박과 산소포화도를 읽을 수 있는데, 그때 따로 허용을 받은 뒤에만 읽어요. 과거 기록 권한과 백그라운드 읽기 권한은 요청하지 않아서, 처음 연결한 날보다 30일 넘게 오래된 기록은 앱이 볼 수 없어요.</li>
+        <li><strong>쓰는 것:</strong> 이 앱이 잰 수면 세션 (시작·끝 시각만, 단계 없음). 낮잠은 “낮잠도 Health Connect 에 기록”을 켰을 때만. 이 앱이 쓴 기록은 워치 데이터로 다시 읽지 않아요.</li>
+        <li><strong>어디로 가나요:</strong> 어디로도 가지 않아요. Health Connect 데이터는 폰 안에 있어요. 앱은 워치 데이터를 따로 저장하지 않고, 어디로도 보내지 않으며, 누구와도 공유하지 않고, 광고에 쓰지 않아요.</li>
+        <li><strong>그만두는 법:</strong> 설정 → “워치 연결”에서 “연결 끊기”를 누르거나, Health Connect → 앱 권한 → 잠로그 에서 권한을 끄세요. 이미 기록한 세션은 Health Connect 에 남고, 거기서 지울 수 있어요.</li>
+      </ul>
+    </div>
+    <div class="block">
+      <h3>홈 화면 위젯 (올릴 때만)</h3>
+      <p>홈 화면에 앱 위젯을 올리면 지난밤 점수와 다음 알람 시각이 홈 화면에 보여요. 홈 화면을 볼 수 있는 사람은 누구나 볼 수 있으니, 숨기려면 위젯을 지우세요. 위젯은 휴대폰 안의 데이터를 읽기만 하고 아무것도 보내지 않아요.</p>
+    </div>
+    <div class="block">
+      <h3>리뷰 요청</h3>
+      <p>가끔 Google Play 인앱 리뷰 카드로 리뷰를 부탁할 수 있어요. 카드와 남긴 별점은 Google Play 가 처리하고, 앱은 별점이나 리뷰 내용을 알 수 없어요. 언제 부탁할지 정하려고 몇 가지 날짜와 횟수(처음 연 날, 마지막으로 부탁한 날)를 휴대폰에 보관해요.</p>
+    </div>
+    <div class="block">
+      <h3>다른 사람의 소리</h3>
+      <p>녹음 클립에는 같은 방에 있는 다른 사람의 목소리나 소리가 담길 수 있어요. 마이크로 측정하기 전에 함께 있는 사람에게 알려 주세요. 클립을 공유하기 전에는 담긴 사람의 동의를 받아 주세요.</p>
+    </div>
+    <div class="block">
+      <h3>문제 보고서 (원할 때만)</h3>
+      <p>앱이 비정상 종료되면 오류 기록을 휴대폰 안에 남겨요. 원하면(설정의 “문제 신고”) 메일 앱으로 오류 내용, 기종, Android·앱 버전, 최근 앱 사용 기록을 첨부해 보낼 수 있어요. 수면 녹음은 첨부되지 않아요. 직접 메일을 보내지 않으면 아무것도 전송되지 않고, 보고서는 문제 해결에만 써요.</p>
+    </div>
+    <div class="block">
+      <h3>인터넷과 추적</h3>
+      <p>인터넷 권한이 없어요. 분석·광고·추적 도구가 없고, 제3자 제공이나 처리 위탁도 없어요.</p>
+    </div>
+    <div class="block">
+      <h3>삭제</h3>
+      <ul>
+        <li>아침 리포트에서 소리 클립을 하나씩 지울 수 있어요.</li>
+        <li>밤잠이나 낮잠 기록을 하나씩 지울 수 있어요. 그 기록의 리포트(“더보기” → “이 기록 지우기”)나 수면 기록 목록에서 길게 눌러 확인하면, 그 기록과 소리 클립, 움직임 데이터, 함께 저장한 잠들기 전 체크를 이 폰에서 지워요. 되돌릴 수 없고, 지금 측정 중인 밤은 지울 수 없어요. 앱이 그 세션을 Health Connect 에 기록했고 쓰기 권한이 남아 있으면, 앱이 쓴 그 기록도 함께 지워요 (워치나 다른 앱이 기록한 데이터는 지우지 않아요).</li>
+        <li><strong>설정 → “모든 데이터 지우기”</strong>를 누르고 확인하면, 앱이 이 폰에 저장한 수면 기록, 소리 클립(즐겨찾기 포함), 잠들기 전 체크, 알람(알람 사본 포함), 설정을 모두 지우고 첫 실행 안내부터 다시 시작해요. 되돌릴 수 없어요. 밤 측정 중에는 지울 수 없어요.</li>
+        <li>“모든 데이터 지우기”는 Health Connect 를 건드리지 않아요. 앱이 이미 Health Connect 에 기록한 세션과 앱의 Health Connect 권한은 Health Connect 앱에서 지우거나 권한을 끌 때까지 남아요. Health Connect 가 연결돼 있으면 확인 창에서 이를 알려 주고 Health Connect 를 열 수 있어요.</li>
+        <li>앱을 삭제해도 알람 사본을 포함해 앱이 저장한 모든 것이 지워져요.</li>
+      </ul>
+    </div>
+    <div class="block">
+      <h3>의료기기가 아니에요</h3>
+      <p>이 앱은 의료기기가 아니며 질병의 진단·치료 목적이 아니에요. 수면 문제가 계속되면 전문가와 상담하세요.</p>
+    </div>
+    <div class="block">
+      <h3>아동</h3>
+      <p>만 13세 미만을 대상으로 하지 않으며, 누구의 데이터도 수집하지 않아요.</p>
+    </div>
+    <div class="block">
+      <h3>변경과 문의</h3>
+      <p>방침이 바뀌면 새 시행일과 함께 이 페이지에 올립니다. 문의:</p>
+      <div class="contact"><span class="email" id="email-ko">mudollabs@gmail.com</span><button class="copy" id="copy-ko" type="button" data-target="email-ko">복사</button></div>
+    </div>
+  </section>
+</div>
+
+<script>
+  document.querySelectorAll('.copy').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var target = document.getElementById(button.dataset.target);
+      var text = target.textContent.trim();
+      var original = button.textContent;
+      var done = function () { button.textContent = original === '복사' ? '복사됨' : 'Copied'; setTimeout(function () { button.textContent = original; }, 1500); };
+      var select = function () { var range = document.createRange(); range.selectNodeContents(target); var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range); };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, select);
+      } else {
+        select();
+      }
+    });
+  });
+</script>
+</body>
+</html>
