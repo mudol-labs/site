@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="ko">
+<html lang="ko" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>카메라를 실행할 수 없습니다 해결법: 갤럭시 카메라 오류·검은 화면 | Mudol Labs</title>
 <meta name="description" content="카메라를 실행할 수 없습니다, 카메라 검은 화면, 앱이 계속 멈춤. 재시작·캐시 삭제·안전 모드·서비스센터까지 쉬운 순서대로 따라 해 보세요.">
 <link rel="canonical" href="https://mudol-labs.github.io/site/camrescue/camera-error.html">
-<link rel="alternate" hreflang="ko" href="https://mudol-labs.github.io/site/camrescue/camera-error.html">
 <link rel="alternate" hreflang="en" href="https://mudol-labs.github.io/site/camrescue/camera-error-en.html">
+<link rel="alternate" hreflang="ko" href="https://mudol-labs.github.io/site/camrescue/camera-error.html">
 <link rel="alternate" hreflang="x-default" href="https://mudol-labs.github.io/site/camrescue/camera-error-en.html">
 <meta property="og:title" content="카메라를 실행할 수 없습니다 해결 방법 (갤럭시 카메라 오류·검은 화면)">
 <meta property="og:description" content="카메라를 실행할 수 없습니다, 카메라 검은 화면, 앱이 계속 멈춤. 재시작·캐시 삭제·안전 모드·서비스센터까지 쉬운 순서대로 따라 해 보세요.">
@@ -37,7 +37,7 @@
     --orange: #ff9a4a;
     --amber: #ffc531;
     --brand-grad: linear-gradient(100deg, var(--pink), var(--violet) 35%, var(--cyan) 65%, var(--orange));
-    --font: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Noto Sans KR", system-ui, -apple-system, sans-serif;
+    --font: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Noto Sans KR", "Noto Sans", "Noto Sans Arabic", "Noto Sans Thai", "Noto Sans Devanagari", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans JP", system-ui, -apple-system, sans-serif;
     color-scheme: dark;
   }
   * { box-sizing: border-box }
@@ -45,17 +45,13 @@
   body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 var(--font); overflow-x: hidden }
   a { color: inherit }
   img { display: block; max-width: 100% }
-  .wrap { max-width: 64rem; margin: 0 auto; padding: 0 max(16px, env(safe-area-inset-left)) }
+  .wrap { max-width: 64rem; margin: 0 auto; padding-inline: max(16px, env(safe-area-inset-left), env(safe-area-inset-right)) }
 
   /* 위쪽 바 */
   .top { position: absolute; inset: 0 0 auto; z-index: 2 }
   .top .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px }
   .mark { display: flex; align-items: center; gap: .6rem; font-weight: 700; text-decoration: none; letter-spacing: -.01em }
   .mark img { width: 30px; height: 30px }
-  .lang { display: flex; background: rgba(255,255,255,.06); border: 1px solid var(--line); border-radius: 999px; padding: 3px }
-  .lang button { all: unset; cursor: pointer; padding: .3rem .8rem; border-radius: 999px; font-size: .85rem; color: var(--muted) }
-  .lang button[aria-pressed="true"] { background: var(--fg); color: var(--bg); font-weight: 600 }
-  .lang button:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px }
 
   /* 첫 화면 */
   .hero { position: relative; background: var(--bg-hero); overflow: hidden; padding: 128px 0 96px; text-align: center }
@@ -114,8 +110,6 @@
 
   footer { padding: 40px 0 56px; color: var(--muted); font-size: .85rem; text-align: center }
 
-  /* 보이는 언어만 남기고 나머지는 숨긴다 (보이는 쪽은 원래 레이아웃 그대로) */
-  html:not([lang="ko"]) [data-ko], html[lang="ko"] [data-en] { display: none !important }
   html[lang="ko"] body { word-break: keep-all; overflow-wrap: anywhere } /* 한국어는 어절 단위로 줄바꿈 */
 
   @media (max-width: 760px) {
@@ -128,9 +122,18 @@
 
   /* 안내 글 페이지 전용 */
   .top { position: static; background: var(--bg-hero); border-bottom: 1px solid var(--line) }
-  .lang a { padding: .3rem .8rem; border-radius: 999px; font-size: .85rem; color: var(--muted); text-decoration: none }
+  .lang { position: relative }
+  .lang summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: .45rem; padding: .35rem .9rem; border: 1px solid var(--line); border-radius: 999px;
+                  background: rgba(255,255,255,.06); font-size: .85rem; color: var(--fg) }
+  .lang summary::-webkit-details-marker { display: none }
+  .lang summary::after { content: ""; width: .45em; height: .45em; border: solid currentColor; border-width: 0 2px 2px 0; transform: translateY(-.1em) rotate(45deg) }
+  .lang summary:focus-visible, .lang a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px }
+  .lang ul { position: absolute; inset-block-start: calc(100% + 8px); inset-inline-end: 0; z-index: 5; margin: 0; padding: 8px; list-style: none; width: min(22rem, calc(100vw - 32px));
+             display: grid; grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr)); gap: 2px; max-height: 70vh; overflow-y: auto;
+             background: var(--surface-2); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 16px 40px rgba(0,0,0,.5) }
+  .lang a { display: block; padding: .4rem .7rem; border-radius: 10px; font-size: .88rem; color: var(--muted); text-decoration: none }
+  .lang a:hover { background: rgba(255,255,255,.06); color: var(--fg) }
   .lang a[aria-current="page"] { background: var(--fg); color: var(--bg); font-weight: 600 }
-  .lang a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px }
   .guide { padding: 56px 0 24px }
   .guide .wrap { max-width: 46rem }
   .guide h1 { margin: 0 0 1rem; font-size: clamp(1.9rem, 6vw, 2.8rem); line-height: 1.2; letter-spacing: -.03em; text-wrap: balance }
@@ -139,12 +142,12 @@
   .guide h2 { margin: 3rem 0 1.25rem; font-size: clamp(1.4rem, 4vw, 1.8rem) }
   .guide p { margin: 0 0 1rem }
   .steps { margin: 0; padding: 0; list-style: none; counter-reset: s; display: grid; gap: 14px }
-  .steps li { counter-increment: s; position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 18px 20px 18px 64px }
-  .steps li::before { content: counter(s); position: absolute; left: 18px; top: 18px; width: 30px; height: 30px; border-radius: 50%; background: var(--brand-grad); color: #14161f; font-weight: 700; display: grid; place-items: center; font-size: .95rem }
+  .steps li { counter-increment: s; position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding-block: 18px; padding-inline: 64px 20px }
+  .steps li::before { content: counter(s); position: absolute; inset-inline-start: 18px; top: 18px; width: 30px; height: 30px; border-radius: 50%; background: var(--brand-grad); color: #14161f; font-weight: 700; display: grid; place-items: center; font-size: .95rem }
   .steps h3 { margin: 0 0 .3rem; font-size: 1.1rem; line-height: 1.35 }
   .steps p { margin: 0; color: var(--muted); font-size: .97rem }
   .steps b, .faq b { color: var(--fg); font-weight: 600 }
-  .note { background: var(--surface-2); border-left: 3px solid var(--amber); border-radius: 10px; padding: .9rem 1.1rem; color: var(--muted); font-size: .95rem }
+  .note { background: var(--surface-2); border-inline-start: 3px solid var(--amber); border-radius: 10px; padding: .9rem 1.1rem; color: var(--muted); font-size: .95rem }
   .cta { background: var(--surface); border: 1px solid var(--line); border-radius: 24px; padding: 28px; margin-top: 2.5rem }
   .cta .app-head { margin-bottom: 1rem }
   .cta h2 { margin: 0 0 1rem }
@@ -265,9 +268,14 @@
 <header class="top">
   <div class="wrap">
     <a class="mark" href="../"><img src="../assets/mudol-logo.png" alt="" width="30" height="30">Mudol Labs</a>
-    <nav class="lang" aria-label="Language">
-      <a href="camera-error-en.html" hreflang="en" lang="en">EN</a>
-      <a href="camera-error.html" hreflang="ko" lang="ko" aria-current="page">한국어</a>
+    <nav aria-label="언어">
+      <details class="lang">
+        <summary lang="ko">한국어</summary>
+        <ul>
+          <li><a href="camera-error-en.html" hreflang="en" lang="en">English</a></li>
+          <li><a href="camera-error.html" hreflang="ko" lang="ko" aria-current="page">한국어</a></li>
+        </ul>
+      </details>
     </nav>
   </div>
 </header>
@@ -304,7 +312,7 @@
       </ul>
       <p class="note">찰나 카메라는 고장 난 부품을 고치지는 못해요. 수리하거나 바꾸기 전까지 망가진 카메라로도 최대한 찍을 수 있게 도와주는 앱이에요. 카메라가 모두 정상이면 아직 이 앱이 필요 없다고 알려줘요.</p>
       <div class="badges" style="margin-top:1.25rem">
-        <a class="btn play" href="https://play.google.com/store/apps/details?id=com.mudol.camrescue&hl=ko" rel="noopener">Google Play에서 설치</a>
+        <a class="btn play" href="https://play.google.com/store/apps/details?id=com.mudol.camrescue&amp;hl=ko" rel="noopener">Google Play에서 설치</a>
       </div>
       <div class="video">
         <iframe src="https://www.youtube-nocookie.com/embed/gGhgxkQdpfE" title="찰나 카메라 소개 영상" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
