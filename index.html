@@ -82,6 +82,7 @@
   .badges { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center }
   .btn { display: inline-flex; align-items: center; gap: .45rem; padding: .7rem 1.15rem; border-radius: 999px; font-weight: 600; font-size: .95rem; text-decoration: none }
   .btn.soon { background: var(--amber); color: #1a1400; cursor: default }
+  .btn.play { background: var(--amber); color: #1a1400 }
   .btn.ghost { border: 1px solid var(--line); color: var(--fg) }
   .btn.ghost:hover { border-color: var(--muted) }
   .btn:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px }
@@ -177,8 +178,8 @@
             <li><span><b>QR 읽기</b>와 플래시</span></li>
           </ul>
           <div class="badges">
-            <span class="btn soon" data-en>Coming soon to Google Play</span>
-            <span class="btn soon" data-ko>Google Play 출시 준비 중</span>
+            <a class="btn play" href="https://play.google.com/store/apps/details?id=com.mudol.camrescue" rel="noopener" data-en>Get it on Google Play</a>
+            <a class="btn play" href="https://play.google.com/store/apps/details?id=com.mudol.camrescue&amp;hl=ko" rel="noopener" data-ko>Google Play에서 받기</a>
             <a class="btn ghost" href="camrescue/privacy.html"><span data-en>Privacy policy</span><span data-ko>개인정보처리방침</span></a>
             <a class="btn ghost" href="camrescue/camera-error-en.html" data-en>Camera error fixes</a>
             <a class="btn ghost" href="camrescue/camera-error.html" data-ko>카메라 오류 해결 방법</a>
