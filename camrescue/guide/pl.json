@@ -1,0 +1,79 @@
+{
+  "lang_name": "Polski",
+  "lang_switch_label": "Język",
+  "title": "Błąd aparatu w telefonie: co zrobić, gdy aparat nie działa",
+  "meta_description": "Błąd aparatu, brak połączenia z aparatem, czarny ekran lub aparat ciągle się zawiesza na Androidzie? Sposoby naprawy po kolei, od najłatwiejszych.",
+  "og_title": "Błąd aparatu i brak połączenia z aparatem: jak naprawić na Androidzie",
+  "og_description": "Błąd aparatu, brak połączenia z aparatem, czarny ekran lub aparat ciągle się zawiesza na Androidzie? Sposoby naprawy po kolei, od najłatwiejszych.",
+  "h1_main": "„Błąd aparatu” i „Nie można połączyć się z aparatem”:",
+  "h1_accent": "jak to naprawić",
+  "intro": [
+    "Ostrzeżenie „Błąd aparatu” na telefonach Samsung, komunikat „Nie można połączyć się z aparatem”, czarny ekran w aparacie albo aplikacja Aparat, która ciągle się zawiesza, to częste problemy na Androidzie. Jeśli przyczyna leży w oprogramowaniu, często da się to naprawić samemu.",
+    "Wykonuj kolejne kroki, od najłatwiejszych do najtrudniejszych. Gdy aparat zacznie działać, możesz przestać."
+  ],
+  "howto_name": "Jak naprawić „Błąd aparatu” i „Nie można połączyć się z aparatem” na Androidzie",
+  "howto_description": "Kroki naprawy błędu aparatu, czarnego ekranu lub zawieszającej się aplikacji Aparat w telefonie z Androidem lub Samsungu, od najłatwiejszych do najtrudniejszych.",
+  "steps": [
+    {
+      "title": "Uruchom telefon ponownie",
+      "body": "Przytrzymaj przycisk zasilania i wybierz <b>Uruchom ponownie</b>. To usuwa wiele tymczasowych usterek usługi aparatu. Jeśli pamięć jest prawie pełna albo telefon jest bardzo gorący, najpierw zwolnij miejsce lub poczekaj, aż ostygnie."
+    },
+    {
+      "title": "Wyczyść pamięć podręczną i dane aplikacji Aparat",
+      "body": "Otwórz <b>Ustawienia › Aplikacje</b>, wybierz <b>Aparat</b>, wejdź w <b>Pamięć</b> i stuknij <b>Wyczyść pamięć podręczną</b>. Jeśli to nie pomoże, stuknij <b>Wyczyść dane</b> (w telefonach Samsung może to być „Wyczyść pamięć” lub „Wyczyść dane”). Ustawienia aparatu zostaną zresetowane, ale zdjęcia i filmy nie zostaną usunięte. W telefonach innych marek nazwy opcji mogą się nieco różnić."
+    },
+    {
+      "title": "Sprawdź uprawnienia i aplikacje blokujące aparat",
+      "body": "W sekcji <b>Uprawnienia</b> aplikacji Aparat upewnij się, że dostęp do aparatu jest dozwolony. Jeśli aparat zajmuje aplikacja do rozmów wideo, latarka albo skaner kodów QR, aplikacja Aparat może się nie otworzyć. Całkowicie zamknij te aplikacje na ekranie ostatnio używanych, a potem otwórz aparat ponownie."
+    },
+    {
+      "title": "Znajdź aplikację powodującą konflikt w trybie awaryjnym",
+      "body": "Tryb awaryjny tymczasowo wyłącza zainstalowane przez Ciebie aplikacje. W większości telefonów wchodzi się do niego, przytrzymując ikonę wyłączania w menu zasilania, ale kroki zależą od modelu. Jeśli w trybie awaryjnym aparat działa, przyczyną jest jedna z Twoich aplikacji. Usuwaj po kolei niedawno zainstalowane aplikacje, zwłaszcza filtry do aparatu, efekty i nagrywanie ekranu. Jeśli w trybie awaryjnym aparat też zawodzi, to prawdopodobnie nie wina aplikacji."
+    },
+    {
+      "title": "Zaktualizuj system i aplikacje",
+      "body": "W <b>Ustawienia › Aktualizacja oprogramowania</b> (nazwa zależy od producenta) sprawdź, czy jest nowa wersja, i zaktualizuj aplikację Aparat w Sklepie Play. Błędy aparatu czasem naprawiają aktualizacje."
+    },
+    {
+      "title": "Przetestuj każdy obiektyw",
+      "body": "W aplikacji Aparat przełączaj się między aparatem przednim i tylnym oraz między obiektywem ultraszerokokątnym, głównym i teleobiektywem. Jeśli czarny ekran lub zawieszanie występuje tylko przy jednym obiektywie, problem może leżeć w nim lub w jego module. Wypróbowanie innej aplikacji aparatu pokaże też, czy winny jest domyślny Aparat. Niektóre telefony mają wbudowane narzędzie diagnostyczne producenta, które także może sprawdzić aparat."
+    },
+    {
+      "title": "Jeśli to sprzęt, jedź do serwisu",
+      "body": "Jeśli nic z powyższego nie pomogło, a aparat zawodzi także w trybie awaryjnym, prawdopodobnie to usterka sprzętowa. Dotyczy to zwłaszcza sytuacji, gdy <b>nie działa tylko obiektyw ultraszerokokątny</b>, aparat <b>działa raz tak, raz nie</b> albo problem zaczął się po upadku lub zalaniu. Zanieś telefon do serwisu, a wcześniej zrób kopię zapasową zdjęć i filmów."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Dla zepsutego aparatu",
+  "cta_title": "Jeśli potrzebujesz zdjęć przed naprawą",
+  "cta_intro": "Jeśli do wizyty w serwisie zostało kilka dni albo zdjęcie jest potrzebne od razu, może pomóc <b>CamRescue</b>. Otwiera aparat od razu po uruchomieniu, łapie krótką chwilę, w której uszkodzony aparat działa, i zapisuje zdjęcie.",
+  "features": [
+    "<b>Test aparatu</b>: sprawdza po kolei obiektyw ultraszerokokątny, główny, teleobiektyw i przedni, a wynik zapisuje jako obraz, który możesz pokazać w serwisie.",
+    "<b>Automatyczne ponawianie</b>: gdy aparat przestaje działać, aplikacja próbuje ponownie, gdy tylko on wróci.",
+    "<b>Wideo, które przetrwa</b>: jeśli aparat padnie w trakcie nagrywania, wszystko, co zdążyło się nagrać, zostanie zapisane.",
+    "Czytnik QR i latarka, bez uprawnień do internetu, bez reklam i bez śledzenia."
+  ],
+  "cta_note": "CamRescue nie naprawi sprzętu. Pomaga dalej korzystać z uszkodzonego aparatu, dopóki go nie naprawisz lub nie wymienisz. Jeśli wszystkie aparaty działają, uczciwie powie, że aplikacja nie jest Ci jeszcze potrzebna.",
+  "play_button": "Pobierz z Google Play",
+  "video_title": "Film o CamRescue",
+  "faq_title": "Najczęstsze pytania",
+  "faq": [
+    {
+      "q": "Dlaczego aparat nagle pokazuje czarny ekran?",
+      "a": "Najczęściej przyczyną jest oprogramowanie: usterka aplikacji Aparat, inna aplikacja używająca aparatu albo tymczasowy błąd systemu. W wielu przypadkach pomaga ponowne uruchomienie i wyczyszczenie pamięci podręcznej aplikacji Aparat. Jeśli problem wraca, a aparat zawodzi też w trybie awaryjnym, może to być usterka sprzętowa, np. modułu aparatu."
+    },
+    {
+      "q": "Czy wyczyszczenie danych aplikacji Aparat usunie moje zdjęcia?",
+      "a": "Nie. Wyczyszczenie danych aplikacji Aparat resetuje jej ustawienia. Zdjęcia i filmy zapisane w galerii pozostają. Mimo to warto wcześniej zrobić kopię ważnych plików."
+    },
+    {
+      "q": "Aparat działa raz tak, raz nie. Czy jest zepsuty?",
+      "a": "To może być oprogramowanie, ale jeśli powyższe kroki nie pomagają, prawdopodobna jest usterka sprzętowa. Zanieś telefon do serwisu, zwłaszcza jeśli problem zaczął się po upadku lub kontakcie z wodą."
+    },
+    {
+      "q": "Czy CamRescue naprawia zepsuty aparat?",
+      "a": "Nie. CamRescue nie naprawi sprzętu. Pomaga zrobić zdjęcia uszkodzonym aparatem w chwilach, gdy działa. Naprawę lub wymianę musi wykonać serwis."
+    }
+  ],
+  "back_home": "Wróć na stronę główną Mudol Labs"
+}

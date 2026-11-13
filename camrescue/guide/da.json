@@ -1,0 +1,79 @@
+{
+  "lang_name": "Dansk",
+  "lang_switch_label": "Sprog",
+  "title": "Kamerafejl eller kan ikke oprette forbindelse til kameraet: Android",
+  "meta_description": "Kamerafejl, kan ikke oprette forbindelse til kameraet, sort skærm eller kameraappen går ned på Android? Prøv løsningerne, fra det lette til det svære.",
+  "og_title": "Kamerafejl / Kan ikke oprette forbindelse til kameraet: sådan løser du det på Android",
+  "og_description": "Kamerafejl, kan ikke oprette forbindelse til kameraet, sort skærm eller kameraappen går ned på Android? Prøv løsningerne, fra det lette til det svære.",
+  "h1_main": "”Kamerafejl” og ”Kan ikke oprette forbindelse til kameraet”:",
+  "h1_accent": "sådan løser du det",
+  "intro": [
+    "”Advarsel: Kamerafejl” på Samsung, ”Kan ikke oprette forbindelse til kameraet”, sort skærm i kameraet eller en kameraapp, der hele tiden går ned, er almindeligt på Android. Skyldes det softwaren, kan du ofte løse det selv.",
+    "Gå trinnene igennem fra det lette til det svære. Stop, så snart kameraet virker igen."
+  ],
+  "howto_name": "Sådan løser du ”Kamerafejl” og ”Kan ikke oprette forbindelse til kameraet” på Android",
+  "howto_description": "Trin til at løse kamerafejl, sort skærm eller en kameraapp, der går ned, på en Android- eller Samsung-telefon, fra det lette til det svære.",
+  "steps": [
+    {
+      "title": "Genstart telefonen",
+      "body": "Hold tænd/sluk-knappen inde, og vælg <b>Genstart</b>. Det løser mange midlertidige fejl i kameratjenesten. Er lageret næsten fyldt, eller er telefonen meget varm, så frigør først plads, eller lad den køle af."
+    },
+    {
+      "title": "Ryd cache og lager for Kamera-appen",
+      "body": "Åbn <b>Indstillinger › Apps</b>, vælg appen <b>Kamera</b>, åbn <b>Lagring</b>, og tryk på <b>Ryd cache</b>. Hjælper det ikke, så tryk på <b>Ryd data</b> (på Samsung: Ryd lager eller Ryd data). Det nulstiller kameraets indstillinger, men dine billeder og videoer bliver ikke slettet. Menunavnene er lidt forskellige fra mærke til mærke."
+    },
+    {
+      "title": "Tjek tilladelser og apps, der holder fast i kameraet",
+      "body": "Tjek under <b>Tilladelser</b> for Kamera-appen, at kameraet er tilladt. Hvis en videoopkaldsapp, lommelygten eller en QR-scanner bruger kameraet, kan Kamera-appen måske ikke åbne. Luk de apps helt fra oversigten over seneste apps, og åbn derefter kameraet igen."
+    },
+    {
+      "title": "Brug fejlsikret tilstand til at finde en app, der driller",
+      "body": "I fejlsikret tilstand er de apps, du selv har installeret, midlertidigt slået fra. På de fleste telefoner kommer du dertil ved at holde ikonet Sluk nede i tænd/sluk-menuen, men trinnene varierer fra model til model. Virker kameraet i fejlsikret tilstand, er det en af dine apps, der er årsagen. Fjern nyligt installerede apps én ad gangen, især apps til kamerafiltre, effekter eller skærmoptagelse. Fejler det også i fejlsikret tilstand, skyldes det sandsynligvis ikke en app."
+    },
+    {
+      "title": "Opdater systemet og apps",
+      "body": "Under <b>Indstillinger › Softwareopdatering</b> (navnet varierer fra mærke til mærke) kan du søge efter en ny version, og du kan opdatere Kamera-appen i Play Butik. Kamerafejl bliver nogle gange løst af opdateringer."
+    },
+    {
+      "title": "Test hver linse",
+      "body": "I Kamera-appen kan du skifte mellem front- og bagkameraet og mellem ultravidvinkel, hovedkamera og tele. Sker den sorte skærm eller nedbruddet kun med én linse, kan det være den linse eller dens komponent, der er noget galt med. Prøver du en anden kameraapp, kan du også se, om standardappen Kamera er synderen. Nogle telefoner har desuden et diagnoseværktøj fra producenten, som kan teste kameraet."
+    },
+    {
+      "title": "Er det hardware, så tag til et serviceværksted",
+      "body": "Hjælper intet af ovenstående, og fejler kameraet også i fejlsikret tilstand, er det sandsynligvis hardware. Især hvis <b>kun ultravidvinkellinsen fejler</b>, hvis den <b>virker i ny og næ</b>, eller hvis det begyndte efter et fald eller en vandskade. Få den undersøgt på et serviceværksted, og tag først backup af dine billeder og videoer."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Kameraappen til defekte kameraer",
+  "cta_title": "Hvis du har brug for billeder, før det er repareret",
+  "cta_intro": "Er tiden på værkstedet først om flere dage, eller har du brug for et billede lige nu, kan <b>CamRescue</b> hjælpe. Appen åbner kameraet, så snart du starter den, fanger det korte øjeblik, hvor et defekt kamera virker, og gemmer billedet.",
+  "features": [
+    "<b>Kameratjek</b>: tester ultravidvinkel-, hoved-, tele- og frontlinsen én ad gangen og gemmer resultatet som et billede, du kan vise på værkstedet.",
+    "<b>Automatisk nyt forsøg</b>: hvis kameraet falder ud, prøver appen igen, i samme øjeblik kameraet er tilbage.",
+    "<b>Video, der overlever</b>: hvis kameraet dør midt i en optagelse, bliver alt, der er optaget indtil da, gemt.",
+    "QR-læser og lys, uden internettilladelse, uden reklamer og uden sporing."
+  ],
+  "cta_note": "CamRescue kan ikke reparere hardware. Appen hjælper dig med at bruge et beskadiget kamera, indtil du kan få det repareret eller udskiftet. Virker alle dine kameraer, siger appen, at du ikke har brug for den endnu.",
+  "play_button": "Hent på Google Play",
+  "video_title": "Introduktionsvideo til CamRescue",
+  "faq_title": "Ofte stillede spørgsmål",
+  "faq": [
+    {
+      "q": "Hvorfor viser mit kamera pludselig en sort skærm?",
+      "a": "Ofte skyldes det softwaren: en fejl i Kamera-appen, en anden app, der bruger kameraet, eller en midlertidig systemfejl. En genstart og rydning af Kamera-appens cache løser mange tilfælde. Bliver det ved, og fejler det også i fejlsikret tilstand, kan det være hardware, for eksempel kameramodulet."
+    },
+    {
+      "q": "Bliver mine billeder slettet, hvis jeg rydder Kamera-appens data?",
+      "a": "Nej. Når du rydder Kamera-appens data, nulstilles kun dens indstillinger. Billeder og videoer i dit galleri bliver liggende. Det er stadig klogt at tage backup af vigtige filer først."
+    },
+    {
+      "q": "Mit kamera virker i ny og næ. Er det i stykker?",
+      "a": "Det kan være softwaren, men hjælper trinnene ovenfor ikke, er det sandsynligvis hardware. Få det undersøgt på et serviceværksted, især hvis det begyndte efter et fald eller kontakt med vand."
+    },
+    {
+      "q": "Reparerer CamRescue et defekt kamera?",
+      "a": "Nej. CamRescue kan ikke reparere hardware. Appen hjælper dig med at tage billeder i de øjeblikke, hvor et defekt kamera virker. Reparation eller udskiftning skal udføres af et serviceværksted."
+    }
+  ],
+  "back_home": "Tilbage til Mudol Labs' forside"
+}

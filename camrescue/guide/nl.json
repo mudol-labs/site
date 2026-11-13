@@ -1,0 +1,79 @@
+{
+  "lang_name": "Nederlands",
+  "lang_switch_label": "Taal",
+  "title": "Camera mislukt of geen verbinding met camera: oplossingen",
+  "meta_description": "Camera mislukt, geen verbinding met de camera, zwart scherm of camera-app blijft stoppen op Android? Oplossingen van makkelijk naar lastig.",
+  "og_title": "Camera mislukt / Kan geen verbinding maken met camera: zo los je het op op Android",
+  "og_description": "Camera mislukt, geen verbinding met de camera, zwart scherm of camera-app blijft stoppen op Android? Oplossingen van makkelijk naar lastig.",
+  "h1_main": "‘Camera mislukt’ en ‘Kan geen verbinding maken met camera’:",
+  "h1_accent": "zo los je het op",
+  "intro": [
+    "‘Waarschuwing: camera mislukt’ op een Samsung, ‘Kan geen verbinding maken met de camera’, een zwart scherm in de camera of een camera-app die steeds stopt: het komt vaak voor op Android. Zit het probleem in de software, dan kun je het vaak zelf oplossen.",
+    "Loop deze stappen door van makkelijk naar lastig. Stop zodra de camera weer werkt."
+  ],
+  "howto_name": "Zo los je ‘Camera mislukt’ en ‘Kan geen verbinding maken met camera’ op Android op",
+  "howto_description": "Stappen om een camerafout, zwart scherm of vastlopende camera-app op een Android- of Samsung-telefoon op te lossen, van makkelijk naar lastig.",
+  "steps": [
+    {
+      "title": "Start de telefoon opnieuw op",
+      "body": "Houd de aan/uit-knop ingedrukt en kies <b>Opnieuw opstarten</b>. Dat verhelpt veel tijdelijke storingen van de cameraservice. Is de opslag bijna vol of de telefoon erg warm, maak dan eerst ruimte vrij of laat hem afkoelen."
+    },
+    {
+      "title": "Wis de cache en opslag van de Camera-app",
+      "body": "Open <b>Instellingen › Apps</b>, kies de app <b>Camera</b>, open <b>Opslag</b> en tik op <b>Cache wissen</b>. Helpt dat niet, tik dan op <b>Gegevens wissen</b> (bij Samsung: Opslag wissen of Gegevens wissen). Hiermee worden de camera-instellingen gereset, maar je foto's en video's blijven bestaan. De menunamen verschillen iets per merk."
+    },
+    {
+      "title": "Controleer machtigingen en apps die de camera in gebruik hebben",
+      "body": "Controleer bij de <b>Machtigingen</b> van de Camera-app of de camera is toegestaan. Als een app voor videobellen, de zaklamp of een QR-scanner de camera vasthoudt, kan de Camera-app mogelijk niet openen. Sluit die apps helemaal af via het scherm met recente apps en open de camera daarna opnieuw."
+    },
+    {
+      "title": "Gebruik de veilige modus om een storende app te vinden",
+      "body": "In de veilige modus worden de apps die je hebt geïnstalleerd tijdelijk uitgezet. Op de meeste telefoons kom je daar door in het uitschakelmenu het uitschakelpictogram lang ingedrukt te houden, al verschilt dat per model. Werkt de camera in de veilige modus, dan veroorzaakt een van je apps het probleem. Verwijder recent geïnstalleerde apps één voor één, vooral apps voor camerafilters, effecten of schermopnames. Gaat het in de veilige modus ook mis, dan ligt het waarschijnlijk niet aan een app."
+    },
+    {
+      "title": "Werk het systeem en de apps bij",
+      "body": "Zoek bij <b>Instellingen › Software-update</b> (de naam verschilt per merk) naar een nieuwe versie en werk de Camera-app bij in de Play Store. Camerafouten worden soms door updates verholpen."
+    },
+    {
+      "title": "Test elke lens",
+      "body": "Schakel in de Camera-app tussen de voor- en achtercamera en tussen ultragroothoek, hoofdcamera en tele. Gebeurt het zwarte scherm of het stoppen maar bij één lens, dan kan die lens of dat onderdeel het probleem zijn. Een andere camera-app proberen laat ook zien of de standaard Camera-app de oorzaak is. Sommige telefoons hebben bovendien een diagnosetool van de fabrikant waarmee je de camera kunt testen."
+    },
+    {
+      "title": "Is het hardware, ga dan naar een servicecentrum",
+      "body": "Helpt niets hierboven en werkt de camera ook niet in de veilige modus, dan is het waarschijnlijk hardware. Zeker als <b>alleen de ultragroothoeklens het niet doet</b>, de camera <b>af en toe werkt</b> of het begon na een val of waterschade. Laat hem nakijken bij een servicecentrum en maak eerst een back-up van je foto's en video's."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "De camera-app voor kapotte camera's",
+  "cta_title": "Als je foto's nodig hebt voordat hij gerepareerd is",
+  "cta_intro": "Is je afspraak bij het servicecentrum nog dagen weg of heb je nú een foto nodig, dan kan <b>CamRescue</b> helpen. De app opent de camera zodra je hem start, grijpt het korte moment waarop een defecte camera werkt en bewaart de foto.",
+  "features": [
+    "<b>Cameracheck</b>: test de ultragroothoek-, hoofd-, tele- en voorlens één voor één en bewaart het resultaat als afbeelding die je aan een reparatiewinkel kunt laten zien.",
+    "<b>Automatisch opnieuw proberen</b>: valt de camera uit, dan probeert de app het meteen opnieuw zodra de camera terug is.",
+    "<b>Video die blijft</b>: valt de camera uit tijdens het filmen, dan wordt alles wat tot dan is opgenomen bewaard.",
+    "QR-lezer en zaklamp, zonder internetmachtiging, zonder advertenties en zonder tracking."
+  ],
+  "cta_note": "CamRescue kan hardware niet repareren. De app helpt je een beschadigde camera te blijven gebruiken tot je hem kunt laten maken of vervangen. Werken al je camera's, dan zegt de app dat je hem nog niet nodig hebt.",
+  "play_button": "Downloaden via Google Play",
+  "video_title": "CamRescue introductievideo",
+  "faq_title": "Veelgestelde vragen",
+  "faq": [
+    {
+      "q": "Waarom toont mijn camera ineens een zwart scherm?",
+      "a": "Vaak ligt het aan de software: een storing in de Camera-app, een andere app die de camera gebruikt of een tijdelijke systeemfout. Opnieuw opstarten en de cache van de Camera-app wissen lost veel gevallen op. Blijft het gebeuren en gaat het in de veilige modus ook mis, dan kan het hardware zijn, zoals de cameramodule."
+    },
+    {
+      "q": "Verdwijnen mijn foto's als ik de gegevens van de Camera-app wis?",
+      "a": "Nee. Door de gegevens van de Camera-app te wissen worden alleen de instellingen gereset. Foto's en video's in je galerij blijven staan. Maak voor de zekerheid toch eerst een back-up van belangrijke bestanden."
+    },
+    {
+      "q": "Mijn camera werkt af en toe. Is hij kapot?",
+      "a": "Het kan aan de software liggen, maar helpen de stappen hierboven niet, dan is het waarschijnlijk hardware. Laat hem nakijken bij een servicecentrum, zeker als het begon na een val of contact met water."
+    },
+    {
+      "q": "Repareert CamRescue een kapotte camera?",
+      "a": "Nee. CamRescue kan hardware niet repareren. De app helpt je foto's te maken op de momenten dat een defecte camera werkt. Reparatie of vervanging moet een servicecentrum doen."
+    }
+  ],
+  "back_home": "Terug naar de startpagina van Mudol Labs"
+}

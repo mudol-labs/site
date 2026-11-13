@@ -1,0 +1,79 @@
+{
+  "lang_name": "Italiano",
+  "lang_switch_label": "Lingua",
+  "title": "Errore fotocamera o impossibile connettersi: soluzioni Android",
+  "meta_description": "Errore fotocamera, impossibile connettersi alla fotocamera, schermo nero o app che si chiude su Android? Soluzioni dalle più facili alle più difficili.",
+  "og_title": "Errore fotocamera / Impossibile connettersi alla fotocamera: come risolvere su Android",
+  "og_description": "Errore fotocamera, impossibile connettersi alla fotocamera, schermo nero o app che si chiude su Android? Soluzioni dalle più facili alle più difficili.",
+  "h1_main": "“Errore fotocamera” e “Impossibile connettersi alla fotocamera”:",
+  "h1_accent": "come risolvere",
+  "intro": [
+    "“Avviso: errore della fotocamera” su Samsung, “Impossibile connettersi alla fotocamera”, schermo nero nella fotocamera o app fotocamera che si chiude continuamente: sono problemi frequenti su Android. Se la causa è il software, spesso puoi risolvere da solo.",
+    "Segui questi passaggi dal più facile al più difficile. Fermati appena la fotocamera torna a funzionare."
+  ],
+  "howto_name": "Come risolvere “Errore fotocamera” e “Impossibile connettersi alla fotocamera” su Android",
+  "howto_description": "Passaggi per risolvere un errore della fotocamera, lo schermo nero o l'app fotocamera che si chiude su uno smartphone Android o Samsung, dal più facile al più difficile.",
+  "steps": [
+    {
+      "title": "Riavvia il telefono",
+      "body": "Tieni premuto il tasto di accensione e scegli <b>Riavvia</b>. Così si risolvono molti blocchi temporanei del servizio fotocamera. Se la memoria è quasi piena o il telefono è molto caldo, libera spazio o lascialo raffreddare prima."
+    },
+    {
+      "title": "Svuota la cache e l'archiviazione dell'app Fotocamera",
+      "body": "Apri <b>Impostazioni › App</b>, scegli l'app <b>Fotocamera</b>, apri <b>Archiviazione</b> e tocca <b>Cancella cache</b>. Se non basta, tocca <b>Cancella dati</b> (su Samsung: Cancella archiviazione o Cancella dati). Le impostazioni della fotocamera vengono ripristinate, ma foto e video non vengono eliminati. I nomi dei menu cambiano un po' a seconda della marca."
+    },
+    {
+      "title": "Controlla i permessi e le app che occupano la fotocamera",
+      "body": "Nei <b>Permessi</b> dell'app Fotocamera, verifica che la fotocamera sia consentita. Se un'app di videochiamata, la torcia o uno scanner QR sta usando la fotocamera, l'app Fotocamera potrebbe non aprirsi. Chiudi completamente queste app dalla schermata delle app recenti e riapri la fotocamera."
+    },
+    {
+      "title": "Usa la modalità provvisoria per trovare un'app in conflitto",
+      "body": "La modalità provvisoria disattiva temporaneamente le app che hai installato. Sulla maggior parte dei telefoni ci si arriva tenendo premuta l'icona Spegni nel menu di accensione, ma i passaggi cambiano a seconda del modello. Se la fotocamera funziona in modalità provvisoria, la causa è una delle tue app. Rimuovi una alla volta le app installate di recente, soprattutto quelle di filtri, effetti o registrazione dello schermo. Se il problema c'è anche in modalità provvisoria, probabilmente non dipende da un'app."
+    },
+    {
+      "title": "Aggiorna il sistema e le app",
+      "body": "In <b>Impostazioni › Aggiornamento software</b> (il nome varia a seconda della marca) cerca una nuova versione e aggiorna l'app Fotocamera dal Play Store. A volte gli errori della fotocamera si risolvono con gli aggiornamenti."
+    },
+    {
+      "title": "Prova ogni obiettivo",
+      "body": "Nell'app Fotocamera passa dalla fotocamera anteriore a quella posteriore e tra ultra grandangolare, principale e teleobiettivo. Se lo schermo nero o la chiusura si verificano solo con un obiettivo, il problema può essere quell'obiettivo o il suo componente. Provare un'altra app fotocamera ti dice anche se la colpa è dell'app Fotocamera predefinita. Alcuni telefoni hanno anche uno strumento di diagnostica del produttore che può controllare la fotocamera."
+    },
+    {
+      "title": "Se è l'hardware, vai al centro assistenza",
+      "body": "Se nulla di quanto sopra aiuta e la fotocamera dà errore anche in modalità provvisoria, è probabile un problema hardware. Vale soprattutto se <b>non funziona solo l'obiettivo ultra grandangolare</b>, se <b>funziona a intermittenza</b> o se è iniziato dopo una caduta o un danno da liquidi. Fai controllare il telefono in un centro assistenza e prima fai il backup di foto e video."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "L'app per fotocamere rotte",
+  "cta_title": "Se ti servono foto prima della riparazione",
+  "cta_intro": "Se l'appuntamento in assistenza è fra qualche giorno o ti serve una foto adesso, <b>CamRescue</b> può aiutarti. Apre la fotocamera appena avvii l'app, coglie il breve momento in cui una fotocamera in avaria funziona e salva la foto.",
+  "features": [
+    "<b>Controllo fotocamera</b>: prova uno per uno gli obiettivi ultra grandangolare, principale, teleobiettivo e anteriore e salva il risultato come immagine da mostrare al centro assistenza.",
+    "<b>Nuovo tentativo automatico</b>: se la fotocamera si spegne, riprova nell'istante in cui torna disponibile.",
+    "<b>Video che resiste</b>: se la fotocamera si spegne durante la registrazione, tutto quello che hai registrato fino a quel momento viene salvato.",
+    "Lettore QR e torcia, senza permesso internet, senza pubblicità e senza tracciamento."
+  ],
+  "cta_note": "CamRescue non può riparare l'hardware. Ti aiuta a continuare a usare una fotocamera danneggiata finché non potrai ripararla o sostituirla. Se tutte le tue fotocamere funzionano, ti dice che per ora non ti serve l'app.",
+  "play_button": "Scarica su Google Play",
+  "video_title": "Video di presentazione di CamRescue",
+  "faq_title": "Domande frequenti",
+  "faq": [
+    {
+      "q": "Perché la fotocamera mostra all'improvviso uno schermo nero?",
+      "a": "Spesso dipende dal software: un problema dell'app Fotocamera, un'altra app che usa la fotocamera o un errore temporaneo del sistema. Riavviare e svuotare la cache dell'app Fotocamera risolve molti casi. Se succede di continuo e anche in modalità provvisoria, può essere l'hardware, per esempio il modulo della fotocamera."
+    },
+    {
+      "q": "Cancellare i dati dell'app Fotocamera elimina le mie foto?",
+      "a": "No. Cancellare i dati dell'app Fotocamera ne ripristina le impostazioni. Foto e video salvati nella galleria restano. È comunque prudente fare prima il backup dei file importanti."
+    },
+    {
+      "q": "La fotocamera funziona a intermittenza. È rotta?",
+      "a": "Può essere il software, ma se i passaggi sopra non risolvono, è probabile che sia l'hardware. Falla controllare in un centro assistenza, soprattutto se è iniziato dopo una caduta o il contatto con l'acqua."
+    },
+    {
+      "q": "CamRescue ripara una fotocamera rotta?",
+      "a": "No. CamRescue non può riparare l'hardware. Ti aiuta a scattare foto nei momenti in cui una fotocamera in avaria funziona. La riparazione o la sostituzione spetta a un centro assistenza."
+    }
+  ],
+  "back_home": "Torna alla home di Mudol Labs"
+}

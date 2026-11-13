@@ -1,0 +1,79 @@
+{
+  "lang_name": "Bahasa Indonesia",
+  "lang_switch_label": "Bahasa",
+  "title": "Kamera Gagal, Tidak Dapat Terhubung ke Kamera: Cara Mengatasi di Android",
+  "meta_description": "Kamera gagal, tidak dapat terhubung ke kamera, layar hitam, atau aplikasi kamera terus berhenti di Android? Coba cara mengatasinya dari yang termudah.",
+  "og_title": "Kamera Gagal / Tidak Dapat Terhubung ke Kamera: Cara Mengatasi di Android dan Samsung",
+  "og_description": "Kamera gagal, tidak dapat terhubung ke kamera, layar hitam, atau aplikasi kamera terus berhenti di Android? Coba cara mengatasinya dari yang termudah.",
+  "h1_main": "“Kamera gagal” dan “Tidak dapat terhubung ke kamera”:",
+  "h1_accent": "cara mengatasinya",
+  "intro": [
+    "Pesan “Peringatan: Kamera gagal” di ponsel Samsung, “Tidak dapat terhubung ke kamera”, layar hitam saat membuka kamera, atau aplikasi kamera yang terus berhenti sering terjadi di Android. Kalau penyebabnya software, Anda sering bisa memperbaikinya sendiri.",
+    "Ikuti langkah-langkah ini dari yang termudah ke yang tersulit. Berhenti begitu kamera sudah berfungsi lagi."
+  ],
+  "howto_name": "Cara mengatasi “Kamera gagal” dan “Tidak dapat terhubung ke kamera” di Android",
+  "howto_description": "Langkah mengatasi error kamera, layar hitam, atau aplikasi kamera yang terus berhenti di ponsel Android dan Samsung, diurutkan dari yang termudah.",
+  "steps": [
+    {
+      "title": "Restart ponsel",
+      "body": "Tahan tombol daya lalu pilih <b>Mulai ulang</b>. Langkah ini membereskan banyak gangguan sementara pada layanan kamera. Jika penyimpanan hampir penuh atau ponsel sangat panas, kosongkan ruang atau biarkan dingin dulu."
+    },
+    {
+      "title": "Hapus cache dan penyimpanan aplikasi Kamera",
+      "body": "Buka <b>Pengaturan > Aplikasi</b>, pilih aplikasi <b>Kamera</b>, buka <b>Penyimpanan</b>, lalu ketuk <b>Hapus cache</b>. Jika belum berhasil, ketuk <b>Hapus data</b> (di ponsel Samsung bisa berupa Hapus penyimpanan atau Hapus data). Ini mengatur ulang pengaturan kamera, tetapi tidak menghapus foto dan video Anda. Nama menu sedikit berbeda antarmerek."
+    },
+    {
+      "title": "Periksa izin dan aplikasi yang sedang memakai kamera",
+      "body": "Di <b>Izin</b> aplikasi Kamera, pastikan akses kamera diizinkan. Jika aplikasi panggilan video, senter, atau pemindai QR sedang memakai kamera, aplikasi Kamera bisa gagal terbuka. Tutup aplikasi-aplikasi itu sepenuhnya lewat layar aplikasi terbaru, lalu buka kamera lagi."
+    },
+    {
+      "title": "Gunakan mode aman untuk mencari aplikasi yang bentrok",
+      "body": "Mode aman menonaktifkan sementara aplikasi yang Anda pasang sendiri. Di kebanyakan ponsel, Anda menahan ikon Matikan di menu daya untuk masuk ke sana, tetapi caranya berbeda tiap model. Jika kamera berfungsi di mode aman, berarti salah satu aplikasi Anda penyebabnya. Hapus aplikasi yang baru dipasang satu per satu, terutama aplikasi filter kamera, efek, atau perekam layar. Jika di mode aman juga gagal, kemungkinan besar bukan aplikasi penyebabnya."
+    },
+    {
+      "title": "Perbarui sistem dan aplikasi",
+      "body": "Di <b>Pengaturan > Pembaruan perangkat lunak</b> (namanya berbeda tiap merek), cek versi baru, dan perbarui juga aplikasi Kamera di Play Store. Error kamera kadang teratasi lewat pembaruan."
+    },
+    {
+      "title": "Uji tiap lensa",
+      "body": "Di aplikasi Kamera, ganti antara kamera depan dan belakang, serta antara ultra-wide, utama, dan telefoto. Jika layar hitam atau aplikasi berhenti hanya saat memakai satu lensa, mungkin lensa itu atau komponennya yang bermasalah. Mencoba aplikasi kamera lain juga membantu memastikan apakah aplikasi Kamera bawaan yang bermasalah. Sebagian ponsel juga punya alat diagnosis dari pabrikan untuk menguji kamera."
+    },
+    {
+      "title": "Jika masalahnya hardware, bawa ke pusat servis",
+      "body": "Jika semua langkah di atas tidak berhasil dan kamera juga gagal di mode aman, kemungkinan besar itu masalah hardware. Terutama jika <b>hanya lensa ultra-wide yang gagal</b>, kamera <b>kadang berfungsi kadang tidak</b>, atau masalah mulai muncul setelah ponsel jatuh atau terkena air. Periksakan ke pusat servis, dan cadangkan foto serta video Anda lebih dulu."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Kamera untuk kamera yang rusak",
+  "cta_title": "Jika Anda perlu memotret sebelum diperbaiki",
+  "cta_intro": "Jika jadwal servis masih beberapa hari lagi atau Anda perlu foto sekarang juga, <b>CamRescue</b> mungkin bisa membantu. Aplikasi ini langsung membuka kamera begitu dijalankan dan menangkap momen singkat saat kamera yang bermasalah berfungsi, lalu menyimpan fotonya.",
+  "features": [
+    "<b>Cek kamera</b>: menguji lensa ultra-wide, utama, telefoto, dan depan satu per satu, lalu menyimpan hasilnya sebagai gambar yang bisa ditunjukkan ke tempat servis.",
+    "<b>Coba otomatis</b>: jika kamera terputus, aplikasi mencoba lagi begitu kamera kembali.",
+    "<b>Video yang tetap tersimpan</b>: jika kamera mati di tengah perekaman, semua yang sudah terekam tetap disimpan.",
+    "Ada pembaca QR dan senter, tanpa izin internet, tanpa iklan, dan tanpa pelacakan."
+  ],
+  "cta_note": "CamRescue tidak bisa memperbaiki hardware. Aplikasi ini membantu Anda tetap memakai kamera yang rusak sampai bisa diperbaiki atau diganti. Jika semua kamera berfungsi, aplikasi akan memberi tahu bahwa Anda belum membutuhkannya.",
+  "play_button": "Dapatkan di Google Play",
+  "video_title": "Video pengenalan CamRescue",
+  "faq_title": "Pertanyaan umum",
+  "faq": [
+    {
+      "q": "Kenapa kamera tiba-tiba layar hitam?",
+      "a": "Sering kali penyebabnya software: aplikasi Kamera error, aplikasi lain sedang memakai kamera, atau gangguan sistem sementara. Restart dan hapus cache aplikasi Kamera menyelesaikan banyak kasus. Jika terus terulang dan juga gagal di mode aman, bisa jadi itu hardware seperti modul kamera."
+    },
+    {
+      "q": "Apakah menghapus data aplikasi Kamera akan menghapus foto saya?",
+      "a": "Tidak. Menghapus data aplikasi Kamera hanya mengatur ulang pengaturannya. Foto dan video yang tersimpan di galeri tetap ada. Meski begitu, sebaiknya cadangkan file penting terlebih dahulu."
+    },
+    {
+      "q": "Kamera saya kadang berfungsi kadang tidak. Apakah rusak?",
+      "a": "Bisa jadi software, tetapi jika langkah di atas tidak menghentikannya, kemungkinan besar hardware. Periksakan ke pusat servis, terutama jika mulai terjadi setelah ponsel jatuh atau terkena air."
+    },
+    {
+      "q": "Apakah CamRescue memperbaiki kamera yang rusak?",
+      "a": "Tidak. CamRescue tidak bisa memperbaiki hardware. Aplikasi ini membantu Anda mengambil foto dari kamera yang bermasalah pada saat ia berfungsi. Perbaikan atau penggantian harus dilakukan di pusat servis."
+    }
+  ],
+  "back_home": "Kembali ke beranda Mudol Labs"
+}

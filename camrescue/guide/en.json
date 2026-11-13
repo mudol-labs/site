@@ -1,0 +1,94 @@
+{
+  "_notes": [
+    "Translator notes. Translate every value in this file into your language and save it as camrescue/guide/<code>.json (same keys, same list lengths). Keys starting with an underscore are ignored by the generator; you may drop _notes in your file.",
+    "Keep it natural and helpful: write the way a friendly, competent person in your country would explain it, not word-for-word. Short sentences are fine.",
+    "Search phrases: title, meta_description, og_title, h1_main/h1_accent, howto_name and the first intro paragraph should use the words people in your language really type into Google for 'Camera failed', 'can't connect to camera', 'camera black screen' and 'camera app keeps crashing/stopping'. Check the real wording from Samsung/Google UI and search suggestions in that language. Do not invent the exact Samsung error text unless you are sure of it; prefer descriptive phrasing.",
+    "Menu paths (steps[1].body and steps[4].body, 0-based = steps 2 and 5) are the per-language path text. Use the names that appear on a Samsung Galaxy / stock Android phone in your language (Settings > Apps > Camera > Storage > Clear cache / Clear data; Settings > Software update). If unsure, describe the menu instead of quoting it. Use the chevron character used in the source (>) or the one natural for your language; it is plain text.",
+    "Keep app facts unchanged: CamRescue features, 'no internet permission, no ads, no tracking', 'saves video recorded so far', 'tests ultra-wide/main/telephoto/front lenses'. Do not add claims (no 'fixes all cameras', no numbers, no ratings, no promises of repair).",
+    "Keep the honest note: CamRescue cannot repair hardware (cta_note and the last faq answer). It only helps you capture photos until the camera is repaired or replaced.",
+    "app_name: use the Play Store name of CamRescue in your language if one is listed in FrontSnap/store/listings/<locale>.json; otherwise keep 'CamRescue'. app_tagline likewise.",
+    "meta_description must be 155 characters or fewer (the generator rejects longer). og_description may be the same text. title should stay short (about 60 characters); ' | Mudol Labs' is appended automatically.",
+    "HTML: only <b>...</b> is allowed inside steps[].body, cta_intro, features[] and faq answers (it marks the key menu names). Do not use other tags or entities; write quotes, apostrophes and ampersands as normal characters. The same strings feed the JSON-LD (HowTo + FAQPage) with tags stripped.",
+    "lang_name is the language's own name (native script) shown in the language switcher. lang_switch_label is the word 'Language' in your language (screen readers only).",
+    "Right-to-left languages (ar, fa, iw, ur) are handled by the generator (dir=rtl, logical CSS). Do not insert direction marks unless needed for a Latin brand name or arrow.",
+    "Do not translate: URLs, 'Google Play' (translate the button sentence only), 'Mudol Labs', the brand 'CamRescue' unless app_name says otherwise.",
+    "Step order must not change. The last step refers to 'all the steps above' (the Korean source says steps 1 to 6); keep that meaning."
+  ],
+  "lang_name": "English",
+  "lang_switch_label": "Language",
+  "title": "Camera Failed or Can't Connect to Camera: Android Fixes",
+  "meta_description": "Camera failed, can't connect to the camera, black screen or camera app keeps crashing on Android? Try these fixes in order, from easy to hard.",
+  "og_title": "Camera Failed / Can't Connect to Camera: How to Fix It on Android",
+  "og_description": "Camera failed, can't connect to the camera, black screen or camera app keeps crashing on Android? Try these fixes in order, from easy to hard.",
+  "h1_main": "“Camera failed” and “Can't connect to camera”:",
+  "h1_accent": "how to fix it",
+  "intro": [
+    "“Warning: Camera failed” on Samsung phones, “Can't connect to the camera”, a black screen in the camera, or a camera app that keeps crashing are common on Android. When the cause is software, you can often fix it yourself.",
+    "Work through these steps from easy to hard. Stop as soon as the camera works again."
+  ],
+  "howto_name": "How to fix “Camera failed” and “Can't connect to camera” on Android",
+  "howto_description": "Steps for fixing a camera error, black screen or crashing camera app on an Android or Samsung phone, ordered from easiest to hardest.",
+  "steps": [
+    {
+      "title": "Restart the phone",
+      "body": "Hold the power button and choose <b>Restart</b>. This clears many temporary camera service glitches. If storage is almost full or the phone is very hot, free up space or let it cool down first."
+    },
+    {
+      "title": "Clear the Camera app's cache and storage",
+      "body": "Open <b>Settings › Apps</b>, pick the <b>Camera</b> app, open <b>Storage</b> and tap <b>Clear cache</b>. If that doesn't help, tap <b>Clear data</b> (on Samsung phones: Clear storage or Clear data). This resets camera settings but does not delete your photos and videos. Menu names vary a little between brands."
+    },
+    {
+      "title": "Check permissions and apps that are holding the camera",
+      "body": "In the Camera app's <b>Permissions</b>, make sure Camera is allowed. If a video call app, flashlight or QR scanner is holding the camera, the Camera app may fail to open. Fully close those apps from the recent apps screen, then open the camera again."
+    },
+    {
+      "title": "Use safe mode to find a conflicting app",
+      "body": "Safe mode temporarily turns off the apps you installed. On most phones you long-press the power-off icon on the power menu to reach it, though the steps vary by model. If the camera works in safe mode, one of your apps is the cause. Remove recently installed apps first, especially camera filter, effects or screen recorder apps, one at a time. If it fails in safe mode too, an app is probably not the cause."
+    },
+    {
+      "title": "Update the system and apps",
+      "body": "In <b>Settings › Software update</b> (the name varies by brand), check for a new version, and update the Camera app in the Play Store. Camera errors are sometimes fixed by updates."
+    },
+    {
+      "title": "Test each lens",
+      "body": "In the Camera app, switch between the front and rear cameras, and between ultra-wide, main and telephoto. If the black screen or crash only happens with one lens, that lens or its part may be the problem. Trying a different camera app also tells you whether the default Camera app is at fault. Some phones also have a built-in diagnostics tool from the manufacturer that can test the camera."
+    },
+    {
+      "title": "If it is hardware, go to a service center",
+      "body": "If nothing above helps and the camera also fails in safe mode, it is likely hardware. This is especially true if <b>only the ultra-wide lens fails</b>, it <b>works on and off</b>, or it started after a drop or water damage. Get it checked at a service center, and back up your photos and videos first."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Camera for broken cameras",
+  "cta_title": "If you need photos before it's repaired",
+  "cta_intro": "If a service appointment is days away or you need a photo right now, <b>CamRescue</b> may help. It opens the camera the instant you launch it and catches the brief moment a failing camera works, then saves the photo.",
+  "features": [
+    "<b>Camera check</b>: tests the ultra-wide, main, telephoto and front lenses one by one, and saves the result as an image you can show a repair shop.",
+    "<b>Auto retry</b>: if the camera drops out, it tries again the moment the camera comes back.",
+    "<b>Video that survives</b>: if the camera dies mid-recording, everything recorded so far is saved.",
+    "QR reading and flash, with no internet permission, no ads and no tracking."
+  ],
+  "cta_note": "CamRescue can't repair hardware. It helps you keep using a damaged camera until you can fix or replace it. If all your cameras work, it tells you that you don't need the app yet.",
+  "play_button": "Get it on Google Play",
+  "video_title": "CamRescue intro video",
+  "faq_title": "FAQ",
+  "faq": [
+    {
+      "q": "Why does my camera suddenly show a black screen?",
+      "a": "Often it is software: a Camera app glitch, another app using the camera, or a temporary system error. Restarting and clearing the Camera app's cache fixes many cases. If it keeps happening and also fails in safe mode, it could be hardware such as the camera module."
+    },
+    {
+      "q": "Will clearing the Camera app's data delete my photos?",
+      "a": "No. Clearing the Camera app's data resets its settings. Photos and videos saved in your gallery stay. It is still wise to back up important files first."
+    },
+    {
+      "q": "My camera works on and off. Is it broken?",
+      "a": "It can be software, but if the steps above don't stop it, hardware is likely. Get it checked at a service center, especially if it began after a drop or water exposure."
+    },
+    {
+      "q": "Does CamRescue repair a broken camera?",
+      "a": "No. CamRescue can't repair hardware. It helps you capture photos from a failing camera in the moments it works. Repair or replacement has to be done by a service center."
+    }
+  ],
+  "back_home": "Back to Mudol Labs home"
+}

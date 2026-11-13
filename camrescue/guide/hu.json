@@ -1,0 +1,79 @@
+{
+  "lang_name": "Magyar",
+  "lang_switch_label": "Nyelv",
+  "title": "Kamerahiba a telefonon: mit tegyél, ha nem működik a kamera",
+  "meta_description": "Kamerahiba, nem lehet csatlakozni a kamerához, fekete képernyő vagy leáll a kamera alkalmazás Androidon? Megoldások sorban, a legegyszerűbbtől kezdve.",
+  "og_title": "Kamerahiba és nem lehet csatlakozni a kamerához: javítás Androidon",
+  "og_description": "Kamerahiba, nem lehet csatlakozni a kamerához, fekete képernyő vagy leáll a kamera alkalmazás Androidon? Megoldások sorban, a legegyszerűbbtől kezdve.",
+  "h1_main": "„Kamerahiba” és „Nem lehet csatlakozni a kamerához”:",
+  "h1_accent": "így javítsd ki",
+  "intro": [
+    "A „Figyelem: Kamerahiba” üzenet Samsung telefonokon, a „Nem lehet csatlakozni a kamerához” hiba, a fekete képernyő a kamerában vagy a folyton leálló Kamera alkalmazás gyakori Androidon. Ha az ok szoftveres, sokszor magad is megoldhatod.",
+    "Haladj végig a lépéseken a legegyszerűbbtől a legnehezebbig. Ha újra működik a kamera, abbahagyhatod."
+  ],
+  "howto_name": "Hogyan javítsd ki a „Kamerahiba” és a „Nem lehet csatlakozni a kamerához” hibát Androidon",
+  "howto_description": "Lépések a kamerahiba, a fekete képernyő vagy a leálló kamera alkalmazás javításához Android és Samsung telefonon, a legkönnyebbtől a legnehezebbig.",
+  "steps": [
+    {
+      "title": "Indítsd újra a telefont",
+      "body": "Tartsd nyomva a bekapcsológombot, és válaszd az <b>Újraindítás</b> lehetőséget. Ez sok ideiglenes kameraszolgáltatás-hibát megszüntet. Ha a tárhely majdnem megtelt, vagy a telefon nagyon meleg, előbb szabadíts fel helyet, vagy hagyd lehűlni."
+    },
+    {
+      "title": "Töröld a Kamera alkalmazás gyorsítótárát és adatait",
+      "body": "Nyisd meg a <b>Beállítások › Alkalmazások</b> részt, válaszd a <b>Kamera</b> alkalmazást, nyisd meg a <b>Tárhely</b> menüt, és koppints a <b>Gyorsítótár törlése</b> elemre. Ha ez nem segít, koppints az <b>Adatok törlése</b> elemre (Samsung telefonokon: Tárhely törlése vagy Adatok törlése). Ez visszaállítja a kamera beállításait, de a fotók és videók megmaradnak. A menük nevei márkánként kissé eltérnek."
+    },
+    {
+      "title": "Ellenőrizd az engedélyeket és a kamerát lefoglaló alkalmazásokat",
+      "body": "A Kamera alkalmazás <b>Engedélyek</b> menüjében győződj meg róla, hogy a Kamera engedélyezve van. Ha videohívás-alkalmazás, zseblámpa vagy QR-olvasó foglalja le a kamerát, előfordulhat, hogy a Kamera alkalmazás nem nyílik meg. Zárd be teljesen ezeket az alkalmazásokat a legutóbbi alkalmazások képernyőjén, majd nyisd meg újra a kamerát."
+    },
+    {
+      "title": "Találd meg a problémás alkalmazást csökkentett módban",
+      "body": "A csökkentett mód átmenetileg kikapcsolja a telepített alkalmazásokat. A legtöbb telefonon a kikapcsolás ikon hosszú megnyomásával érhető el a bekapcsolási menüben, de a lépések típusonként eltérnek. Ha a kamera csökkentett módban működik, valamelyik alkalmazásod okozza a hibát. Először a nemrég telepített alkalmazásokat távolítsd el egyesével, főleg a kamerás szűrőket, effekteket és képernyőrögzítőket. Ha csökkentett módban is hibás, valószínűleg nem egy alkalmazás a ludas."
+    },
+    {
+      "title": "Frissítsd a rendszert és az alkalmazásokat",
+      "body": "A <b>Beállítások › Szoftverfrissítés</b> részen (a név gyártónként eltérhet) keress új verziót, és frissítsd a Kamera alkalmazást a Play Áruházban. A kamerahibákat néha frissítések javítják."
+    },
+    {
+      "title": "Próbáld ki egyesével az objektíveket",
+      "body": "A Kamera alkalmazásban válts az előlapi és a hátlapi kamera között, valamint az ultraszéles, a fő és a teleobjektív között. Ha a fekete képernyő vagy a leállás csak egy objektívnél jelentkezik, lehet, hogy az az objektív vagy annak alkatrésze a hibás. Egy másik kamera alkalmazás kipróbálásából az is kiderül, hogy az alapértelmezett Kamera alkalmazással van-e baj. Egyes telefonokon beépített gyártói diagnosztikai eszköz is van, amely tesztelni tudja a kamerát."
+    },
+    {
+      "title": "Ha hardverhiba, menj szervizbe",
+      "body": "Ha a fentiek közül semmi sem segít, és a kamera csökkentett módban is hibázik, valószínűleg hardverhibáról van szó. Különösen akkor, ha <b>csak az ultraszéles objektív nem működik</b>, a kamera <b>hol működik, hol nem</b>, vagy leesés, illetve vízkár után kezdődött a gond. Vidd el szervizbe, és előtte mentsd el a fotóidat és videóidat."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Törött kamerához",
+  "cta_title": "Ha javítás előtt is kellenek a fotók",
+  "cta_intro": "Ha a szervizidőpontig még napok vannak, vagy azonnal fotóra van szükséged, segíthet a <b>CamRescue</b>. Indításkor azonnal megnyitja a kamerát, elkapja azt a rövid pillanatot, amikor a hibás kamera működik, és elmenti a fotót.",
+  "features": [
+    "<b>Kameraellenőrzés</b>: egyesével kipróbálja az ultraszéles, a fő, a tele és az előlapi objektívet, és az eredményt képként menti, amelyet megmutathatsz a szervizben.",
+    "<b>Automatikus újrapróba</b>: ha a kamera kiesik, abban a pillanatban újra próbálkozik, amint visszatér.",
+    "<b>Megmaradó videó</b>: ha a kamera felvétel közben leáll, minden addig rögzített rész megmarad.",
+    "QR-olvasó és zseblámpa, internetengedély, reklámok és követés nélkül."
+  ],
+  "cta_note": "A CamRescue nem tudja megjavítani a hardvert. Abban segít, hogy a sérült kamerát tovább használhasd, amíg meg nem javíttatod vagy le nem cseréled. Ha minden kamerád működik, megmondja, hogy még nincs szükséged az alkalmazásra.",
+  "play_button": "Letöltés a Google Playről",
+  "video_title": "CamRescue bemutatóvideó",
+  "faq_title": "Gyakori kérdések",
+  "faq": [
+    {
+      "q": "Miért fekete hirtelen a kamera képernyője?",
+      "a": "Gyakran szoftveres az ok: a Kamera alkalmazás hibája, egy másik alkalmazás használja a kamerát, vagy átmeneti rendszerhiba. Az újraindítás és a Kamera alkalmazás gyorsítótárának törlése sok esetben megoldja. Ha újra és újra előfordul, és csökkentett módban is hibás, hardverhiba is lehet, például a kameramodul."
+    },
+    {
+      "q": "Törlődnek a fotóim, ha törlöm a Kamera alkalmazás adatait?",
+      "a": "Nem. A Kamera alkalmazás adatainak törlése visszaállítja a beállításait. A galériában mentett fotók és videók megmaradnak. Azért érdemes előtte biztonsági mentést készíteni a fontos fájlokról."
+    },
+    {
+      "q": "A kamerám hol működik, hol nem. Tönkrement?",
+      "a": "Lehet szoftveres a hiba, de ha a fenti lépések nem segítenek, valószínűleg hardverről van szó. Vidd el szervizbe, különösen ha leesés vagy víz érte után kezdődött."
+    },
+    {
+      "q": "Megjavítja a CamRescue a törött kamerát?",
+      "a": "Nem. A CamRescue nem tudja megjavítani a hardvert. Abban segít, hogy fotókat készíthess egy hibás kamerával azokban a pillanatokban, amikor működik. A javítást vagy cserét a szervizben kell elvégeztetni."
+    }
+  ],
+  "back_home": "Vissza a Mudol Labs főoldalára"
+}

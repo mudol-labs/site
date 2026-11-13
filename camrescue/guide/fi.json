@@ -1,0 +1,79 @@
+{
+  "lang_name": "Suomi",
+  "lang_switch_label": "Kieli",
+  "title": "Kamera epäonnistui tai kameraan ei saada yhteyttä: korjaus Androidilla",
+  "meta_description": "Kamera epäonnistui, kameraan ei saada yhteyttä, musta näyttö tai kamerasovellus kaatuu? Kokeile korjauksia järjestyksessä helposta vaikeaan.",
+  "og_title": "Kamera epäonnistui / kameraan ei saada yhteyttä: näin korjaat Androidilla",
+  "og_description": "Kamera epäonnistui, kameraan ei saada yhteyttä, musta näyttö tai kamerasovellus kaatuu? Kokeile korjauksia järjestyksessä helposta vaikeaan.",
+  "h1_main": "”Kamera epäonnistui” ja ”Kameraan ei saada yhteyttä”:",
+  "h1_accent": "näin korjaat",
+  "intro": [
+    "Samsung-puhelimen ilmoitus ”Varoitus: Kamera epäonnistui”, ”Kameraan ei saada yhteyttä”, kameran musta näyttö tai kamerasovellus, joka kaatuu jatkuvasti, ovat Androidilla yleisiä vikoja. Jos syy on ohjelmistossa, voit usein korjata sen itse.",
+    "Käy vaiheet läpi järjestyksessä helposta vaikeaan. Lopeta heti, kun kamera toimii taas."
+  ],
+  "howto_name": "Näin korjaat ”Kamera epäonnistui” ja ”Kameraan ei saada yhteyttä” Androidilla",
+  "howto_description": "Vaiheet kameravirheen, mustan näytön tai kaatuvan kamerasovelluksen korjaamiseen Android- tai Samsung-puhelimessa, helpoimmasta vaikeimpaan.",
+  "steps": [
+    {
+      "title": "Käynnistä puhelin uudelleen",
+      "body": "Pidä virtapainiketta painettuna ja valitse <b>Käynnistä uudelleen</b>. Tämä poistaa monia kamerapalvelun tilapäisiä häiriöitä. Jos tallennustila on lähes täynnä tai puhelin on todella kuuma, vapauta ensin tilaa tai anna sen jäähtyä."
+    },
+    {
+      "title": "Tyhjennä Kamera-sovelluksen välimuisti ja tiedot",
+      "body": "Avaa <b>Asetukset > Sovellukset</b>, valitse <b>Kamera</b>-sovellus, avaa <b>Tallennustila</b> ja napauta <b>Tyhjennä välimuisti</b>. Jos se ei auta, napauta <b>Tyhjennä tiedot</b>. Tämä palauttaa kameran asetukset oletuksiin, mutta ei poista kuviasi tai videoitasi. Valikkojen nimet vaihtelevat hieman merkeittäin."
+    },
+    {
+      "title": "Tarkista käyttöoikeudet ja kameraa pitävät sovellukset",
+      "body": "Varmista Kamera-sovelluksen <b>Käyttöoikeudet</b>-kohdassa, että kameran käyttö on sallittu. Jos videopuhelusovellus, taskulamppu tai QR-lukija pitää kameraa varattuna, Kamera-sovellus ei välttämättä avaudu. Sulje ne kokonaan viimeisimpien sovellusten näkymästä ja avaa kamera uudelleen."
+    },
+    {
+      "title": "Etsi ristiriitainen sovellus vikasietotilassa",
+      "body": "Vikasietotila poistaa asentamasi sovellukset hetkeksi käytöstä. Useimmissa puhelimissa pääset siihen pitämällä virrankatkaisukuvaketta painettuna virtavalikossa, mutta vaiheet vaihtelevat mallin mukaan. Jos kamera toimii vikasietotilassa, syy on jokin sovelluksistasi. Poista ensin äskettäin asennetut sovellukset, etenkin kamerasuodatin-, tehoste- tai näytön tallennussovellukset, yksi kerrallaan. Jos vika on sama vikasietotilassakin, sovellus ei todennäköisesti ole syy."
+    },
+    {
+      "title": "Päivitä järjestelmä ja sovellukset",
+      "body": "Tarkista uusi versio kohdasta <b>Asetukset > Ohjelmistopäivitys</b> (nimi vaihtelee merkeittäin) ja päivitä myös Kamera-sovellus Play Kaupasta. Päivitykset korjaavat joskus kameravirheitä."
+    },
+    {
+      "title": "Testaa jokainen linssi",
+      "body": "Vaihda Kamera-sovelluksessa etu- ja takakameran välillä sekä laajakulman, pääkameran ja telen välillä. Jos musta näyttö tai kaatuminen tapahtuu vain yhdellä linssillä, vika voi olla kyseisessä linssissä tai sen osassa. Toisen kamerasovelluksen kokeilu kertoo myös, onko vika oletuskamerassa. Joissakin puhelimissa on myös valmistajan oma diagnostiikkatyökalu, joka voi testata kameran."
+    },
+    {
+      "title": "Jos kyse on laitteistosta, mene huoltoon",
+      "body": "Jos mikään yllä oleva ei auta ja kamera pettää myös vikasietotilassa, kyse on todennäköisesti laitteistovirheestä. Näin on erityisen todennäköisesti, jos <b>vain laajakulmalinssi pettää</b>, kamera <b>toimii jaksoittain</b> tai vika alkoi putoamisen tai vesivahingon jälkeen. Vie puhelin huoltoon tarkistettavaksi ja varmuuskopioi ensin kuvat ja videot."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Rikkinäinen kamera",
+  "cta_title": "Jos tarvitset kuvia ennen korjausta",
+  "cta_intro": "Jos huoltoaikaan on päiviä tai tarvitset kuvan heti, <b>CamRescue</b> voi auttaa. Se avaa kameran heti käynnistyessään ja nappaa lyhyen hetken, jolloin rikkinäinen kamera toimii, ja tallentaa kuvan.",
+  "features": [
+    "<b>Kameran tarkistus</b>: testaa laajakulma-, pää-, tele- ja etulinssin yksi kerrallaan ja tallentaa tuloksen kuvana, jonka voit näyttää korjaamossa.",
+    "<b>Automaattinen uusinta</b>: jos kamera katkeaa, se yrittää uudelleen heti, kun kamera palaa.",
+    "<b>Video, joka säilyy</b>: jos kamera sammuu kesken tallennuksen, kaikki siihen asti kuvattu tallentuu.",
+    "QR-lukija ja salama, ilman internetoikeutta, mainoksia ja seurantaa."
+  ],
+  "cta_note": "CamRescue ei voi korjata laitteistoa. Se auttaa sinua käyttämään vioittunutta kameraa, kunnes saat sen korjattua tai vaihdettua. Jos kaikki kamerasi toimivat, se kertoo, ettet tarvitse sovellusta vielä.",
+  "play_button": "Lataa Google Playsta",
+  "video_title": "CamRescue-esittelyvideo",
+  "faq_title": "Usein kysyttyä",
+  "faq": [
+    {
+      "q": "Miksi kamerani näyttää yhtäkkiä mustaa?",
+      "a": "Syy on usein ohjelmistossa: Kamera-sovelluksen häiriö, toinen kameraa käyttävä sovellus tai tilapäinen järjestelmävirhe. Uudelleenkäynnistys ja Kamera-sovelluksen välimuistin tyhjennys korjaavat monta tapausta. Jos vika toistuu ja ilmenee myös vikasietotilassa, kyse voi olla laitteistosta, kuten kameramoduulista."
+    },
+    {
+      "q": "Poistuvatko kuvani, jos tyhjennän Kamera-sovelluksen tiedot?",
+      "a": "Eivät. Kamera-sovelluksen tietojen tyhjennys palauttaa vain sen asetukset. Galleriaan tallennetut kuvat ja videot säilyvät. Tärkeät tiedostot kannattaa silti varmuuskopioida ensin."
+    },
+    {
+      "q": "Kamerani toimii jaksoittain. Onko se rikki?",
+      "a": "Kyse voi olla ohjelmistosta, mutta jos yllä olevat vaiheet eivät auta, laitteisto on todennäköinen syy. Vie se huoltoon tarkistettavaksi, etenkin jos vika alkoi putoamisen tai vesivahingon jälkeen."
+    },
+    {
+      "q": "Korjaako CamRescue rikkinäisen kameran?",
+      "a": "Ei. CamRescue ei voi korjata laitteistoa. Se auttaa ottamaan kuvia viallisella kameralla hetkinä, jolloin se toimii. Korjauksen tai vaihdon tekee huolto."
+    }
+  ],
+  "back_home": "Takaisin Mudol Labsin etusivulle"
+}

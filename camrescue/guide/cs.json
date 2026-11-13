@@ -1,0 +1,79 @@
+{
+  "lang_name": "Čeština",
+  "lang_switch_label": "Jazyk",
+  "title": "Selhání fotoaparátu v telefonu: co dělat, když nefunguje",
+  "meta_description": "Selhání fotoaparátu, nelze se připojit k fotoaparátu, černá obrazovka nebo aplikace Fotoaparát padá na Androidu? Řešení od nejsnazších.",
+  "og_title": "Selhání fotoaparátu a nelze se připojit k fotoaparátu: jak to opravit na Androidu",
+  "og_description": "Selhání fotoaparátu, nelze se připojit k fotoaparátu, černá obrazovka nebo aplikace Fotoaparát padá na Androidu? Řešení od nejsnazších.",
+  "h1_main": "„Selhání fotoaparátu“ a „Nelze se připojit k fotoaparátu“:",
+  "h1_accent": "jak to opravit",
+  "intro": [
+    "Upozornění „Selhání fotoaparátu“ na telefonech Samsung, hláška „Nelze se připojit k fotoaparátu“, černá obrazovka ve fotoaparátu nebo aplikace Fotoaparát, která pořád padá, jsou na Androidu časté potíže. Pokud je příčina v softwaru, často to jde opravit vlastními silami.",
+    "Projděte kroky od nejsnazších k nejtěžším. Jakmile fotoaparát znovu funguje, můžete skončit."
+  ],
+  "howto_name": "Jak opravit „Selhání fotoaparátu“ a „Nelze se připojit k fotoaparátu“ na Androidu",
+  "howto_description": "Postup, jak opravit chybu fotoaparátu, černou obrazovku nebo padající aplikaci Fotoaparát v telefonu s Androidem či Samsungu, od nejsnazších kroků po nejtěžší.",
+  "steps": [
+    {
+      "title": "Restartujte telefon",
+      "body": "Podržte tlačítko napájení a vyberte <b>Restartovat</b>. Tím se odstraní řada dočasných závad služby fotoaparátu. Pokud je úložiště skoro plné nebo je telefon hodně horký, nejdřív uvolněte místo nebo ho nechte vychladnout."
+    },
+    {
+      "title": "Vymažte mezipaměť a data aplikace Fotoaparát",
+      "body": "Otevřete <b>Nastavení › Aplikace</b>, vyberte <b>Fotoaparát</b>, otevřete <b>Úložiště</b> a klepněte na <b>Vymazat mezipaměť</b>. Pokud to nepomůže, klepněte na <b>Vymazat data</b> (na telefonech Samsung se může jmenovat „Vymazat úložiště“ nebo „Vymazat data“). Nastavení fotoaparátu se vrátí na výchozí, ale fotky a videa se nesmažou. U jiných značek se názvy nabídek mírně liší."
+    },
+    {
+      "title": "Zkontrolujte oprávnění a aplikace, které fotoaparát blokují",
+      "body": "V části <b>Oprávnění</b> aplikace Fotoaparát zkontrolujte, že je povolený přístup k fotoaparátu. Pokud fotoaparát drží aplikace pro videohovory, svítilna nebo čtečka QR kódů, aplikace Fotoaparát se nemusí otevřít. Tyto aplikace úplně zavřete na obrazovce posledních aplikací a pak fotoaparát otevřete znovu."
+    },
+    {
+      "title": "V nouzovém režimu najděte aplikaci, která vadí",
+      "body": "Nouzový režim dočasně vypne aplikace, které jste nainstalovali. Na většině telefonů se do něj dostanete dlouhým stiskem ikony vypnutí v nabídce napájení, postup se ale liší podle modelu. Pokud fotoaparát v nouzovém režimu funguje, příčinou je některá z vašich aplikací. Odinstalujte postupně nedávno nainstalované aplikace, hlavně filtry fotoaparátu, efekty a nahrávání obrazovky. Pokud fotoaparát selhává i v nouzovém režimu, aplikace nejspíš nejsou příčinou."
+    },
+    {
+      "title": "Aktualizujte systém a aplikace",
+      "body": "V <b>Nastavení › Aktualizace softwaru</b> (název se liší podle výrobce) zkontrolujte, zda je dostupná nová verze, a aktualizujte aplikaci Fotoaparát v Obchodě Play. Chyby fotoaparátu někdy opraví aktualizace."
+    },
+    {
+      "title": "Vyzkoušejte každý objektiv",
+      "body": "V aplikaci Fotoaparát přepínejte mezi předním a zadním fotoaparátem a mezi ultraširokoúhlým, hlavním a teleobjektivem. Pokud se černá obrazovka nebo pád objeví jen u jednoho objektivu, může být problém v něm nebo v jeho modulu. Zkuste i jinou aplikaci fotoaparátu, zjistíte tak, zda chyba není ve výchozí aplikaci. Některé telefony mají i vestavěný diagnostický nástroj výrobce, který umí fotoaparát otestovat."
+    },
+    {
+      "title": "Pokud je to hardware, jděte do servisu",
+      "body": "Pokud nic z výše uvedeného nepomohlo a fotoaparát selhává i v nouzovém režimu, jde nejspíš o hardware. Platí to hlavně tehdy, když <b>nefunguje jen ultraširokoúhlý objektiv</b>, fotoaparát <b>funguje jednou ano, jednou ne</b> nebo potíže začaly po pádu telefonu či zalití vodou. Nechte telefon zkontrolovat v servisu a předtím si zálohujte fotky a videa."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Pro rozbitý fotoaparát",
+  "cta_title": "Když potřebujete fotky před opravou",
+  "cta_intro": "Pokud je servis za několik dní nebo potřebujete fotku hned, může pomoct <b>CamRescue</b>. Hned po spuštění otevře fotoaparát, zachytí krátkou chvíli, kdy vadný fotoaparát funguje, a fotku uloží.",
+  "features": [
+    "<b>Kontrola fotoaparátu</b>: postupně vyzkouší ultraširokoúhlý, hlavní, teleobjektiv a přední objektiv a výsledek uloží jako obrázek, který můžete ukázat v servisu.",
+    "<b>Automatické opakování</b>: když fotoaparát vypadne, aplikace to zkusí znovu, hned jak se vzpamatuje.",
+    "<b>Video, které přežije</b>: když fotoaparát během nahrávání vypadne, uloží se vše, co se do té doby natočilo.",
+    "Čtečka QR a svítilna, bez oprávnění k internetu, bez reklam a bez sledování."
+  ],
+  "cta_note": "CamRescue neopraví hardware. Pomůže vám dál používat poškozený fotoaparát, dokud ho nenecháte opravit nebo nevyměníte. Pokud fungují všechny fotoaparáty, upřímně vám řekne, že aplikaci zatím nepotřebujete.",
+  "play_button": "Stáhnout z Google Play",
+  "video_title": "Video o CamRescue",
+  "faq_title": "Časté dotazy",
+  "faq": [
+    {
+      "q": "Proč mi fotoaparát najednou ukazuje černou obrazovku?",
+      "a": "Často jde o software: závadu aplikace Fotoaparát, jinou aplikaci, která fotoaparát používá, nebo dočasnou chybu systému. Restart a vymazání mezipaměti aplikace Fotoaparát pomáhá v mnoha případech. Pokud se to opakuje a fotoaparát selhává i v nouzovém režimu, může jít o hardware, například o modul fotoaparátu."
+    },
+    {
+      "q": "Smažou se fotky, když vymažu data aplikace Fotoaparát?",
+      "a": "Ne. Vymazání dat aplikace Fotoaparát obnoví její výchozí nastavení. Fotky a videa uložené v galerii zůstanou. I tak je rozumné důležité soubory předem zálohovat."
+    },
+    {
+      "q": "Fotoaparát funguje jednou ano, jednou ne. Je rozbitý?",
+      "a": "Může jít o software, ale pokud výše uvedené kroky nepomůžou, je pravděpodobný hardware. Nechte telefon zkontrolovat v servisu, zvlášť když potíže začaly po pádu nebo kontaktu s vodou."
+    },
+    {
+      "q": "Opraví CamRescue rozbitý fotoaparát?",
+      "a": "Ne. CamRescue neopraví hardware. Pomáhá pořizovat fotky vadným fotoaparátem ve chvílích, kdy funguje. Opravu nebo výměnu musí provést servis."
+    }
+  ],
+  "back_home": "Zpět na úvod Mudol Labs"
+}

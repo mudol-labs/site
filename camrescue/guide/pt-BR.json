@@ -1,0 +1,79 @@
+{
+  "lang_name": "Português (Brasil)",
+  "lang_switch_label": "Idioma",
+  "title": "Falha na câmera ou não consegue conectar: soluções no Android",
+  "meta_description": "Falha na câmera, não é possível conectar-se à câmera, tela preta ou app que fecha sozinho no Android? Veja as soluções, do mais fácil ao mais difícil.",
+  "og_title": "Falha na câmera / Não é possível conectar-se à câmera: como resolver no Android",
+  "og_description": "Falha na câmera, não é possível conectar-se à câmera, tela preta ou app que fecha sozinho no Android? Veja as soluções, do mais fácil ao mais difícil.",
+  "h1_main": "“Falha na câmera” e “Não é possível conectar-se à câmera”:",
+  "h1_accent": "como resolver",
+  "intro": [
+    "“Aviso: falha na câmera” em celulares Samsung, “Não é possível conectar-se à câmera”, tela preta na câmera ou app de câmera que fecha toda hora: são problemas comuns no Android. Quando a causa é o software, muitas vezes dá para resolver sozinho.",
+    "Siga os passos do mais fácil ao mais difícil. Pare assim que a câmera voltar a funcionar."
+  ],
+  "howto_name": "Como resolver “Falha na câmera” e “Não é possível conectar-se à câmera” no Android",
+  "howto_description": "Passos para resolver erro de câmera, tela preta ou app de câmera que fecha em um celular Android ou Samsung, do mais fácil ao mais difícil.",
+  "steps": [
+    {
+      "title": "Reinicie o celular",
+      "body": "Segure o botão liga/desliga e escolha <b>Reiniciar</b>. Isso resolve muitas falhas temporárias do serviço da câmera. Se o armazenamento está quase cheio ou o celular está muito quente, libere espaço ou deixe esfriar antes."
+    },
+    {
+      "title": "Limpe o cache e o armazenamento do app Câmera",
+      "body": "Abra <b>Configurações › Apps</b>, escolha o app <b>Câmera</b>, abra <b>Armazenamento</b> e toque em <b>Limpar cache</b>. Se não resolver, toque em <b>Limpar dados</b> (em celulares Samsung: Limpar armazenamento ou Limpar dados). Isso redefine as configurações da câmera, mas não apaga suas fotos e vídeos. Os nomes dos menus variam um pouco conforme a marca."
+    },
+    {
+      "title": "Confira as permissões e os apps que estão usando a câmera",
+      "body": "Nas <b>Permissões</b> do app Câmera, veja se a câmera está permitida. Se um app de videochamada, a lanterna ou um leitor de QR estiver usando a câmera, o app Câmera pode não abrir. Feche esses apps por completo na tela de apps recentes e abra a câmera de novo."
+    },
+    {
+      "title": "Use o modo de segurança para achar um app em conflito",
+      "body": "O modo de segurança desativa temporariamente os apps que você instalou. Na maioria dos celulares, você chega a ele mantendo pressionado o ícone de desligar no menu de energia, mas os passos variam conforme o modelo. Se a câmera funciona no modo de segurança, um dos seus apps é a causa. Desinstale um por vez os apps instalados recentemente, principalmente os de filtros, efeitos ou gravação de tela. Se também falhar no modo de segurança, provavelmente não é um app."
+    },
+    {
+      "title": "Atualize o sistema e os apps",
+      "body": "Em <b>Configurações › Atualização de software</b> (o nome varia conforme a marca), procure uma nova versão e atualize o app Câmera na Play Store. Às vezes as atualizações corrigem erros da câmera."
+    },
+    {
+      "title": "Teste cada lente",
+      "body": "No app Câmera, alterne entre a câmera frontal e a traseira, e entre ultra-angular, principal e teleobjetiva. Se a tela preta ou o fechamento só acontece com uma lente, o problema pode estar nessa lente ou na peça dela. Testar outro app de câmera também mostra se o culpado é o app Câmera padrão. Alguns celulares têm ainda uma ferramenta de diagnóstico do fabricante que pode testar a câmera."
+    },
+    {
+      "title": "Se for hardware, vá a uma assistência técnica",
+      "body": "Se nada acima ajudar e a câmera também falhar no modo de segurança, provavelmente é hardware. Principalmente se <b>só a lente ultra-angular falha</b>, se <b>funciona de vez em quando</b> ou se começou depois de uma queda ou contato com água. Leve a uma assistência técnica e, antes, faça backup das suas fotos e vídeos."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "O app para câmeras quebradas",
+  "cta_title": "Se você precisa de fotos antes do conserto",
+  "cta_intro": "Se a assistência técnica só tem horário daqui a alguns dias ou você precisa de uma foto agora, o <b>CamRescue</b> pode ajudar. Ele abre a câmera assim que você inicia o app, aproveita o breve momento em que uma câmera com defeito funciona e salva a foto.",
+  "features": [
+    "<b>Verificação da câmera</b>: testa as lentes ultra-angular, principal, teleobjetiva e frontal, uma a uma, e salva o resultado como imagem para mostrar na assistência técnica.",
+    "<b>Repetição automática</b>: se a câmera falhar, ele tenta de novo assim que ela volta.",
+    "<b>Vídeo que não se perde</b>: se a câmera parar no meio da gravação, tudo o que foi gravado até ali fica salvo.",
+    "Leitor de QR e lanterna, sem permissão de internet, sem anúncios e sem rastreamento."
+  ],
+  "cta_note": "O CamRescue não conserta o hardware. Ele ajuda você a continuar usando uma câmera danificada até conseguir consertar ou trocar o aparelho. Se todas as suas câmeras funcionam, ele avisa que você ainda não precisa do app.",
+  "play_button": "Disponível no Google Play",
+  "video_title": "Vídeo de apresentação do CamRescue",
+  "faq_title": "Perguntas frequentes",
+  "faq": [
+    {
+      "q": "Por que a câmera mostra de repente uma tela preta?",
+      "a": "Muitas vezes é o software: uma falha no app Câmera, outro app usando a câmera ou um erro temporário do sistema. Reiniciar e limpar o cache do app Câmera resolve muitos casos. Se continuar acontecendo e também falhar no modo de segurança, pode ser hardware, como o módulo da câmera."
+    },
+    {
+      "q": "Limpar os dados do app Câmera apaga minhas fotos?",
+      "a": "Não. Limpar os dados do app Câmera redefine as configurações dele. As fotos e os vídeos salvos na galeria continuam lá. Mesmo assim, é prudente fazer backup dos arquivos importantes antes."
+    },
+    {
+      "q": "Minha câmera funciona de vez em quando. Ela quebrou?",
+      "a": "Pode ser software, mas se os passos acima não resolvem, provavelmente é hardware. Leve a uma assistência técnica, principalmente se começou depois de uma queda ou contato com água."
+    },
+    {
+      "q": "O CamRescue conserta uma câmera quebrada?",
+      "a": "Não. O CamRescue não conserta hardware. Ele ajuda você a tirar fotos nos momentos em que uma câmera com defeito funciona. O conserto ou a troca precisa ser feito por uma assistência técnica."
+    }
+  ],
+  "back_home": "Voltar à página inicial da Mudol Labs"
+}

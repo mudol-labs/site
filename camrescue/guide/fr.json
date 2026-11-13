@@ -1,0 +1,79 @@
+{
+  "lang_name": "Français",
+  "lang_switch_label": "Langue",
+  "title": "Échec de l'appareil photo ou écran noir : solutions Android",
+  "meta_description": "Échec de l'appareil photo, connexion impossible à la caméra, écran noir ou appli qui plante sur Android ? Solutions du plus simple au plus dur.",
+  "og_title": "Échec de l'appareil photo / Impossible de se connecter à la caméra : que faire",
+  "og_description": "Échec de l'appareil photo, connexion impossible à la caméra, écran noir ou appli qui plante sur Android ? Solutions du plus simple au plus dur.",
+  "h1_main": "« Échec de l'appareil photo » et « Impossible de se connecter à la caméra » :",
+  "h1_accent": "comment y remédier",
+  "intro": [
+    "« Attention : échec de l'appareil photo » sur un Samsung, « Impossible de se connecter à la caméra », écran noir dans l'appareil photo ou appli qui s'arrête sans cesse : ces problèmes sont courants sur Android. Quand la cause est logicielle, on peut souvent la régler soi-même.",
+    "Suivez ces étapes du plus simple au plus difficile. Arrêtez-vous dès que l'appareil photo refonctionne."
+  ],
+  "howto_name": "Comment corriger « Échec de l'appareil photo » et « Impossible de se connecter à la caméra » sur Android",
+  "howto_description": "Étapes pour corriger une erreur d'appareil photo, un écran noir ou une appli qui plante sur un téléphone Android ou Samsung, du plus simple au plus dur.",
+  "steps": [
+    {
+      "title": "Redémarrer le téléphone",
+      "body": "Maintenez le bouton d'alimentation et choisissez <b>Redémarrer</b>. Cela élimine bien des blocages temporaires du service de l'appareil photo. Si la mémoire est presque pleine ou si le téléphone est très chaud, libérez de l'espace ou laissez-le refroidir d'abord."
+    },
+    {
+      "title": "Vider le cache et le stockage de l'appli Appareil photo",
+      "body": "Ouvrez <b>Paramètres › Applications</b>, choisissez l'appli <b>Appareil photo</b>, ouvrez <b>Stockage</b> et touchez <b>Vider le cache</b>. Si cela ne suffit pas, touchez <b>Effacer les données</b> (sur Samsung : Effacer le stockage ou Effacer les données). Les réglages de l'appareil photo sont réinitialisés, mais vos photos et vidéos ne sont pas supprimées. Les noms des menus varient un peu selon la marque."
+    },
+    {
+      "title": "Vérifier les autorisations et les applis qui occupent l'appareil photo",
+      "body": "Dans les <b>Autorisations</b> de l'appli Appareil photo, vérifiez que l'appareil photo est autorisé. Si une appli d'appel vidéo, une lampe torche ou un lecteur de QR code utilise la caméra, l'appli Appareil photo peut ne pas s'ouvrir. Fermez complètement ces applis depuis l'écran des applis récentes, puis rouvrez l'appareil photo."
+    },
+    {
+      "title": "Utiliser le mode sans échec pour repérer une appli en conflit",
+      "body": "Le mode sans échec désactive temporairement les applis que vous avez installées. Sur la plupart des téléphones, on y accède en maintenant appuyée l'icône Éteindre dans le menu d'alimentation, mais la méthode varie selon le modèle. Si l'appareil photo fonctionne en mode sans échec, l'une de vos applis est en cause. Désinstallez d'abord, une par une, les applis installées récemment, surtout celles de filtres, d'effets ou d'enregistrement d'écran. Si le problème persiste aussi en mode sans échec, une appli n'est probablement pas en cause."
+    },
+    {
+      "title": "Mettre à jour le système et les applis",
+      "body": "Dans <b>Paramètres › Mise à jour logicielle</b> (le nom varie selon la marque), cherchez une nouvelle version et mettez à jour l'appli Appareil photo dans le Play Store. Les mises à jour corrigent parfois les erreurs de l'appareil photo."
+    },
+    {
+      "title": "Tester chaque objectif",
+      "body": "Dans l'appli Appareil photo, passez de la caméra avant à la caméra arrière, puis entre ultra grand-angle, principal et téléobjectif. Si l'écran noir ou le plantage n'arrive qu'avec un seul objectif, cet objectif ou son composant est peut-être en cause. Essayer une autre appli photo permet aussi de savoir si l'appli Appareil photo par défaut est fautive. Certains téléphones disposent aussi d'un outil de diagnostic du fabricant qui peut tester l'appareil photo."
+    },
+    {
+      "title": "Si c'est le matériel, direction le service après-vente",
+      "body": "Si rien de ce qui précède n'aide et que l'appareil photo échoue aussi en mode sans échec, le matériel est probablement en cause. C'est d'autant plus vrai si <b>seul l'objectif ultra grand-angle échoue</b>, s'il <b>fonctionne par intermittence</b> ou si le problème a commencé après une chute ou un dégât des eaux. Faites-le examiner par un réparateur, en sauvegardant d'abord vos photos et vidéos."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "L'appli pour caméras cassées",
+  "cta_title": "Si vous avez besoin de photos avant la réparation",
+  "cta_intro": "Si le rendez-vous de réparation est dans plusieurs jours ou si vous avez besoin d'une photo tout de suite, <b>CamRescue</b> peut aider. L'appli ouvre la caméra dès son lancement, saisit le bref instant où une caméra défaillante fonctionne, puis enregistre la photo.",
+  "features": [
+    "<b>Test de l'appareil photo</b> : vérifie un à un les objectifs ultra grand-angle, principal, téléobjectif et avant, et enregistre le résultat sous forme d'image à montrer à un réparateur.",
+    "<b>Nouvel essai auto</b> : si la caméra lâche, l'appli réessaie dès qu'elle revient.",
+    "<b>Vidéo qui tient bon</b> : si la caméra s'arrête en plein enregistrement, tout ce qui a été filmé jusque-là est conservé.",
+    "Lecteur de QR code et lampe torche, sans autorisation Internet, sans pub et sans pistage."
+  ],
+  "cta_note": "CamRescue ne peut pas réparer le matériel. L'appli vous aide à continuer d'utiliser une caméra abîmée en attendant de la faire réparer ou remplacer. Si toutes vos caméras fonctionnent, elle vous dit que vous n'en avez pas encore besoin.",
+  "play_button": "Disponible sur Google Play",
+  "video_title": "Vidéo de présentation de CamRescue",
+  "faq_title": "Questions fréquentes",
+  "faq": [
+    {
+      "q": "Pourquoi mon appareil photo affiche-t-il soudain un écran noir ?",
+      "a": "C'est souvent d'origine logicielle : un bug de l'appli Appareil photo, une autre appli qui utilise la caméra ou une erreur système temporaire. Un redémarrage et le vidage du cache de l'appli règlent bien des cas. Si cela se répète et que le problème persiste en mode sans échec, il peut s'agir du matériel, par exemple du module de la caméra."
+    },
+    {
+      "q": "Effacer les données de l'appli Appareil photo supprime-t-il mes photos ?",
+      "a": "Non. Effacer les données de l'appli Appareil photo réinitialise ses réglages. Les photos et vidéos de votre galerie restent en place. Il est quand même prudent de sauvegarder d'abord les fichiers importants."
+    },
+    {
+      "q": "Mon appareil photo marche par intermittence. Est-il cassé ?",
+      "a": "Cela peut venir du logiciel, mais si les étapes ci-dessus n'y changent rien, le matériel est probablement en cause. Faites-le examiner par un réparateur, surtout si cela a commencé après une chute ou un contact avec l'eau."
+    },
+    {
+      "q": "CamRescue répare-t-il une caméra cassée ?",
+      "a": "Non. CamRescue ne peut pas réparer le matériel. L'appli vous aide à prendre des photos pendant les instants où une caméra défaillante fonctionne. La réparation ou le remplacement doit être fait par un réparateur."
+    }
+  ],
+  "back_home": "Retour à l'accueil de Mudol Labs"
+}

@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="{{html_lang}}" dir="{{dir}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{title}} | Mudol Labs</title>
+<meta name="description" content="{{meta_description}}">
+<link rel="canonical" href="{{page_url}}">
+{{hreflang_links}}
+<meta property="og:title" content="{{og_title}}">
+<meta property="og:description" content="{{og_description}}">
+<meta property="og:image" content="{{site}}/assets/og.jpg">
+<meta property="og:url" content="{{page_url}}">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="{{og_locale}}">
+{{og_alternates}}
+<meta name="theme-color" content="#1e2133">
+<link rel="icon" type="image/png" href="../assets/mudol-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+  /* 로고(어두운 남색 + 분홍·보라·하늘·주황 그라데이션)에 맞춘 어두운 한 장짜리 소개 페이지 */
+  :root {
+    --bg: #14161f;
+    --bg-hero: #1e2133;
+    --surface: #1b1e2b;
+    --surface-2: #232737;
+    --fg: #f3f3f6;
+    --muted: #a3a6b8;
+    --line: #2c3043;
+    --pink: #e64ea0;
+    --violet: #8b5cf6;
+    --cyan: #3cc8d8;
+    --orange: #ff9a4a;
+    --amber: #ffc531;
+    --brand-grad: linear-gradient(100deg, var(--pink), var(--violet) 35%, var(--cyan) 65%, var(--orange));
+    --font: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Noto Sans KR", "Noto Sans", "Noto Sans Arabic", "Noto Sans Thai", "Noto Sans Devanagari", "Noto Sans Bengali", "Noto Sans SC", "Noto Sans TC", "Noto Sans JP", system-ui, -apple-system, sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box }
+  html { -webkit-text-size-adjust: 100% }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 var(--font); overflow-x: hidden }
+  a { color: inherit }
+  img { display: block; max-width: 100% }
+  .wrap { max-width: 64rem; margin: 0 auto; padding-inline: max(16px, env(safe-area-inset-left), env(safe-area-inset-right)) }
+
+  /* 위쪽 바 */
+  .top { position: absolute; inset: 0 0 auto; z-index: 2 }
+  .top .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px }
+  .mark { display: flex; align-items: center; gap: .6rem; font-weight: 700; text-decoration: none; letter-spacing: -.01em }
+  .mark img { width: 30px; height: 30px }
+
+  /* 첫 화면 */
+  .hero { position: relative; background: var(--bg-hero); overflow: hidden; padding: 128px 0 96px; text-align: center }
+  .hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; filter: blur(90px); opacity: .45; pointer-events: none }
+  .hero::before { width: 520px; height: 520px; left: 50%; top: 40px; transform: translateX(-75%); background: var(--violet) }
+  .hero::after { width: 420px; height: 420px; left: 50%; top: 140px; transform: translateX(10%); background: var(--cyan); opacity: .25 }
+  .hero > .wrap { position: relative }
+  .hero .logo { width: 132px; height: 132px; margin: 0 auto 28px; border-radius: 50%; box-shadow: 0 20px 60px rgba(0,0,0,.45) }
+  .hero h1 { margin: 0; font-size: clamp(2.4rem, 7vw, 4rem); line-height: 1.1; letter-spacing: -.03em }
+  .hero h1 span { background: var(--brand-grad); -webkit-background-clip: text; background-clip: text; color: transparent }
+  .hero p { margin: 1rem auto 0; max-width: 34rem; color: var(--muted); font-size: clamp(1.05rem, 2.6vw, 1.2rem) }
+  .values { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; margin: 2rem 0 0; padding: 0; list-style: none }
+  .values li { padding: .35rem .85rem; border: 1px solid var(--line); border-radius: 999px; background: rgba(255,255,255,.04); font-size: .9rem; color: var(--fg) }
+
+  section { padding: 80px 0 }
+  .eyebrow { font-size: .8rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); margin: 0 0 .75rem }
+  h2 { margin: 0 0 2rem; font-size: clamp(1.6rem, 4vw, 2.1rem); letter-spacing: -.02em; line-height: 1.25 }
+
+  /* 앱 카드 */
+  .app { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 40px; align-items: center;
+         background: var(--surface); border: 1px solid var(--line); border-radius: 28px; padding: 40px; overflow: hidden }
+  .app-head { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.25rem }
+  .app-head img { width: 72px; height: 72px; border-radius: 18px; flex: none }
+  .app-head h3 { margin: 0; font-size: 1.45rem; letter-spacing: -.01em; line-height: 1.25 }
+  .app-head .sub { color: var(--muted); font-size: .95rem }
+  .app .lead { margin: 0 0 1.25rem; font-size: 1.05rem }
+  .features { margin: 0 0 1.75rem; padding: 0; list-style: none; display: grid; gap: .55rem }
+  .features li { display: flex; gap: .65rem; color: var(--muted) }
+  .features li::before { content: ""; flex: none; width: 8px; height: 8px; margin-top: .62em; border-radius: 50%; background: var(--amber) }
+  .features b { color: var(--fg); font-weight: 600 }
+  .badges { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center }
+  .btn { display: inline-flex; align-items: center; gap: .45rem; padding: .7rem 1.15rem; border-radius: 999px; font-weight: 600; font-size: .95rem; text-decoration: none }
+  .btn.soon { background: var(--amber); color: #1a1400; cursor: default }
+  .btn.ghost { border: 1px solid var(--line); color: var(--fg) }
+  .btn.ghost:hover { border-color: var(--muted) }
+  .btn:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px }
+
+  .shots { display: flex; align-items: flex-start; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 4px 4px 12px; margin: -4px;
+           scrollbar-width: thin; scrollbar-color: var(--line) transparent }
+  .shots img { flex: none; width: 46%; max-width: 216px; height: auto; aspect-ratio: 9 / 16; border-radius: 16px;
+               border: 1px solid var(--line); scroll-snap-align: start; background: var(--surface-2) }
+
+  /* 원칙 */
+  .principles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px }
+  .principle { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 24px }
+  .principle .dot { width: 36px; height: 36px; border-radius: 12px; margin-bottom: 1rem }
+  .principle h3 { margin: 0 0 .35rem; font-size: 1.1rem }
+  .principle p { margin: 0; color: var(--muted); font-size: .95rem }
+
+  /* 연락처 */
+  .contact { text-align: center; background: var(--surface); border: 1px solid var(--line); border-radius: 28px; padding: 48px 24px }
+  .contact h2 { margin-bottom: .75rem }
+  .contact p { margin: 0 0 1.5rem; color: var(--muted) }
+  .mail { font-size: clamp(1.1rem, 3.5vw, 1.4rem); font-weight: 600; text-decoration: none;
+          background: var(--brand-grad); -webkit-background-clip: text; background-clip: text; color: transparent }
+
+  footer { padding: 40px 0 56px; color: var(--muted); font-size: .85rem; text-align: center }
+
+  html[lang="ko"] body { word-break: keep-all; overflow-wrap: anywhere } /* 한국어는 어절 단위로 줄바꿈 */
+
+  @media (max-width: 760px) {
+    .hero { padding: 104px 0 72px }
+    section { padding: 56px 0 }
+    .app { grid-template-columns: minmax(0, 1fr); padding: 24px; gap: 28px; border-radius: 22px }
+    .principles { grid-template-columns: minmax(0, 1fr) }
+  }
+  @media (prefers-reduced-motion: no-preference) { .btn, .shots img { transition: transform .2s } .btn.ghost:hover { transform: translateY(-1px) } }
+
+  /* 안내 글 페이지 전용 */
+  .top { position: static; background: var(--bg-hero); border-bottom: 1px solid var(--line) }
+  .lang { position: relative }
+  .lang summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: .45rem; padding: .35rem .9rem; border: 1px solid var(--line); border-radius: 999px;
+                  background: rgba(255,255,255,.06); font-size: .85rem; color: var(--fg) }
+  .lang summary::-webkit-details-marker { display: none }
+  .lang summary::after { content: ""; width: .45em; height: .45em; border: solid currentColor; border-width: 0 2px 2px 0; transform: translateY(-.1em) rotate(45deg) }
+  .lang summary:focus-visible, .lang a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px }
+  .lang ul { position: absolute; inset-block-start: calc(100% + 8px); inset-inline-end: 0; z-index: 5; margin: 0; padding: 8px; list-style: none; width: min(22rem, calc(100vw - 32px));
+             display: grid; grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr)); gap: 2px; max-height: 70vh; overflow-y: auto;
+             background: var(--surface-2); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 16px 40px rgba(0,0,0,.5) }
+  .lang a { display: block; padding: .4rem .7rem; border-radius: 10px; font-size: .88rem; color: var(--muted); text-decoration: none }
+  .lang a:hover { background: rgba(255,255,255,.06); color: var(--fg) }
+  .lang a[aria-current="page"] { background: var(--fg); color: var(--bg); font-weight: 600 }
+  .guide { padding: 56px 0 24px }
+  .guide .wrap { max-width: 46rem }
+  .guide h1 { margin: 0 0 1rem; font-size: clamp(1.9rem, 6vw, 2.8rem); line-height: 1.2; letter-spacing: -.03em; text-wrap: balance }
+  .guide h1 span { background: var(--brand-grad); -webkit-background-clip: text; background-clip: text; color: transparent }
+  .guide .intro { color: var(--muted); font-size: 1.08rem; margin: 0 0 .75rem }
+  .guide h2 { margin: 3rem 0 1.25rem; font-size: clamp(1.4rem, 4vw, 1.8rem) }
+  .guide p { margin: 0 0 1rem }
+  .steps { margin: 0; padding: 0; list-style: none; counter-reset: s; display: grid; gap: 14px }
+  .steps li { counter-increment: s; position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding-block: 18px; padding-inline: 64px 20px }
+  .steps li::before { content: counter(s); position: absolute; inset-inline-start: 18px; top: 18px; width: 30px; height: 30px; border-radius: 50%; background: var(--brand-grad); color: #14161f; font-weight: 700; display: grid; place-items: center; font-size: .95rem }
+  .steps h3 { margin: 0 0 .3rem; font-size: 1.1rem; line-height: 1.35 }
+  .steps p { margin: 0; color: var(--muted); font-size: .97rem }
+  .steps b, .faq b { color: var(--fg); font-weight: 600 }
+  .note { background: var(--surface-2); border-inline-start: 3px solid var(--amber); border-radius: 10px; padding: .9rem 1.1rem; color: var(--muted); font-size: .95rem }
+  .cta { background: var(--surface); border: 1px solid var(--line); border-radius: 24px; padding: 28px; margin-top: 2.5rem }
+  .cta .app-head { margin-bottom: 1rem }
+  .cta h2 { margin: 0 0 1rem }
+  .btn.play { background: var(--amber); color: #1a1400 }
+  .btn.play:hover { filter: brightness(1.06) }
+  .video { position: relative; aspect-ratio: 16 / 9; margin-top: 1.5rem; border-radius: 16px; overflow: hidden; border: 1px solid var(--line); background: #000 }
+  .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0 }
+  .faq details { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 18px; margin-bottom: 10px }
+  .faq summary { cursor: pointer; font-weight: 600; line-height: 1.45 }
+  .faq summary:focus-visible { outline: 2px solid var(--cyan); outline-offset: 4px; border-radius: 4px }
+  .faq details p { margin: .7rem 0 0; color: var(--muted) }
+  .back { margin: 2.5rem 0 0; text-align: center }
+</style>
+<script type="application/ld+json">
+{{json_ld}}
+</script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="../"><img src="../assets/mudol-logo.png" alt="" width="30" height="30">Mudol Labs</a>
+    <nav aria-label="{{lang_switch_label}}">
+      <details class="lang">
+        <summary lang="{{html_lang}}">{{lang_name}}</summary>
+        <ul>
+{{lang_links}}
+        </ul>
+      </details>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <article class="guide">
+  <div class="wrap">
+    <h1>{{h1_main}} <span>{{h1_accent}}</span></h1>
+{{intro}}
+
+    <ol class="steps" style="margin-top:2rem">
+{{steps}}
+    </ol>
+
+    <aside class="cta" aria-labelledby="cta-title">
+      <div class="app-head">
+        <img src="../assets/camrescue-icon.png" alt="" width="72" height="72">
+        <div><div style="font-weight:700;font-size:1.25rem">{{app_name}}</div><div class="sub">{{app_tagline}}</div></div>
+      </div>
+      <h2 id="cta-title">{{cta_title}}</h2>
+      <p>{{cta_intro}}</p>
+      <ul class="features">
+{{features}}
+      </ul>
+      <p class="note">{{cta_note}}</p>
+      <div class="badges" style="margin-top:1.25rem">
+        <a class="btn play" href="https://play.google.com/store/apps/details?id=com.mudol.camrescue&amp;hl={{play_hl}}" rel="noopener">{{play_button}}</a>
+      </div>
+      <div class="video">
+        <iframe src="https://www.youtube-nocookie.com/embed/{{video_id}}" title="{{video_title}}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </aside>
+
+    <section class="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">{{faq_title}}</h2>
+{{faq}}
+    </section>
+
+    <p class="back"><a class="btn ghost" href="../">{{back_home}}</a></p>
+  </div>
+  </article>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Mudol Labs</div>
+</footer>
+</body>
+</html>

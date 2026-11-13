@@ -1,0 +1,79 @@
+{
+  "lang_name": "Filipino",
+  "lang_switch_label": "Wika",
+  "title": "Camera Failed, Can't Connect to Camera, Black Screen: Paano Ayusin sa Android",
+  "meta_description": "Camera failed, hindi makakonekta sa camera, black screen, o paulit-ulit na humihinto ang camera app sa Android? Subukan ang mga ayos mula sa pinakamadali.",
+  "og_title": "Camera Failed / Hindi Makakonekta sa Camera: Paano Ayusin sa Android at Samsung",
+  "og_description": "Camera failed, hindi makakonekta sa camera, black screen, o paulit-ulit na humihinto ang camera app sa Android? Subukan ang mga ayos mula sa pinakamadali.",
+  "h1_main": "“Camera failed” at “Hindi makakonekta sa camera”:",
+  "h1_accent": "paano ayusin",
+  "intro": [
+    "Ang “Warning: Camera failed” sa mga Samsung phone, “Can't connect to the camera”, black screen sa camera, o camera app na paulit-ulit na humihinto ay karaniwang problema sa Android. Kung software ang sanhi, madalas ay kaya mo itong ayusin mag-isa.",
+    "Sundan ang mga hakbang na ito mula sa pinakamadali hanggang sa pinakamahirap. Huminto na kapag gumana na ulit ang camera."
+  ],
+  "howto_name": "Paano ayusin ang “Camera failed” at “Can't connect to camera” sa Android",
+  "howto_description": "Mga hakbang para ayusin ang camera error, black screen, o camera app na paulit-ulit na humihinto sa Android at Samsung phone, nakaayos mula sa pinakamadali.",
+  "steps": [
+    {
+      "title": "I-restart ang phone",
+      "body": "Pindutin nang matagal ang power button at piliin ang <b>Restart</b>. Naaalis nito ang maraming pansamantalang aberya ng camera service. Kung halos puno na ang storage o sobrang init ng phone, magbakante muna ng espasyo o hayaan itong lumamig."
+    },
+    {
+      "title": "I-clear ang cache at storage ng Camera app",
+      "body": "Buksan ang <b>Settings > Apps</b>, piliin ang <b>Camera</b> app, buksan ang <b>Storage</b>, at i-tap ang <b>Clear cache</b>. Kung hindi pa rin gumana, i-tap ang <b>Clear data</b> (sa mga Samsung phone, maaaring Clear storage o Clear data). Magre-reset ang mga setting ng camera pero hindi buburahin ang mga litrato at video mo. Medyo nag-iiba ang pangalan ng menu sa bawat brand."
+    },
+    {
+      "title": "Suriin ang permissions at ang mga app na gumagamit ng camera",
+      "body": "Sa <b>Permissions</b> ng Camera app, tiyaking pinapayagan ang Camera. Kung may video call app, flashlight, o QR scanner na gumagamit ng camera, maaaring hindi mabuksan ang Camera app. Isara nang tuluyan ang mga iyon mula sa recent apps screen, tapos buksan ulit ang camera."
+    },
+    {
+      "title": "Gamitin ang safe mode para hanapin ang app na sumasalungat",
+      "body": "Pansamantalang ino-off ng safe mode ang mga app na na-install mo. Sa karamihan ng phone, pindutin nang matagal ang power-off icon sa power menu para makapasok, pero iba-iba ang hakbang depende sa modelo. Kung gumagana ang camera sa safe mode, isa sa mga app mo ang sanhi. I-uninstall nang isa-isa ang mga bagong-install na app, lalo na ang mga camera filter, effects, o screen recorder app. Kung pumapalya rin ito sa safe mode, malamang na hindi app ang sanhi."
+    },
+    {
+      "title": "I-update ang system at mga app",
+      "body": "Sa <b>Settings > Software update</b> (nag-iiba ang pangalan depende sa brand), tingnan kung may bagong bersyon, at i-update din ang Camera app sa Play Store. Minsan naaayos ang camera error sa pamamagitan ng update."
+    },
+    {
+      "title": "Subukan ang bawat lens",
+      "body": "Sa Camera app, magpalit sa pagitan ng front at rear camera, at sa pagitan ng ultra-wide, main, at telephoto. Kung sa isang lens lang nangyayari ang black screen o pag-crash, maaaring ang lens na iyon o ang bahagi nito ang may problema. Makakatulong din ang pagsubok ng ibang camera app para malaman kung ang default na Camera app ang may sira. May ilang phone na may built-in na diagnostics tool mula sa manufacturer na puwedeng gamitin para i-test ang camera."
+    },
+    {
+      "title": "Kung hardware ang problema, pumunta sa service center",
+      "body": "Kung walang tumulong sa mga hakbang sa itaas at pumapalya rin ang camera sa safe mode, malamang na hardware ito. Lalo na kung <b>ang ultra-wide lens lang ang pumapalya</b>, <b>paminsan-minsan lang gumagana</b>, o nagsimula ito pagkatapos mahulog ang phone o mabasa. Ipasuri ito sa service center, at i-back up muna ang mga litrato at video mo."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Camera para sa sirang camera",
+  "cta_title": "Kung kailangan mo ng litrato bago maipaayos",
+  "cta_intro": "Kung ilang araw pa bago ang appointment sa service o kailangan mo ng litrato ngayon na, baka makatulong ang <b>CamRescue</b>. Binubuksan nito agad ang camera pagka-launch mo ng app at sinasalo ang maikling sandaling gumagana ang may-problemang camera, tapos sine-save ang litrato.",
+  "features": [
+    "<b>Camera check</b>: tine-test nang isa-isa ang ultra-wide, main, telephoto, at front lens, at sine-save ang resulta bilang image na puwede mong ipakita sa repair shop.",
+    "<b>Auto retry</b>: kapag nawala ang camera, susubok ulit ito sa sandaling bumalik ang camera.",
+    "<b>Video na hindi nawawala</b>: kung mamatay ang camera habang nagre-record, naka-save ang lahat ng na-record hanggang doon.",
+    "May QR reader at flashlight, walang internet permission, walang ads, at walang tracking."
+  ],
+  "cta_note": "Hindi kayang ayusin ng CamRescue ang hardware. Tinutulungan ka nitong magamit pa rin ang sirang camera hanggang maipaayos o mapalitan mo ito. Kung gumagana ang lahat ng camera mo, sasabihin nitong hindi mo pa kailangan ang app.",
+  "play_button": "I-download sa Google Play",
+  "video_title": "Intro video ng CamRescue",
+  "faq_title": "Mga madalas itanong",
+  "faq": [
+    {
+      "q": "Bakit biglang nag-black screen ang camera ko?",
+      "a": "Madalas ay software ang sanhi: aberya sa Camera app, ibang app na gumagamit ng camera, o pansamantalang system error. Naaayos ng restart at pag-clear ng cache ng Camera app ang maraming kaso. Kung paulit-ulit pa rin at pumapalya rin sa safe mode, maaaring hardware ito gaya ng camera module."
+    },
+    {
+      "q": "Buburahin ba ng pag-clear ng data ng Camera app ang mga litrato ko?",
+      "a": "Hindi. Ang pag-clear ng data ng Camera app ay nire-reset lang ang mga setting nito. Mananatili ang mga litrato at video na naka-save sa gallery mo. Pero mas mainam pa ring i-back up muna ang mahahalagang file."
+    },
+    {
+      "q": "Paminsan-minsan lang gumagana ang camera ko. Sira na ba ito?",
+      "a": "Puwedeng software lang, pero kung hindi ito natigil ng mga hakbang sa itaas, malamang na hardware. Ipasuri ito sa service center, lalo na kung nagsimula ito pagkatapos mahulog ang phone o mabasa."
+    },
+    {
+      "q": "Inaayos ba ng CamRescue ang sirang camera?",
+      "a": "Hindi. Hindi kayang ayusin ng CamRescue ang hardware. Tinutulungan ka nitong makakuha ng litrato mula sa may-problemang camera sa mga sandaling gumagana ito. Ang pagpapaayos o pagpapalit ay kailangang gawin ng service center."
+    }
+  ],
+  "back_home": "Bumalik sa home ng Mudol Labs"
+}

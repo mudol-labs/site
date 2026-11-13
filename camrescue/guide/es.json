@@ -1,0 +1,79 @@
+{
+  "lang_name": "Español",
+  "lang_switch_label": "Idioma",
+  "title": "Error de cámara o no se puede conectar a la cámara: soluciones",
+  "meta_description": "¿Error de cámara, no se puede conectar a la cámara, pantalla negra o app que se cierra en Android? Soluciones de las más fáciles a las difíciles.",
+  "og_title": "Error de cámara / No se puede conectar a la cámara: cómo solucionarlo en Android",
+  "og_description": "¿Error de cámara, no se puede conectar a la cámara, pantalla negra o app que se cierra en Android? Soluciones de las más fáciles a las difíciles.",
+  "h1_main": "«Error de cámara» y «No se puede conectar a la cámara»:",
+  "h1_accent": "cómo solucionarlo",
+  "intro": [
+    "«Advertencia: error de la cámara» en un Samsung, «No se puede conectar a la cámara», pantalla negra en la cámara o una app de cámara que se cierra una y otra vez: son problemas habituales en Android. Si la causa es el software, muchas veces puedes arreglarlo tú mismo.",
+    "Sigue estos pasos de lo más fácil a lo más difícil. Para en cuanto la cámara vuelva a funcionar."
+  ],
+  "howto_name": "Cómo solucionar «Error de cámara» y «No se puede conectar a la cámara» en Android",
+  "howto_description": "Pasos para solucionar un error de cámara, una pantalla negra o una app de cámara que se cierra en un móvil Android o Samsung, de lo más fácil a lo más difícil.",
+  "steps": [
+    {
+      "title": "Reinicia el móvil",
+      "body": "Mantén pulsado el botón de encendido y elige <b>Reiniciar</b>. Así se resuelven muchos fallos temporales del servicio de la cámara. Si el almacenamiento está casi lleno o el móvil está muy caliente, libera espacio o deja que se enfríe primero."
+    },
+    {
+      "title": "Borra la caché y el almacenamiento de la app Cámara",
+      "body": "Abre <b>Ajustes › Aplicaciones</b>, elige la app <b>Cámara</b>, abre <b>Almacenamiento</b> y pulsa <b>Borrar caché</b>. Si no basta, pulsa <b>Borrar datos</b> (en Samsung: Borrar almacenamiento o Borrar datos). Esto restablece los ajustes de la cámara, pero no borra tus fotos ni vídeos. Los nombres de los menús varían un poco según la marca."
+    },
+    {
+      "title": "Comprueba los permisos y las apps que estén usando la cámara",
+      "body": "En los <b>Permisos</b> de la app Cámara, asegúrate de que la cámara esté permitida. Si una app de videollamadas, la linterna o un lector de QR está usando la cámara, la app Cámara puede no abrirse. Cierra del todo esas apps desde la pantalla de apps recientes y vuelve a abrir la cámara."
+    },
+    {
+      "title": "Usa el modo seguro para encontrar una app que cause conflicto",
+      "body": "El modo seguro desactiva temporalmente las apps que has instalado. En la mayoría de los móviles se accede manteniendo pulsado el icono de apagar en el menú de encendido, aunque los pasos varían según el modelo. Si la cámara funciona en modo seguro, la causa es una de tus apps. Desinstala una por una las apps instaladas hace poco, sobre todo las de filtros, efectos o grabación de pantalla. Si también falla en modo seguro, es probable que no sea culpa de una app."
+    },
+    {
+      "title": "Actualiza el sistema y las apps",
+      "body": "En <b>Ajustes › Actualización de software</b> (el nombre varía según la marca), busca una versión nueva y actualiza la app Cámara en Play Store. A veces las actualizaciones corrigen los errores de cámara."
+    },
+    {
+      "title": "Prueba cada objetivo",
+      "body": "En la app Cámara, cambia entre la cámara frontal y la trasera, y entre ultra gran angular, principal y teleobjetivo. Si la pantalla negra o el cierre solo ocurre con un objetivo, el problema puede estar en ese objetivo o en su componente. Probar otra app de cámara también te dice si la culpable es la app Cámara predeterminada. Algunos móviles incluyen además una herramienta de diagnóstico del fabricante que puede revisar la cámara."
+    },
+    {
+      "title": "Si es el hardware, acude al servicio técnico",
+      "body": "Si nada de lo anterior ayuda y la cámara también falla en modo seguro, lo más probable es que sea el hardware. Sobre todo si <b>solo falla el objetivo ultra gran angular</b>, <b>funciona a ratos</b> o empezó tras una caída o un daño por agua. Llévalo a revisar a un servicio técnico y haz antes una copia de seguridad de tus fotos y vídeos."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "La app para cámaras rotas",
+  "cta_title": "Si necesitas hacer fotos antes de la reparación",
+  "cta_intro": "Si la cita en el servicio técnico está a varios días o necesitas una foto ahora mismo, <b>CamRescue</b> puede ayudarte. Abre la cámara en cuanto la inicias, aprovecha el breve momento en que una cámara averiada funciona y guarda la foto.",
+  "features": [
+    "<b>Revisión de cámara</b>: prueba uno por uno los objetivos ultra gran angular, principal, teleobjetivo y frontal, y guarda el resultado como imagen para enseñarla en el servicio técnico.",
+    "<b>Reintento automático</b>: si la cámara falla, vuelve a intentarlo en cuanto se recupera.",
+    "<b>Vídeo que se salva</b>: si la cámara se apaga en plena grabación, se guarda todo lo grabado hasta ese momento.",
+    "Lector de QR y flash, sin permiso de internet, sin anuncios y sin rastreo."
+  ],
+  "cta_note": "CamRescue no puede reparar el hardware. Te ayuda a seguir usando una cámara dañada hasta que puedas repararla o cambiarla. Si todas tus cámaras funcionan, te dice que aún no necesitas la app.",
+  "play_button": "Disponible en Google Play",
+  "video_title": "Vídeo de presentación de CamRescue",
+  "faq_title": "Preguntas frecuentes",
+  "faq": [
+    {
+      "q": "¿Por qué mi cámara muestra de repente una pantalla negra?",
+      "a": "Muchas veces es el software: un fallo de la app Cámara, otra app que usa la cámara o un error temporal del sistema. Reiniciar y borrar la caché de la app Cámara soluciona muchos casos. Si se repite y también falla en modo seguro, puede ser el hardware, por ejemplo el módulo de la cámara."
+    },
+    {
+      "q": "¿Borrar los datos de la app Cámara elimina mis fotos?",
+      "a": "No. Borrar los datos de la app Cámara restablece sus ajustes. Las fotos y vídeos guardados en tu galería se conservan. Aun así, conviene hacer antes una copia de seguridad de los archivos importantes."
+    },
+    {
+      "q": "Mi cámara funciona a ratos. ¿Está rota?",
+      "a": "Puede ser el software, pero si los pasos anteriores no lo detienen, lo más probable es que sea el hardware. Llévalo a revisar a un servicio técnico, sobre todo si empezó tras una caída o contacto con agua."
+    },
+    {
+      "q": "¿CamRescue repara una cámara rota?",
+      "a": "No. CamRescue no puede reparar el hardware. Te ayuda a hacer fotos en los momentos en que una cámara averiada funciona. La reparación o el cambio tiene que hacerlos un servicio técnico."
+    }
+  ],
+  "back_home": "Volver al inicio de Mudol Labs"
+}

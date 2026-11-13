@@ -1,0 +1,79 @@
+{
+  "lang_name": "Svenska",
+  "lang_switch_label": "Språk",
+  "title": "Kameran misslyckades eller kan inte ansluta: lösningar för Android",
+  "meta_description": "Kameran misslyckades, kan inte ansluta till kameran, svart skärm eller kameraappen kraschar på Android? Testa lösningarna, från enklast till svårast.",
+  "og_title": "Kameran misslyckades / Kan inte ansluta till kameran: så fixar du det på Android",
+  "og_description": "Kameran misslyckades, kan inte ansluta till kameran, svart skärm eller kameraappen kraschar på Android? Testa lösningarna, från enklast till svårast.",
+  "h1_main": "”Kameran misslyckades” och ”Kan inte ansluta till kameran”:",
+  "h1_accent": "så fixar du det",
+  "intro": [
+    "”Varning: Kameran misslyckades” på Samsung, ”Kan inte ansluta till kameran”, svart skärm i kameran eller en kameraapp som hela tiden kraschar är vanligt på Android. Beror det på mjukvaran kan du ofta fixa det själv.",
+    "Gå igenom stegen från enklast till svårast. Sluta så fort kameran fungerar igen."
+  ],
+  "howto_name": "Så fixar du ”Kameran misslyckades” och ”Kan inte ansluta till kameran” på Android",
+  "howto_description": "Steg för att åtgärda kamerafel, svart skärm eller en kameraapp som kraschar på en Android- eller Samsung-mobil, från enklast till svårast.",
+  "steps": [
+    {
+      "title": "Starta om mobilen",
+      "body": "Håll in strömknappen och välj <b>Starta om</b>. Det löser många tillfälliga fel i kameratjänsten. Om lagringsutrymmet nästan är fullt eller mobilen är mycket varm bör du först frigöra utrymme eller låta den svalna."
+    },
+    {
+      "title": "Rensa cache och lagring för Kamera-appen",
+      "body": "Öppna <b>Inställningar › Appar</b>, välj appen <b>Kamera</b>, öppna <b>Lagring</b> och tryck på <b>Rensa cache</b>. Hjälper inte det trycker du på <b>Rensa data</b> (på Samsung: Rensa lagring eller Rensa data). Då återställs kamerainställningarna, men dina bilder och videor finns kvar. Menynamnen skiljer sig lite mellan märken."
+    },
+    {
+      "title": "Kontrollera behörigheter och appar som använder kameran",
+      "body": "Kontrollera under <b>Behörigheter</b> för Kamera-appen att kameran är tillåten. Om en videosamtalsapp, ficklampan eller en QR-läsare använder kameran kanske Kamera-appen inte går att öppna. Stäng de apparna helt från översikten över senaste appar och öppna sedan kameran igen."
+    },
+    {
+      "title": "Använd felsäkert läge för att hitta en app som krockar",
+      "body": "I felsäkert läge stängs de appar du har installerat tillfälligt av. På de flesta mobiler kommer du dit genom att hålla in ikonen Stäng av i strömmenyn, men stegen skiljer sig mellan modeller. Fungerar kameran i felsäkert läge är det en av dina appar som orsakar felet. Ta bort nyligen installerade appar en i taget, särskilt appar för kamerafilter, effekter eller skärminspelning. Om felet finns kvar även i felsäkert läge beror det troligen inte på en app."
+    },
+    {
+      "title": "Uppdatera systemet och apparna",
+      "body": "Under <b>Inställningar › Programuppdatering</b> (namnet varierar mellan märken) söker du efter en ny version, och du uppdaterar Kamera-appen i Play Butik. Kamerafel åtgärdas ibland av uppdateringar."
+    },
+    {
+      "title": "Testa varje lins",
+      "body": "Växla i Kamera-appen mellan fram- och bakkameran och mellan ultravid, huvudkamera och tele. Om den svarta skärmen eller kraschen bara uppstår med en lins kan det vara den linsen eller dess komponent som är felet. Genom att prova en annan kameraapp ser du också om standardappen Kamera är boven. Vissa mobiler har dessutom ett diagnosverktyg från tillverkaren som kan testa kameran."
+    },
+    {
+      "title": "Är det hårdvara, gå till en serviceverkstad",
+      "body": "Hjälper inget av ovanstående och kameran krånglar även i felsäkert läge är det troligen hårdvara. Särskilt om <b>bara ultravidlinsen fungerar dåligt</b>, om den <b>fungerar av och till</b> eller om det började efter ett fall eller en vattenskada. Låt en serviceverkstad titta på den och säkerhetskopiera dina bilder och videor först."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Kameraappen för trasiga kameror",
+  "cta_title": "Om du behöver bilder innan det är lagat",
+  "cta_intro": "Om verkstadstiden ligger flera dagar bort eller du behöver en bild just nu kan <b>CamRescue</b> hjälpa. Appen öppnar kameran direkt när du startar den, fångar det korta ögonblick när en trasig kamera fungerar och sparar bilden.",
+  "features": [
+    "<b>Kamerakontroll</b>: testar ultravid-, huvud-, tele- och framkameran en i taget och sparar resultatet som en bild du kan visa för en reparatör.",
+    "<b>Automatiskt nytt försök</b>: om kameran faller bort försöker appen igen så fort kameran är tillbaka.",
+    "<b>Video som klarar sig</b>: om kameran dör mitt i en inspelning sparas allt som spelats in fram till dess.",
+    "QR-läsare och ficklampa, utan internetbehörighet, utan reklam och utan spårning."
+  ],
+  "cta_note": "CamRescue kan inte laga hårdvara. Appen hjälper dig att fortsätta använda en skadad kamera tills du kan laga eller byta den. Fungerar alla dina kameror säger appen att du inte behöver den än.",
+  "play_button": "Hämta på Google Play",
+  "video_title": "Presentationsfilm om CamRescue",
+  "faq_title": "Vanliga frågor",
+  "faq": [
+    {
+      "q": "Varför visar kameran plötsligt en svart skärm?",
+      "a": "Ofta beror det på mjukvaran: ett fel i Kamera-appen, en annan app som använder kameran eller ett tillfälligt systemfel. En omstart och rensad cache för Kamera-appen löser många fall. Om det fortsätter och felet finns kvar även i felsäkert läge kan det vara hårdvara, till exempel kameramodulen."
+    },
+    {
+      "q": "Raderas mina bilder om jag rensar data för Kamera-appen?",
+      "a": "Nej. När du rensar data för Kamera-appen återställs bara dess inställningar. Bilder och videor i galleriet finns kvar. Det är ändå klokt att säkerhetskopiera viktiga filer först."
+    },
+    {
+      "q": "Min kamera fungerar av och till. Är den trasig?",
+      "a": "Det kan vara mjukvaran, men om stegen ovan inte hjälper är det troligen hårdvara. Låt en serviceverkstad titta på den, särskilt om det började efter ett fall eller kontakt med vatten."
+    },
+    {
+      "q": "Lagar CamRescue en trasig kamera?",
+      "a": "Nej. CamRescue kan inte laga hårdvara. Appen hjälper dig att ta bilder i de ögonblick en trasig kamera fungerar. Reparation eller byte måste göras av en serviceverkstad."
+    }
+  ],
+  "back_home": "Tillbaka till Mudol Labs startsida"
+}
