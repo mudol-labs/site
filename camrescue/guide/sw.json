@@ -1,0 +1,79 @@
+{
+  "lang_name": "Kiswahili",
+  "lang_switch_label": "Lugha",
+  "title": "Kamera Imeshindwa au Imeshindwa Kuunganisha na Kamera: Suluhisho la Android",
+  "meta_description": "Kamera imeshindwa, imeshindwa kuunganisha na kamera, skrini nyeusi au programu ya kamera inazimika? Jaribu suluhisho hizi kwa mpangilio, rahisi hadi ngumu.",
+  "og_title": "Kamera Imeshindwa / Imeshindwa Kuunganisha na Kamera: Jinsi ya Kurekebisha kwenye Android",
+  "og_description": "Kamera imeshindwa, imeshindwa kuunganisha na kamera, skrini nyeusi au programu ya kamera inazimika? Jaribu suluhisho hizi kwa mpangilio, rahisi hadi ngumu.",
+  "h1_main": "“Kamera imeshindwa” na “Imeshindwa kuunganisha na kamera”:",
+  "h1_accent": "jinsi ya kurekebisha",
+  "intro": [
+    "Ujumbe wa “Onyo: Kamera imeshindwa” kwenye simu za Samsung, “Imeshindwa kuunganisha na kamera”, skrini nyeusi kwenye kamera, au programu ya kamera inayozimika mara kwa mara ni matatizo ya kawaida kwenye Android. Kama chanzo ni programu, mara nyingi unaweza kurekebisha mwenyewe.",
+    "Fuata hatua hizi kwa mpangilio, kutoka rahisi hadi ngumu. Acha mara kamera inapofanya kazi tena."
+  ],
+  "howto_name": "Jinsi ya kurekebisha “Kamera imeshindwa” na “Imeshindwa kuunganisha na kamera” kwenye Android",
+  "howto_description": "Hatua za kurekebisha hitilafu ya kamera, skrini nyeusi au programu ya kamera inayozimika kwenye simu ya Android au Samsung, kuanzia rahisi hadi ngumu.",
+  "steps": [
+    {
+      "title": "Zima kisha uwashe simu",
+      "body": "Bonyeza kitufe cha kuwasha kwa muda mrefu na uchague <b>Anzisha upya</b>. Hii huondoa hitilafu nyingi za muda za huduma ya kamera. Kama hifadhi imejaa karibu kabisa au simu ina joto sana, pata nafasi kwanza au iache ipoe."
+    },
+    {
+      "title": "Futa akiba na data ya programu ya Kamera",
+      "body": "Fungua <b>Mipangilio > Programu</b>, chagua programu ya <b>Kamera</b>, fungua <b>Hifadhi</b> kisha ugonge <b>Futa akiba</b>. Isiposaidia, gonga <b>Futa data</b>. Hii hurudisha mipangilio ya kamera kwenye hali ya awali lakini haifuti picha na video zako. Majina ya menyu hutofautiana kidogo kati ya chapa."
+    },
+    {
+      "title": "Kagua ruhusa na programu zinazoshikilia kamera",
+      "body": "Kwenye <b>Ruhusa</b> za programu ya Kamera, hakikisha Kamera imeruhusiwa. Kama programu ya simu za video, tochi au kisomaji cha QR inashikilia kamera, programu ya Kamera inaweza kushindwa kufunguka. Funga kabisa programu hizo kutoka skrini ya programu za hivi karibuni, kisha ufungue kamera tena."
+    },
+    {
+      "title": "Tumia hali salama kupata programu inayoleta mgongano",
+      "body": "Hali salama huzima kwa muda programu ulizosakinisha. Kwenye simu nyingi unaifikia kwa kubonyeza kwa muda mrefu ikoni ya kuzima kwenye menyu ya nishati, ingawa hatua hutofautiana kulingana na modeli. Kamera ikifanya kazi katika hali salama, programu mojawapo yako ndiyo chanzo. Ondoa kwanza programu zilizosakinishwa hivi karibuni, hasa za vichujio vya kamera, athari au kurekodi skrini, moja baada ya nyingine. Ikishindwa hata katika hali salama, huenda programu si chanzo."
+    },
+    {
+      "title": "Sasisha mfumo na programu",
+      "body": "Kwenye <b>Mipangilio > Sasisho la programu</b> (jina hutofautiana kulingana na chapa), tafuta toleo jipya, na usasishe programu ya Kamera kwenye Play Store. Wakati mwingine hitilafu za kamera hutatuliwa na masasisho."
+    },
+    {
+      "title": "Jaribu kila lenzi",
+      "body": "Kwenye programu ya Kamera, badilisha kati ya kamera ya mbele na ya nyuma, na kati ya lenzi pana zaidi, kuu na telefoto. Skrini nyeusi au kuzima kukitokea kwenye lenzi moja tu, tatizo linaweza kuwa lenzi hiyo au kipuri chake. Kujaribu programu nyingine ya kamera pia kunaonyesha kama programu chaguomsingi ya Kamera ndiyo yenye hitilafu. Baadhi ya simu pia zina zana ya uchunguzi kutoka kwa mtengenezaji inayoweza kujaribu kamera."
+    },
+    {
+      "title": "Kama ni tatizo la vifaa, nenda kituo cha huduma",
+      "body": "Kama hakuna kilichosaidia na kamera pia inashindwa katika hali salama, huenda ni tatizo la vifaa. Hasa kama <b>lenzi pana zaidi pekee ndiyo inashindwa</b>, <b>inafanya kazi kwa vipindi</b>, au ilianza baada ya simu kuanguka au kuloweka maji. Ipeleke ikaguliwe kwenye kituo cha huduma, na uhifadhi nakala ya picha na video zako kwanza."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Kamera Mbovu",
+  "cta_title": "Kama unahitaji picha kabla ya kurekebisha",
+  "cta_intro": "Kama miadi ya huduma ni siku kadhaa mbele au unahitaji picha sasa hivi, <b>CamRescue</b> inaweza kusaidia. Hufungua kamera mara tu unapoianzisha na kunasa muda mfupi ambapo kamera mbovu inafanya kazi, kisha huhifadhi picha.",
+  "features": [
+    "<b>Kagua kamera</b>: hujaribu lenzi pana zaidi, kuu, telefoto na ya mbele moja baada ya nyingine, na kuhifadhi matokeo kama picha unayoweza kumwonyesha fundi.",
+    "<b>Jaribu tena kiotomatiki</b>: kamera ikizima, hujaribu tena mara tu inaporudi.",
+    "<b>Video isiyopotea</b>: kamera ikizima katikati ya kurekodi, kila kitu kilichorekodiwa hadi hapo huhifadhiwa.",
+    "Kisomaji cha QR na tochi, bila ruhusa ya intaneti, bila matangazo na bila ufuatiliaji."
+  ],
+  "cta_note": "CamRescue haiwezi kurekebisha vifaa vya simu. Inakusaidia kuendelea kutumia kamera iliyoharibika hadi utakapoweza kuirekebisha au kuibadilisha. Kama kamera zako zote zinafanya kazi, itakuambia kwamba bado huhitaji programu hii.",
+  "play_button": "Pakua kwenye Google Play",
+  "video_title": "Video ya utangulizi ya CamRescue",
+  "faq_title": "Maswali yanayoulizwa mara kwa mara",
+  "faq": [
+    {
+      "q": "Kwa nini kamera yangu inaonyesha skrini nyeusi ghafla?",
+      "a": "Mara nyingi ni tatizo la programu: hitilafu ya programu ya Kamera, programu nyingine inayotumia kamera, au hitilafu ya muda ya mfumo. Kuzima na kuwasha simu na kufuta akiba ya programu ya Kamera hutatua visa vingi. Ikiendelea kutokea na pia ikashindwa katika hali salama, linaweza kuwa tatizo la vifaa kama moduli ya kamera."
+    },
+    {
+      "q": "Je, kufuta data ya programu ya Kamera kutafuta picha zangu?",
+      "a": "Hapana. Kufuta data ya programu ya Kamera kunarudisha mipangilio yake tu. Picha na video zilizohifadhiwa kwenye ghala hubaki. Bado ni busara kuhifadhi nakala ya faili muhimu kwanza."
+    },
+    {
+      "q": "Kamera yangu inafanya kazi kwa vipindi. Je, imeharibika?",
+      "a": "Inaweza kuwa tatizo la programu, lakini kama hatua zilizo juu hazijalizuia, huenda ni la vifaa. Ipeleke ikaguliwe kwenye kituo cha huduma, hasa kama ilianza baada ya simu kuanguka au kuloweka maji."
+    },
+    {
+      "q": "Je, CamRescue hurekebisha kamera iliyoharibika?",
+      "a": "Hapana. CamRescue haiwezi kurekebisha vifaa. Inakusaidia kupiga picha kutoka kwa kamera mbovu nyakati inapofanya kazi. Kurekebisha au kubadilisha ni lazima kufanywe na kituo cha huduma."
+    }
+  ],
+  "back_home": "Rudi kwenye ukurasa wa Mudol Labs"
+}

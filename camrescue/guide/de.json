@@ -1,0 +1,79 @@
+{
+  "lang_name": "Deutsch",
+  "lang_switch_label": "Sprache",
+  "title": "Kamera fehlgeschlagen oder keine Verbindung: Android-Lösung",
+  "meta_description": "Kamera fehlgeschlagen, keine Verbindung zur Kamera, schwarzer Bildschirm oder Kamera-App stürzt ab? Diese Lösungen helfen, von leicht bis schwer.",
+  "og_title": "Kamera fehlgeschlagen / Keine Verbindung zur Kamera: So beheben Sie es",
+  "og_description": "Kamera fehlgeschlagen, keine Verbindung zur Kamera, schwarzer Bildschirm oder Kamera-App stürzt ab? Diese Lösungen helfen, von leicht bis schwer.",
+  "h1_main": "„Kamera fehlgeschlagen“ und „Keine Verbindung zur Kamera“:",
+  "h1_accent": "So beheben Sie es",
+  "intro": [
+    "„Warnung: Kamera fehlgeschlagen“ bei Samsung, „Verbindung zur Kamera nicht möglich“, ein schwarzer Bildschirm in der Kamera oder eine Kamera-App, die immer wieder abstürzt: Das kommt bei Android-Handys häufig vor. Liegt die Ursache in der Software, können Sie es oft selbst beheben.",
+    "Gehen Sie die Schritte von leicht nach schwer durch. Sobald die Kamera wieder funktioniert, können Sie aufhören."
+  ],
+  "howto_name": "So beheben Sie „Kamera fehlgeschlagen“ und „Keine Verbindung zur Kamera“ bei Android",
+  "howto_description": "Schritte gegen Kamerafehler, schwarzen Bildschirm oder abstürzende Kamera-App auf Android- und Samsung-Handys, von einfach bis aufwendig.",
+  "steps": [
+    {
+      "title": "Handy neu starten",
+      "body": "Halten Sie die Ein-/Aus-Taste gedrückt und wählen Sie <b>Neu starten</b>. Das behebt viele vorübergehende Störungen des Kameradienstes. Ist der Speicher fast voll oder das Handy sehr heiß, schaffen Sie zuerst Platz oder lassen es abkühlen."
+    },
+    {
+      "title": "Cache und Speicher der Kamera-App leeren",
+      "body": "Öffnen Sie <b>Einstellungen › Apps</b>, wählen Sie die App <b>Kamera</b>, öffnen Sie <b>Speicher</b> und tippen Sie auf <b>Cache leeren</b>. Hilft das nicht, tippen Sie auf <b>Daten löschen</b> (bei Samsung: Speicher leeren oder Daten löschen). Dabei werden die Kameraeinstellungen zurückgesetzt, Ihre Fotos und Videos bleiben erhalten. Die Menünamen unterscheiden sich je nach Hersteller etwas."
+    },
+    {
+      "title": "Berechtigungen und Apps prüfen, die die Kamera blockieren",
+      "body": "Prüfen Sie unter <b>Berechtigungen</b> der Kamera-App, ob die Kamera erlaubt ist. Wenn eine Videoanruf-App, Taschenlampe oder ein QR-Scanner die Kamera belegt, lässt sich die Kamera-App womöglich nicht öffnen. Beenden Sie diese Apps in der Übersicht der zuletzt verwendeten Apps vollständig und öffnen Sie dann die Kamera erneut."
+    },
+    {
+      "title": "Abgesicherten Modus nutzen, um eine störende App zu finden",
+      "body": "Im abgesicherten Modus sind Ihre installierten Apps vorübergehend deaktiviert. Bei den meisten Handys erreichen Sie ihn, indem Sie im Ausschaltmenü das Symbol „Ausschalten“ lange gedrückt halten; je nach Modell unterscheidet sich das. Funktioniert die Kamera im abgesicherten Modus, ist eine Ihrer Apps die Ursache. Entfernen Sie zuerst kürzlich installierte Apps, vor allem Kamerafilter-, Effekt- oder Bildschirmaufnahme-Apps, einzeln nacheinander. Tritt der Fehler auch im abgesicherten Modus auf, liegt es wahrscheinlich nicht an einer App."
+    },
+    {
+      "title": "System und Apps aktualisieren",
+      "body": "Suchen Sie unter <b>Einstellungen › Software-Update</b> (der Name hängt vom Hersteller ab) nach einer neuen Version und aktualisieren Sie die Kamera-App im Play Store. Kamerafehler werden manchmal durch Updates behoben."
+    },
+    {
+      "title": "Jedes Objektiv einzeln testen",
+      "body": "Wechseln Sie in der Kamera-App zwischen Front- und Rückkamera sowie zwischen Ultraweitwinkel, Hauptkamera und Tele. Tritt der schwarze Bildschirm oder der Absturz nur bei einem Objektiv auf, kann dieses Objektiv oder sein Bauteil das Problem sein. Eine andere Kamera-App zeigt außerdem, ob die Standard-Kamera-App schuld ist. Manche Handys haben zudem ein Diagnosetool des Herstellers, mit dem sich die Kamera prüfen lässt."
+    },
+    {
+      "title": "Bei Hardwaredefekt: ab zum Service-Center",
+      "body": "Hilft nichts von alledem und die Kamera versagt auch im abgesicherten Modus, liegt wahrscheinlich ein Hardwaredefekt vor. Das gilt besonders, wenn <b>nur das Ultraweitwinkel-Objektiv ausfällt</b>, die Kamera <b>mal geht und mal nicht</b> oder das Problem nach einem Sturz oder Wasserschaden begann. Lassen Sie das Handy im Service-Center prüfen und sichern Sie vorher Ihre Fotos und Videos."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Die Kamera-App für defekte Kameras",
+  "cta_title": "Wenn Sie Fotos brauchen, bevor es repariert ist",
+  "cta_intro": "Liegt der Werkstatttermin noch Tage entfernt oder brauchen Sie jetzt ein Foto, kann <b>CamRescue</b> helfen. Die App öffnet die Kamera, sobald Sie sie starten, erwischt den kurzen Moment, in dem eine defekte Kamera funktioniert, und speichert das Foto.",
+  "features": [
+    "<b>Kameracheck</b>: testet Ultraweitwinkel, Hauptkamera, Tele und Frontkamera nacheinander und speichert das Ergebnis als Bild, das Sie in der Werkstatt zeigen können.",
+    "<b>Automatisch neu versuchen</b>: Fällt die Kamera aus, versucht es die App sofort wieder, sobald die Kamera zurück ist.",
+    "<b>Video, das bleibt</b>: Fällt die Kamera mitten in der Aufnahme aus, ist alles bis dahin Aufgenommene gespeichert.",
+    "QR-Scanner und Blitz, ohne Internetberechtigung, ohne Werbung und ohne Tracking."
+  ],
+  "cta_note": "CamRescue kann keine Hardware reparieren. Die App hilft Ihnen, eine beschädigte Kamera weiter zu nutzen, bis Sie sie reparieren lassen oder ersetzen können. Funktionieren alle Ihre Kameras, sagt Ihnen die App, dass Sie sie noch nicht brauchen.",
+  "play_button": "Jetzt bei Google Play",
+  "video_title": "CamRescue Vorstellungsvideo",
+  "faq_title": "Häufige Fragen",
+  "faq": [
+    {
+      "q": "Warum zeigt meine Kamera plötzlich einen schwarzen Bildschirm?",
+      "a": "Oft liegt es an der Software: ein Fehler der Kamera-App, eine andere App, die die Kamera nutzt, oder ein vorübergehender Systemfehler. Ein Neustart und das Leeren des Kamera-Caches beheben viele Fälle. Tritt es immer wieder auf und auch im abgesicherten Modus, kann es an der Hardware liegen, zum Beispiel am Kameramodul."
+    },
+    {
+      "q": "Werden meine Fotos gelöscht, wenn ich die Daten der Kamera-App lösche?",
+      "a": "Nein. Beim Löschen der Daten der Kamera-App werden nur deren Einstellungen zurückgesetzt. Fotos und Videos in Ihrer Galerie bleiben erhalten. Wichtige Dateien sichern Sie trotzdem besser vorher."
+    },
+    {
+      "q": "Meine Kamera funktioniert mal und mal nicht. Ist sie kaputt?",
+      "a": "Es kann an der Software liegen. Hilft keiner der Schritte oben, ist aber wahrscheinlich die Hardware schuld. Lassen Sie sie im Service-Center prüfen, besonders wenn es nach einem Sturz oder Kontakt mit Wasser begann."
+    },
+    {
+      "q": "Repariert CamRescue eine defekte Kamera?",
+      "a": "Nein. CamRescue kann keine Hardware reparieren. Die App hilft Ihnen, in den Momenten, in denen eine defekte Kamera funktioniert, Fotos aufzunehmen. Reparatur oder Austausch muss ein Service-Center übernehmen."
+    }
+  ],
+  "back_home": "Zurück zur Mudol-Labs-Startseite"
+}

@@ -1,0 +1,79 @@
+{
+  "lang_name": "Tiếng Việt",
+  "lang_switch_label": "Ngôn ngữ",
+  "title": "Camera bị lỗi, không kết nối được camera, màn hình đen: Cách sửa trên Android",
+  "meta_description": "Camera bị lỗi, không thể kết nối với camera, camera màn hình đen hoặc ứng dụng camera liên tục dừng trên Android? Thử các cách sửa từ dễ đến khó.",
+  "og_title": "Camera bị lỗi, không kết nối được camera: Cách khắc phục trên Android và Samsung",
+  "og_description": "Camera bị lỗi, không thể kết nối với camera, camera màn hình đen hoặc ứng dụng camera liên tục dừng trên Android? Thử các cách sửa từ dễ đến khó.",
+  "h1_main": "“Camera bị lỗi” và “Không thể kết nối với camera”:",
+  "h1_accent": "cách khắc phục",
+  "intro": [
+    "“Cảnh báo: Camera bị lỗi” trên điện thoại Samsung, “Không thể kết nối với camera”, camera bị màn hình đen hoặc ứng dụng camera cứ dừng liên tục là những lỗi khá phổ biến trên Android. Nếu nguyên nhân là phần mềm, bạn thường có thể tự sửa được.",
+    "Hãy làm lần lượt các bước dưới đây, từ dễ đến khó. Camera chạy lại được ở bước nào thì bạn dừng ở bước đó."
+  ],
+  "howto_name": "Cách sửa lỗi “Camera bị lỗi” và “Không thể kết nối với camera” trên Android",
+  "howto_description": "Các bước sửa lỗi camera, màn hình đen hoặc ứng dụng camera bị dừng trên điện thoại Android và Samsung, sắp xếp từ dễ nhất đến khó nhất.",
+  "steps": [
+    {
+      "title": "Khởi động lại điện thoại",
+      "body": "Nhấn giữ nút nguồn rồi chọn <b>Khởi động lại</b>. Cách này xử lý được nhiều trục trặc tạm thời của dịch vụ camera. Nếu bộ nhớ gần đầy hoặc máy đang rất nóng, hãy giải phóng dung lượng hoặc để máy nguội bớt trước."
+    },
+    {
+      "title": "Xóa bộ nhớ đệm và dữ liệu của ứng dụng Camera",
+      "body": "Mở <b>Cài đặt > Ứng dụng</b>, chọn ứng dụng <b>Camera</b>, mở mục <b>Lưu trữ</b> rồi nhấn <b>Xóa bộ nhớ đệm</b>. Nếu chưa hết, nhấn <b>Xóa dữ liệu</b> (trên điện thoại Samsung có thể là Xóa bộ nhớ hoặc Xóa dữ liệu). Thao tác này đưa cài đặt camera về mặc định nhưng không xóa ảnh và video của bạn. Tên menu có thể hơi khác giữa các hãng."
+    },
+    {
+      "title": "Kiểm tra quyền truy cập và các ứng dụng đang chiếm camera",
+      "body": "Trong mục <b>Quyền</b> của ứng dụng Camera, hãy chắc chắn camera đã được cho phép. Nếu ứng dụng gọi video, đèn pin hoặc quét mã QR đang chiếm camera, ứng dụng Camera có thể không mở được. Hãy tắt hẳn các ứng dụng đó trong màn hình ứng dụng gần đây rồi mở lại camera."
+    },
+    {
+      "title": "Dùng chế độ an toàn để tìm ứng dụng gây xung đột",
+      "body": "Chế độ an toàn tạm thời tắt các ứng dụng bạn đã cài. Ở hầu hết điện thoại, bạn nhấn giữ biểu tượng Tắt nguồn trong menu nguồn để vào, nhưng cách làm khác nhau tùy dòng máy. Nếu camera chạy bình thường trong chế độ an toàn thì một ứng dụng bạn cài là nguyên nhân. Hãy gỡ lần lượt từng ứng dụng mới cài, nhất là ứng dụng bộ lọc camera, hiệu ứng hoặc quay màn hình. Nếu vào chế độ an toàn vẫn lỗi, nhiều khả năng không phải do ứng dụng."
+    },
+    {
+      "title": "Cập nhật hệ thống và ứng dụng",
+      "body": "Vào <b>Cài đặt > Cập nhật phần mềm</b> (tên khác nhau tùy hãng) để kiểm tra phiên bản mới, và cập nhật cả ứng dụng Camera trên Cửa hàng Play. Đôi khi lỗi camera được sửa bằng bản cập nhật."
+    },
+    {
+      "title": "Thử từng ống kính",
+      "body": "Trong ứng dụng Camera, hãy chuyển qua lại giữa camera trước và sau, rồi giữa góc siêu rộng, camera chính và tele. Nếu màn hình đen hoặc ứng dụng thoát chỉ xảy ra với một ống kính, có thể chính ống kính đó hoặc linh kiện của nó có vấn đề. Thử một ứng dụng camera khác cũng giúp biết ứng dụng Camera mặc định có lỗi hay không. Một số máy còn có công cụ chẩn đoán của hãng để kiểm tra camera."
+    },
+    {
+      "title": "Nếu là lỗi phần cứng, hãy mang máy đến trung tâm bảo hành",
+      "body": "Nếu làm hết các bước trên vẫn không được và camera cũng lỗi trong chế độ an toàn, nhiều khả năng đó là lỗi phần cứng. Đặc biệt khi <b>chỉ ống kính góc siêu rộng bị lỗi</b>, camera <b>lúc được lúc không</b>, hoặc lỗi bắt đầu sau khi máy bị rơi hay vào nước. Hãy mang máy đi kiểm tra và sao lưu ảnh, video trước."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Camera dành cho camera bị hỏng",
+  "cta_title": "Nếu bạn cần chụp ảnh trước khi máy được sửa",
+  "cta_intro": "Nếu lịch sửa máy còn vài ngày nữa hoặc bạn cần chụp ngay lúc này, <b>CamRescue</b> có thể giúp được. App mở camera ngay khi bạn khởi động và bắt lấy khoảnh khắc ngắn ngủi camera đang lỗi hoạt động được, rồi lưu ảnh lại.",
+  "features": [
+    "<b>Kiểm tra camera</b>: thử lần lượt các ống kính góc siêu rộng, chính, tele và camera trước, rồi lưu kết quả thành ảnh để bạn đưa cho tiệm sửa xem.",
+    "<b>Tự thử lại</b>: nếu camera bị ngắt, app thử lại ngay khi camera hoạt động trở lại.",
+    "<b>Video không bị mất</b>: nếu camera tắt giữa chừng khi đang quay, toàn bộ phần đã quay vẫn được lưu.",
+    "Có đọc mã QR và đèn pin, không cần quyền internet, không quảng cáo, không theo dõi."
+  ],
+  "cta_note": "CamRescue không sửa được phần cứng. App giúp bạn tiếp tục dùng camera bị hỏng cho đến khi sửa hoặc thay máy. Nếu mọi camera đều chạy bình thường, app sẽ cho bạn biết là bạn chưa cần đến nó.",
+  "play_button": "Tải trên Google Play",
+  "video_title": "Video giới thiệu CamRescue",
+  "faq_title": "Câu hỏi thường gặp",
+  "faq": [
+    {
+      "q": "Tại sao camera đột nhiên bị màn hình đen?",
+      "a": "Thường là do phần mềm: ứng dụng Camera trục trặc, ứng dụng khác đang dùng camera hoặc lỗi hệ thống tạm thời. Khởi động lại và xóa bộ nhớ đệm của ứng dụng Camera khắc phục được nhiều trường hợp. Nếu lỗi cứ lặp lại và vào chế độ an toàn vẫn bị, có thể là lỗi phần cứng như mô-đun camera."
+    },
+    {
+      "q": "Xóa dữ liệu ứng dụng Camera có làm mất ảnh không?",
+      "a": "Không. Xóa dữ liệu của ứng dụng Camera chỉ đưa cài đặt của nó về mặc định. Ảnh và video đã lưu trong thư viện vẫn còn. Tuy vậy, bạn vẫn nên sao lưu các tệp quan trọng trước."
+    },
+    {
+      "q": "Camera lúc được lúc không, có phải đã hỏng không?",
+      "a": "Có thể là do phần mềm, nhưng nếu làm các bước trên mà vẫn bị, nhiều khả năng là lỗi phần cứng. Hãy mang máy đến trung tâm bảo hành, nhất là khi lỗi bắt đầu sau khi máy bị rơi hoặc dính nước."
+    },
+    {
+      "q": "CamRescue có sửa được camera bị hỏng không?",
+      "a": "Không. CamRescue không sửa được phần cứng. App giúp bạn chụp ảnh từ camera đang lỗi vào những lúc nó hoạt động. Việc sửa hoặc thay thế phải do trung tâm bảo hành thực hiện."
+    }
+  ],
+  "back_home": "Về trang chủ Mudol Labs"
+}

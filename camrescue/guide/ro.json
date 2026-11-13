@@ -1,0 +1,79 @@
+{
+  "lang_name": "Română",
+  "lang_switch_label": "Limba",
+  "title": "Camera a eșuat pe telefon: ce faci când camera nu merge",
+  "meta_description": "Camera a eșuat, nu se poate conecta la cameră, ecran negru sau aplicația Cameră se oprește mereu pe Android? Soluții pe rând, de la cele mai simple.",
+  "og_title": "Camera a eșuat și nu se poate conecta la cameră: cum rezolvi pe Android",
+  "og_description": "Camera a eșuat, nu se poate conecta la cameră, ecran negru sau aplicația Cameră se oprește mereu pe Android? Soluții pe rând, de la cele mai simple.",
+  "h1_main": "„Camera a eșuat” și „Nu se poate conecta la cameră”:",
+  "h1_accent": "cum rezolvi",
+  "intro": [
+    "Avertismentul „Camera a eșuat” pe telefoanele Samsung, mesajul „Nu se poate conecta la cameră”, ecranul negru în cameră sau aplicația Cameră care se oprește mereu sunt probleme frecvente pe Android. Când cauza este software, adesea le poți rezolva singur.",
+    "Parcurge pașii de la cel mai simplu la cel mai greu. Oprește-te imediat ce camera funcționează din nou."
+  ],
+  "howto_name": "Cum rezolvi „Camera a eșuat” și „Nu se poate conecta la cameră” pe Android",
+  "howto_description": "Pași pentru rezolvarea unei erori de cameră, a ecranului negru sau a aplicației Cameră care se oprește pe un telefon Android sau Samsung, de la simplu la complicat.",
+  "steps": [
+    {
+      "title": "Repornește telefonul",
+      "body": "Ține apăsat butonul de pornire și alege <b>Repornire</b>. Asta rezolvă multe probleme temporare ale serviciului camerei. Dacă memoria este aproape plină sau telefonul e foarte fierbinte, eliberează mai întâi spațiu sau lasă-l să se răcească."
+    },
+    {
+      "title": "Șterge memoria cache și datele aplicației Cameră",
+      "body": "Deschide <b>Setări › Aplicații</b>, alege aplicația <b>Cameră</b>, deschide <b>Stocare</b> și atinge <b>Ștergere cache</b>. Dacă nu ajută, atinge <b>Ștergere date</b> (pe telefoanele Samsung: Ștergere stocare sau Ștergere date). Setările camerei se resetează, dar fotografiile și videoclipurile nu se șterg. Denumirile meniurilor diferă ușor de la o marcă la alta."
+    },
+    {
+      "title": "Verifică permisiunile și aplicațiile care blochează camera",
+      "body": "În <b>Permisiuni</b> pentru aplicația Cameră, verifică dacă accesul la cameră este permis. Dacă o aplicație de apeluri video, lanterna sau un scaner QR ține camera ocupată, aplicația Cameră poate să nu se deschidă. Închide complet aceste aplicații din ecranul cu aplicații recente, apoi deschide din nou camera."
+    },
+    {
+      "title": "Folosește modul sigur ca să găsești o aplicație care deranjează",
+      "body": "Modul sigur dezactivează temporar aplicațiile instalate de tine. Pe majoritatea telefoanelor ajungi la el ținând apăsată pictograma de oprire din meniul de pornire, dar pașii diferă în funcție de model. Dacă în modul sigur camera funcționează, vinovată este una dintre aplicațiile tale. Dezinstalează pe rând aplicațiile instalate recent, mai ales cele cu filtre pentru cameră, efecte sau înregistrare a ecranului. Dacă și în modul sigur camera dă eroare, probabil cauza nu este o aplicație."
+    },
+    {
+      "title": "Actualizează sistemul și aplicațiile",
+      "body": "În <b>Setări › Actualizare software</b> (denumirea diferă în funcție de marcă) caută o versiune nouă și actualizează aplicația Cameră din Magazin Play. Erorile de cameră se rezolvă uneori prin actualizări."
+    },
+    {
+      "title": "Testează fiecare obiectiv",
+      "body": "În aplicația Cameră, comută între camera frontală și cea din spate, apoi între ultra-wide, principal și teleobiectiv. Dacă ecranul negru sau oprirea apare doar la un singur obiectiv, problema poate fi la acel obiectiv sau la piesa lui. Încercarea altei aplicații de cameră îți arată și dacă aplicația Cameră implicită e de vină. Unele telefoane au și un instrument de diagnosticare de la producător care poate testa camera."
+    },
+    {
+      "title": "Dacă e problemă hardware, mergi la service",
+      "body": "Dacă nimic din cele de mai sus nu ajută, iar camera dă eroare și în modul sigur, este probabil o problemă hardware. Mai ales dacă <b>doar obiectivul ultra-wide nu merge</b>, camera <b>merge și nu merge</b> pe rând sau problema a apărut după o cădere ori după contactul cu apa. Du telefonul la service și fă mai întâi o copie de rezervă a fotografiilor și videoclipurilor."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Cameră pentru camera stricată",
+  "cta_title": "Dacă ai nevoie de poze până la reparație",
+  "cta_intro": "Dacă programarea la service e peste câteva zile sau ai nevoie de o poză chiar acum, <b>CamRescue</b> te poate ajuta. Deschide camera imediat ce pornești aplicația, prinde scurta clipă în care o cameră defectă funcționează și salvează fotografia.",
+  "features": [
+    "<b>Verificare cameră</b>: testează pe rând obiectivele ultra-wide, principal, teleobiectiv și frontal și salvează rezultatul ca imagine pe care o poți arăta la service.",
+    "<b>Reîncercare automată</b>: dacă camera cade, încearcă din nou imediat ce își revine.",
+    "<b>Video care rezistă</b>: dacă camera cade în timpul filmării, tot ce s-a înregistrat până atunci rămâne salvat.",
+    "Cititor QR și lanternă, fără permisiune de internet, fără reclame și fără urmărire."
+  ],
+  "cta_note": "CamRescue nu poate repara componentele. Te ajută să folosești în continuare o cameră defectă până o poți repara sau înlocui. Dacă toate camerele merg, îți spune că încă nu ai nevoie de aplicație.",
+  "play_button": "Descarcă din Google Play",
+  "video_title": "Videoclip de prezentare CamRescue",
+  "faq_title": "Întrebări frecvente",
+  "faq": [
+    {
+      "q": "De ce arată camera brusc ecran negru?",
+      "a": "Adesea cauza este software: o problemă a aplicației Cameră, o altă aplicație care folosește camera sau o eroare temporară de sistem. Repornirea și ștergerea cache-ului aplicației Cameră rezolvă multe cazuri. Dacă se repetă și camera dă eroare și în modul sigur, poate fi o problemă hardware, de exemplu modulul camerei."
+    },
+    {
+      "q": "Dacă șterg datele aplicației Cameră, se șterg și fotografiile?",
+      "a": "Nu. Ștergerea datelor aplicației Cameră îi resetează setările. Fotografiile și videoclipurile salvate în galerie rămân. Totuși, e înțelept să faci mai întâi o copie de rezervă a fișierelor importante."
+    },
+    {
+      "q": "Camera mea merge și nu merge pe rând. Este stricată?",
+      "a": "Poate fi o problemă software, dar dacă pașii de mai sus nu o opresc, probabil este hardware. Du telefonul la service, mai ales dacă a început după o cădere sau după contactul cu apa."
+    },
+    {
+      "q": "Repară CamRescue o cameră stricată?",
+      "a": "Nu. CamRescue nu poate repara componentele. Te ajută să faci poze cu o cameră defectă în clipele în care funcționează. Repararea sau înlocuirea trebuie făcută la service."
+    }
+  ],
+  "back_home": "Înapoi la pagina principală Mudol Labs"
+}

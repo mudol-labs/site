@@ -1,0 +1,79 @@
+{
+  "lang_name": "Bahasa Melayu",
+  "lang_switch_label": "Bahasa",
+  "title": "Kamera Gagal, Tidak Dapat Sambung ke Kamera: Cara Betulkan di Android",
+  "meta_description": "Kamera gagal, tidak dapat disambungkan ke kamera, skrin hitam atau apl kamera asyik berhenti pada Android? Cuba cara membetulkannya dari yang paling mudah.",
+  "og_title": "Kamera Gagal / Tidak Dapat Sambung ke Kamera: Cara Betulkan di Android dan Samsung",
+  "og_description": "Kamera gagal, tidak dapat disambungkan ke kamera, skrin hitam atau apl kamera asyik berhenti pada Android? Cuba cara membetulkannya dari yang paling mudah.",
+  "h1_main": "“Kamera gagal” dan “Tidak dapat menyambung ke kamera”:",
+  "h1_accent": "cara membetulkannya",
+  "intro": [
+    "Mesej “Amaran: Kamera gagal” pada telefon Samsung, “Tidak dapat menyambung ke kamera”, skrin hitam dalam kamera atau apl kamera yang asyik berhenti adalah masalah biasa pada Android. Jika puncanya perisian, anda selalunya boleh membetulkannya sendiri.",
+    "Ikuti langkah-langkah ini dari yang paling mudah hingga yang paling sukar. Berhenti sebaik sahaja kamera berfungsi semula."
+  ],
+  "howto_name": "Cara membetulkan “Kamera gagal” dan “Tidak dapat menyambung ke kamera” pada Android",
+  "howto_description": "Langkah membetulkan ralat kamera, skrin hitam atau apl kamera yang asyik berhenti pada telefon Android dan Samsung, disusun dari yang paling mudah.",
+  "steps": [
+    {
+      "title": "Mulakan semula telefon",
+      "body": "Tekan dan tahan butang kuasa, kemudian pilih <b>Mulakan semula</b>. Ini membersihkan banyak gangguan sementara pada perkhidmatan kamera. Jika storan hampir penuh atau telefon sangat panas, kosongkan ruang atau biarkan ia sejuk dahulu."
+    },
+    {
+      "title": "Kosongkan cache dan storan apl Kamera",
+      "body": "Buka <b>Tetapan > Aplikasi</b>, pilih apl <b>Kamera</b>, buka <b>Storan</b> dan ketik <b>Kosongkan cache</b>. Jika tidak berhasil, ketik <b>Kosongkan data</b> (pada telefon Samsung mungkin Kosongkan storan atau Kosongkan data). Ini menetapkan semula tetapan kamera tetapi tidak memadam foto dan video anda. Nama menu agak berbeza antara jenama."
+    },
+    {
+      "title": "Semak kebenaran dan apl yang sedang menggunakan kamera",
+      "body": "Dalam <b>Kebenaran</b> apl Kamera, pastikan kamera dibenarkan. Jika apl panggilan video, lampu suluh atau pengimbas QR sedang menggunakan kamera, apl Kamera mungkin gagal dibuka. Tutup apl tersebut sepenuhnya daripada skrin apl terkini, kemudian buka kamera semula."
+    },
+    {
+      "title": "Guna mod selamat untuk mencari apl yang bertembung",
+      "body": "Mod selamat mematikan sementara apl yang anda pasang sendiri. Pada kebanyakan telefon, anda menekan dan menahan ikon matikan pada menu kuasa untuk memasukinya, tetapi langkahnya berbeza mengikut model. Jika kamera berfungsi dalam mod selamat, salah satu apl anda ialah puncanya. Nyahpasang apl yang baru dipasang satu demi satu, terutamanya apl penapis kamera, kesan atau perakam skrin. Jika ia gagal dalam mod selamat juga, kemungkinan besar bukan apl puncanya."
+    },
+    {
+      "title": "Kemas kini sistem dan apl",
+      "body": "Dalam <b>Tetapan > Kemas kini perisian</b> (namanya berbeza mengikut jenama), semak versi baharu, dan kemas kini apl Kamera di Play Store. Ralat kamera kadangkala dibetulkan melalui kemas kini."
+    },
+    {
+      "title": "Uji setiap lensa",
+      "body": "Dalam apl Kamera, tukar antara kamera depan dan belakang, serta antara ultra lebar, utama dan telefoto. Jika skrin hitam atau ranap hanya berlaku pada satu lensa, lensa itu atau komponennya mungkin bermasalah. Mencuba apl kamera lain juga membantu anda tahu sama ada apl Kamera lalai yang bermasalah. Sesetengah telefon turut ada alat diagnostik daripada pengeluar yang boleh menguji kamera."
+    },
+    {
+      "title": "Jika ia masalah perkakasan, pergi ke pusat servis",
+      "body": "Jika semua langkah di atas tidak membantu dan kamera turut gagal dalam mod selamat, besar kemungkinan ia masalah perkakasan. Lebih-lebih lagi jika <b>hanya lensa ultra lebar yang gagal</b>, ia <b>kejap berfungsi kejap tidak</b>, atau bermula selepas telefon terjatuh atau terkena air. Dapatkan pemeriksaan di pusat servis, dan sandarkan foto serta video anda dahulu."
+    }
+  ],
+  "app_name": "CamRescue",
+  "app_tagline": "Kamera untuk kamera yang rosak",
+  "cta_title": "Jika anda perlu mengambil gambar sebelum ia dibaiki",
+  "cta_intro": "Jika temu janji servis masih beberapa hari lagi atau anda perlukan foto sekarang juga, <b>CamRescue</b> mungkin dapat membantu. Ia membuka kamera sebaik sahaja anda melancarkannya dan menangkap detik singkat kamera yang bermasalah berfungsi, kemudian menyimpan foto itu.",
+  "features": [
+    "<b>Semakan kamera</b>: menguji lensa ultra lebar, utama, telefoto dan depan satu demi satu, dan menyimpan hasilnya sebagai imej untuk ditunjukkan kepada kedai pembaikan.",
+    "<b>Cuba semula auto</b>: jika kamera terputus, ia cuba lagi sebaik sahaja kamera kembali.",
+    "<b>Video yang tetap selamat</b>: jika kamera mati semasa merakam, semua yang telah dirakam setakat itu disimpan.",
+    "Pembaca QR dan flash, tanpa kebenaran internet, tanpa iklan dan tanpa penjejakan."
+  ],
+  "cta_note": "CamRescue tidak boleh membaiki perkakasan. Ia membantu anda terus menggunakan kamera yang rosak sehingga anda dapat membaiki atau menggantikannya. Jika semua kamera berfungsi, ia akan memberitahu bahawa anda belum memerlukan apl ini.",
+  "play_button": "Dapatkan di Google Play",
+  "video_title": "Video pengenalan CamRescue",
+  "faq_title": "Soalan lazim",
+  "faq": [
+    {
+      "q": "Mengapa kamera saya tiba-tiba menunjukkan skrin hitam?",
+      "a": "Selalunya ia berpunca daripada perisian: apl Kamera bermasalah, apl lain sedang menggunakan kamera atau ralat sistem sementara. Memulakan semula dan mengosongkan cache apl Kamera menyelesaikan banyak kes. Jika ia berulang dan turut gagal dalam mod selamat, ia mungkin masalah perkakasan seperti modul kamera."
+    },
+    {
+      "q": "Adakah mengosongkan data apl Kamera akan memadam foto saya?",
+      "a": "Tidak. Mengosongkan data apl Kamera hanya menetapkan semula tetapannya. Foto dan video yang disimpan dalam galeri kekal. Namun begitu, lebih baik sandarkan fail penting dahulu."
+    },
+    {
+      "q": "Kamera saya kejap berfungsi kejap tidak. Adakah ia rosak?",
+      "a": "Ia boleh jadi masalah perisian, tetapi jika langkah di atas tidak menghentikannya, besar kemungkinan ia perkakasan. Dapatkan pemeriksaan di pusat servis, terutamanya jika ia bermula selepas telefon terjatuh atau terkena air."
+    },
+    {
+      "q": "Adakah CamRescue membaiki kamera yang rosak?",
+      "a": "Tidak. CamRescue tidak boleh membaiki perkakasan. Ia membantu anda mengambil foto daripada kamera yang bermasalah pada saat ia berfungsi. Pembaikan atau penggantian perlu dilakukan oleh pusat servis."
+    }
+  ],
+  "back_home": "Kembali ke laman utama Mudol Labs"
+}
