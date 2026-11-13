@@ -8,7 +8,7 @@
   "h1_main": "“Kamera imeshindwa” na “Imeshindwa kuunganisha na kamera”:",
   "h1_accent": "jinsi ya kurekebisha",
   "intro": [
-    "Ujumbe wa “Onyo: Kamera imeshindwa” kwenye simu za Samsung, “Imeshindwa kuunganisha na kamera”, skrini nyeusi kwenye kamera, au programu ya kamera inayozimika mara kwa mara ni matatizo ya kawaida kwenye Android. Kama chanzo ni programu, mara nyingi unaweza kurekebisha mwenyewe.",
+    "Ujumbe wa “Onyo: Kamera imefeli” (au “Onyo: Kamera imeshindwa”) kwenye simu za Samsung, “Imeshindwa kuunganisha na kamera”, skrini nyeusi kwenye kamera, au programu ya kamera inayozimika mara kwa mara ni matatizo ya kawaida kwenye Android. Kama chanzo ni programu, mara nyingi unaweza kurekebisha mwenyewe.",
     "Fuata hatua hizi kwa mpangilio, kutoka rahisi hadi ngumu. Acha mara kamera inapofanya kazi tena."
   ],
   "howto_name": "Jinsi ya kurekebisha “Kamera imeshindwa” na “Imeshindwa kuunganisha na kamera” kwenye Android",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Futa akiba na data ya programu ya Kamera",
-      "body": "Fungua <b>Mipangilio > Programu</b>, chagua programu ya <b>Kamera</b>, fungua <b>Hifadhi</b> kisha ugonge <b>Futa akiba</b>. Isiposaidia, gonga <b>Futa data</b>. Hii hurudisha mipangilio ya kamera kwenye hali ya awali lakini haifuti picha na video zako. Majina ya menyu hutofautiana kidogo kati ya chapa."
+      "body": "Kwenye simu nyingi za Android, fungua <b>Mipangilio > Programu</b>, chagua programu ya <b>Kamera</b>, fungua <b>Nafasi ya hifadhi na akiba</b> kisha ugonge <b>Futa data iliyoakibishwa</b>. Isiposaidia, gonga <b>Futa data ya hifadhi</b>. Hii hurudisha mipangilio ya kamera kwenye hali ya awali lakini haifuti picha na video zako. Kwenye Samsung na chapa nyingine, majina ya menyu hutofautiana kidogo."
     },
     {
       "title": "Kagua ruhusa na programu zinazoshikilia kamera",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Sasisha mfumo na programu",
-      "body": "Kwenye <b>Mipangilio > Sasisho la programu</b> (jina hutofautiana kulingana na chapa), tafuta toleo jipya, na usasishe programu ya Kamera kwenye Play Store. Wakati mwingine hitilafu za kamera hutatuliwa na masasisho."
+      "body": "Kwenye <b>Mipangilio > Masasisho ya mfumo</b> (jina hutofautiana kulingana na chapa), tafuta toleo jipya, na usasishe programu ya Kamera kwenye Play Store. Wakati mwingine hitilafu za kamera hutatuliwa na masasisho."
     },
     {
       "title": "Jaribu kila lenzi",

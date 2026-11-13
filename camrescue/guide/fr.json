@@ -8,7 +8,7 @@
   "h1_main": "« Échec de l'appareil photo » et « Impossible de se connecter à la caméra » :",
   "h1_accent": "comment y remédier",
   "intro": [
-    "« Attention : échec de l'appareil photo » sur un Samsung, « Impossible de se connecter à la caméra », écran noir dans l'appareil photo ou appli qui s'arrête sans cesse : ces problèmes sont courants sur Android. Quand la cause est logicielle, on peut souvent la régler soi-même.",
+    "« Avertissement : Échec appareil photo » (ou « Attention : échec de l'appareil photo ») sur un Samsung, « Impossible de se connecter à la caméra », écran noir dans l'appareil photo ou appli qui s'arrête sans cesse : ces problèmes sont courants sur Android. Quand la cause est logicielle, on peut souvent la régler soi-même.",
     "Suivez ces étapes du plus simple au plus difficile. Arrêtez-vous dès que l'appareil photo refonctionne."
   ],
   "howto_name": "Comment corriger « Échec de l'appareil photo » et « Impossible de se connecter à la caméra » sur Android",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Vider le cache et le stockage de l'appli Appareil photo",
-      "body": "Ouvrez <b>Paramètres › Applications</b>, choisissez l'appli <b>Appareil photo</b>, ouvrez <b>Stockage</b> et touchez <b>Vider le cache</b>. Si cela ne suffit pas, touchez <b>Effacer les données</b> (sur Samsung : Effacer le stockage ou Effacer les données). Les réglages de l'appareil photo sont réinitialisés, mais vos photos et vidéos ne sont pas supprimées. Les noms des menus varient un peu selon la marque."
+      "body": "Ouvrez <b>Paramètres › Applications</b>, choisissez l'appli <b>Appareil photo</b>, ouvrez <b>Stockage</b> et touchez <b>Vider le cache</b>. Si cela ne suffit pas, touchez <b>Supprimer les données</b>. Les réglages de l'appareil photo sont réinitialisés, mais vos photos et vidéos ne sont pas supprimées. Les noms des menus varient un peu selon la marque."
     },
     {
       "title": "Vérifier les autorisations et les applis qui occupent l'appareil photo",

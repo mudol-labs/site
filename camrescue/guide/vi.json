@@ -8,7 +8,7 @@
   "h1_main": "“Camera bị lỗi” và “Không thể kết nối với camera”:",
   "h1_accent": "cách khắc phục",
   "intro": [
-    "“Cảnh báo: Camera bị lỗi” trên điện thoại Samsung, “Không thể kết nối với camera”, camera bị màn hình đen hoặc ứng dụng camera cứ dừng liên tục là những lỗi khá phổ biến trên Android. Nếu nguyên nhân là phần mềm, bạn thường có thể tự sửa được.",
+    "“Cảnh báo: Máy ảnh lỗi” (hoặc “Cảnh báo: Camera bị lỗi”) trên điện thoại Samsung, “Không thể kết nối với camera”, camera bị màn hình đen hoặc ứng dụng camera cứ dừng liên tục là những lỗi khá phổ biến trên Android. Nếu nguyên nhân là phần mềm, bạn thường có thể tự sửa được.",
     "Hãy làm lần lượt các bước dưới đây, từ dễ đến khó. Camera chạy lại được ở bước nào thì bạn dừng ở bước đó."
   ],
   "howto_name": "Cách sửa lỗi “Camera bị lỗi” và “Không thể kết nối với camera” trên Android",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Xóa bộ nhớ đệm và dữ liệu của ứng dụng Camera",
-      "body": "Mở <b>Cài đặt > Ứng dụng</b>, chọn ứng dụng <b>Camera</b>, mở mục <b>Lưu trữ</b> rồi nhấn <b>Xóa bộ nhớ đệm</b>. Nếu chưa hết, nhấn <b>Xóa dữ liệu</b> (trên điện thoại Samsung có thể là Xóa bộ nhớ hoặc Xóa dữ liệu). Thao tác này đưa cài đặt camera về mặc định nhưng không xóa ảnh và video của bạn. Tên menu có thể hơi khác giữa các hãng."
+      "body": "Mở <b>Cài đặt > Ứng dụng</b>, chọn ứng dụng <b>Camera</b>, mở mục <b>Lưu trữ</b> rồi nhấn <b>Xóa bộ nhớ đệm</b>. Nếu chưa hết, nhấn <b>Xóa dữ liệu</b>. Thao tác này đưa cài đặt camera về mặc định nhưng không xóa ảnh và video của bạn. Tên menu có thể hơi khác giữa các hãng."
     },
     {
       "title": "Kiểm tra quyền truy cập và các ứng dụng đang chiếm camera",

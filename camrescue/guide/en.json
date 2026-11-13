@@ -35,7 +35,7 @@
     },
     {
       "title": "Clear the Camera app's cache and storage",
-      "body": "Open <b>Settings › Apps</b>, pick the <b>Camera</b> app, open <b>Storage</b> and tap <b>Clear cache</b>. If that doesn't help, tap <b>Clear data</b> (on Samsung phones: Clear storage or Clear data). This resets camera settings but does not delete your photos and videos. Menu names vary a little between brands."
+      "body": "Open <b>Settings › Apps</b>, pick the <b>Camera</b> app, open <b>Storage</b> and tap <b>Clear cache</b>. If that doesn't help, tap <b>Clear storage</b> (called Clear data on some phones). This resets camera settings but does not delete your photos and videos. Menu names vary a little between brands."
     },
     {
       "title": "Check permissions and apps that are holding the camera",

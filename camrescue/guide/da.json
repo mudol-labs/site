@@ -8,7 +8,7 @@
   "h1_main": "”Kamerafejl” og ”Kan ikke oprette forbindelse til kameraet”:",
   "h1_accent": "sådan løser du det",
   "intro": [
-    "”Advarsel: Kamerafejl” på Samsung, ”Kan ikke oprette forbindelse til kameraet”, sort skærm i kameraet eller en kameraapp, der hele tiden går ned, er almindeligt på Android. Skyldes det softwaren, kan du ofte løse det selv.",
+    "”Advarsel: Kamera mislykkedes” (eller ”Kamerafejl”) på Samsung, ”Kan ikke oprette forbindelse til kameraet”, sort skærm i kameraet eller en kameraapp, der hele tiden går ned, er almindeligt på Android. Skyldes det softwaren, kan du ofte løse det selv.",
     "Gå trinnene igennem fra det lette til det svære. Stop, så snart kameraet virker igen."
   ],
   "howto_name": "Sådan løser du ”Kamerafejl” og ”Kan ikke oprette forbindelse til kameraet” på Android",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Ryd cache og lager for Kamera-appen",
-      "body": "Åbn <b>Indstillinger › Apps</b>, vælg appen <b>Kamera</b>, åbn <b>Lagring</b>, og tryk på <b>Ryd cache</b>. Hjælper det ikke, så tryk på <b>Ryd data</b> (på Samsung: Ryd lager eller Ryd data). Det nulstiller kameraets indstillinger, men dine billeder og videoer bliver ikke slettet. Menunavnene er lidt forskellige fra mærke til mærke."
+      "body": "På de fleste Android-telefoner: Åbn <b>Indstillinger › Apps</b>, vælg appen <b>Kamera</b>, åbn <b>Lagerplads og cache</b>, og tryk på <b>Ryd cache</b>. Hjælper det ikke, så tryk på <b>Ryd lagerplads</b>. Det nulstiller kameraets indstillinger, men dine billeder og videoer bliver ikke slettet. Menunavnene kan være lidt anderledes på Samsung og andre mærker."
     },
     {
       "title": "Tjek tilladelser og apps, der holder fast i kameraet",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Opdater systemet og apps",
-      "body": "Under <b>Indstillinger › Softwareopdatering</b> (navnet varierer fra mærke til mærke) kan du søge efter en ny version, og du kan opdatere Kamera-appen i Play Butik. Kamerafejl bliver nogle gange løst af opdateringer."
+      "body": "Under <b>Indstillinger › Systemopdateringer</b> (navnet varierer fra mærke til mærke) kan du søge efter en ny version, og du kan opdatere Kamera-appen i Play Butik. Kamerafejl bliver nogle gange løst af opdateringer."
     },
     {
       "title": "Test hver linse",

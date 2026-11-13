@@ -8,7 +8,7 @@
   "h1_main": "”Kameran misslyckades” och ”Kan inte ansluta till kameran”:",
   "h1_accent": "så fixar du det",
   "intro": [
-    "”Varning: Kameran misslyckades” på Samsung, ”Kan inte ansluta till kameran”, svart skärm i kameran eller en kameraapp som hela tiden kraschar är vanligt på Android. Beror det på mjukvaran kan du ofta fixa det själv.",
+    "”Varning: Kameran fungerade inte” (eller ”Varning: Kameran misslyckades”) på Samsung, ”Kan inte ansluta till kameran”, svart skärm i kameran eller en kameraapp som hela tiden kraschar är vanligt på Android. Beror det på mjukvaran kan du ofta fixa det själv.",
     "Gå igenom stegen från enklast till svårast. Sluta så fort kameran fungerar igen."
   ],
   "howto_name": "Så fixar du ”Kameran misslyckades” och ”Kan inte ansluta till kameran” på Android",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Rensa cache och lagring för Kamera-appen",
-      "body": "Öppna <b>Inställningar › Appar</b>, välj appen <b>Kamera</b>, öppna <b>Lagring</b> och tryck på <b>Rensa cache</b>. Hjälper inte det trycker du på <b>Rensa data</b> (på Samsung: Rensa lagring eller Rensa data). Då återställs kamerainställningarna, men dina bilder och videor finns kvar. Menynamnen skiljer sig lite mellan märken."
+      "body": "På de flesta Android-telefoner: Öppna <b>Inställningar › Appar</b>, välj appen <b>Kamera</b>, öppna <b>Lagringsutrymme och cacheminne</b> och tryck på <b>Rensa cacheminne</b>. Hjälper inte det trycker du på <b>Rensa lagringsutrymme</b>. Då återställs kamerainställningarna, men dina bilder och videor finns kvar. På Samsung och andra märken kan menynamnen skilja sig lite."
     },
     {
       "title": "Kontrollera behörigheter och appar som använder kameran",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Uppdatera systemet och apparna",
-      "body": "Under <b>Inställningar › Programuppdatering</b> (namnet varierar mellan märken) söker du efter en ny version, och du uppdaterar Kamera-appen i Play Butik. Kamerafel åtgärdas ibland av uppdateringar."
+      "body": "Under <b>Inställningar › Systemuppdateringar</b> (namnet varierar mellan märken) söker du efter en ny version, och du uppdaterar Kamera-appen i Play Butik. Kamerafel åtgärdas ibland av uppdateringar."
     },
     {
       "title": "Testa varje lins",

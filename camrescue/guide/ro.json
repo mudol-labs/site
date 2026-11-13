@@ -8,7 +8,7 @@
   "h1_main": "„Camera a eșuat” și „Nu se poate conecta la cameră”:",
   "h1_accent": "cum rezolvi",
   "intro": [
-    "Avertismentul „Camera a eșuat” pe telefoanele Samsung, mesajul „Nu se poate conecta la cameră”, ecranul negru în cameră sau aplicația Cameră care se oprește mereu sunt probleme frecvente pe Android. Când cauza este software, adesea le poți rezolva singur.",
+    "Mesajul „Avertisment: Eroare la aparatul foto” (sau „Camera a eșuat”) pe telefoanele Samsung, mesajul „Nu se poate conecta la cameră”, ecranul negru în cameră sau aplicația Cameră care se oprește mereu sunt probleme frecvente pe Android. Când cauza este software, adesea le poți rezolva singur.",
     "Parcurge pașii de la cel mai simplu la cel mai greu. Oprește-te imediat ce camera funcționează din nou."
   ],
   "howto_name": "Cum rezolvi „Camera a eșuat” și „Nu se poate conecta la cameră” pe Android",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Șterge memoria cache și datele aplicației Cameră",
-      "body": "Deschide <b>Setări › Aplicații</b>, alege aplicația <b>Cameră</b>, deschide <b>Stocare</b> și atinge <b>Ștergere cache</b>. Dacă nu ajută, atinge <b>Ștergere date</b> (pe telefoanele Samsung: Ștergere stocare sau Ștergere date). Setările camerei se resetează, dar fotografiile și videoclipurile nu se șterg. Denumirile meniurilor diferă ușor de la o marcă la alta."
+      "body": "Pe majoritatea telefoanelor Android, deschide <b>Setări › Aplicații</b>, alege aplicația <b>Cameră</b>, deschide <b>Spațiul de stocare și memoria cache</b> și atinge <b>Golește memoria cache</b>. Dacă nu ajută, atinge <b>Șterge datele stocate</b>. Setările camerei se resetează, dar fotografiile și videoclipurile nu se șterg. Pe telefoanele Samsung și ale altor mărci, denumirile meniurilor diferă ușor."
     },
     {
       "title": "Verifică permisiunile și aplicațiile care blochează camera",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Actualizează sistemul și aplicațiile",
-      "body": "În <b>Setări › Actualizare software</b> (denumirea diferă în funcție de marcă) caută o versiune nouă și actualizează aplicația Cameră din Magazin Play. Erorile de cameră se rezolvă uneori prin actualizări."
+      "body": "În <b>Setări › Actualizări de sistem</b> (denumirea diferă în funcție de marcă) caută o versiune nouă și actualizează aplicația Cameră din Magazin Play. Erorile de cameră se rezolvă uneori prin actualizări."
     },
     {
       "title": "Testează fiecare obiectiv",

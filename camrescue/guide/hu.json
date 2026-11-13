@@ -8,7 +8,7 @@
   "h1_main": "„Kamerahiba” és „Nem lehet csatlakozni a kamerához”:",
   "h1_accent": "így javítsd ki",
   "intro": [
-    "A „Figyelem: Kamerahiba” üzenet Samsung telefonokon, a „Nem lehet csatlakozni a kamerához” hiba, a fekete képernyő a kamerában vagy a folyton leálló Kamera alkalmazás gyakori Androidon. Ha az ok szoftveres, sokszor magad is megoldhatod.",
+    "A „Figyelmeztetés: Kamera hiba” (vagy „Figyelem: Kamerahiba”) üzenet Samsung telefonokon, a „Nem lehet csatlakozni a kamerához” hiba, a fekete képernyő a kamerában vagy a folyton leálló Kamera alkalmazás gyakori Androidon. Ha az ok szoftveres, sokszor magad is megoldhatod.",
     "Haladj végig a lépéseken a legegyszerűbbtől a legnehezebbig. Ha újra működik a kamera, abbahagyhatod."
   ],
   "howto_name": "Hogyan javítsd ki a „Kamerahiba” és a „Nem lehet csatlakozni a kamerához” hibát Androidon",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Töröld a Kamera alkalmazás gyorsítótárát és adatait",
-      "body": "Nyisd meg a <b>Beállítások › Alkalmazások</b> részt, válaszd a <b>Kamera</b> alkalmazást, nyisd meg a <b>Tárhely</b> menüt, és koppints a <b>Gyorsítótár törlése</b> elemre. Ha ez nem segít, koppints az <b>Adatok törlése</b> elemre (Samsung telefonokon: Tárhely törlése vagy Adatok törlése). Ez visszaállítja a kamera beállításait, de a fotók és videók megmaradnak. A menük nevei márkánként kissé eltérnek."
+      "body": "A legtöbb Android-telefonon nyisd meg a <b>Beállítások › Alkalmazások</b> részt, válaszd a <b>Kamera</b> alkalmazást, nyisd meg a <b>Tárhely és gyorsítótár</b> menüt, és koppints a következőre: <b>A gyorsítótár törlése</b>. Ha ez nem segít, koppints a következőre: <b>Tárhely törlése</b>. Ez visszaállítja a kamera beállításait, de a fotók és videók megmaradnak. Samsungon és más márkákon a menük nevei kissé eltérhetnek."
     },
     {
       "title": "Ellenőrizd az engedélyeket és a kamerát lefoglaló alkalmazásokat",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Frissítsd a rendszert és az alkalmazásokat",
-      "body": "A <b>Beállítások › Szoftverfrissítés</b> részen (a név gyártónként eltérhet) keress új verziót, és frissítsd a Kamera alkalmazást a Play Áruházban. A kamerahibákat néha frissítések javítják."
+      "body": "A <b>Beállítások › Rendszerfrissítések</b> részen (a név gyártónként eltérhet) keress új verziót, és frissítsd a Kamera alkalmazást a Play Áruházban. A kamerahibákat néha frissítések javítják."
     },
     {
       "title": "Próbáld ki egyesével az objektíveket",

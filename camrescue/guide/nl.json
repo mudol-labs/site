@@ -8,7 +8,7 @@
   "h1_main": "‘Camera mislukt’ en ‘Kan geen verbinding maken met camera’:",
   "h1_accent": "zo los je het op",
   "intro": [
-    "‘Waarschuwing: camera mislukt’ op een Samsung, ‘Kan geen verbinding maken met de camera’, een zwart scherm in de camera of een camera-app die steeds stopt: het komt vaak voor op Android. Zit het probleem in de software, dan kun je het vaak zelf oplossen.",
+    "‘Waarschuwing: Camerafout’ (of ‘Waarschuwing: camera mislukt’) op een Samsung, ‘Kan geen verbinding maken met de camera’, een zwart scherm in de camera of een camera-app die steeds stopt: het komt vaak voor op Android. Zit het probleem in de software, dan kun je het vaak zelf oplossen.",
     "Loop deze stappen door van makkelijk naar lastig. Stop zodra de camera weer werkt."
   ],
   "howto_name": "Zo los je ‘Camera mislukt’ en ‘Kan geen verbinding maken met camera’ op Android op",
@@ -20,11 +20,11 @@
     },
     {
       "title": "Wis de cache en opslag van de Camera-app",
-      "body": "Open <b>Instellingen › Apps</b>, kies de app <b>Camera</b>, open <b>Opslag</b> en tik op <b>Cache wissen</b>. Helpt dat niet, tik dan op <b>Gegevens wissen</b> (bij Samsung: Opslag wissen of Gegevens wissen). Hiermee worden de camera-instellingen gereset, maar je foto's en video's blijven bestaan. De menunamen verschillen iets per merk."
+      "body": "Open op de meeste Android-telefoons <b>Instellingen › Apps</b>, kies de app <b>Camera</b>, open <b>Opslag en cache</b> en tik op <b>Cache wissen</b>. Helpt dat niet, tik dan op <b>Opslag wissen</b>. Hiermee worden de camera-instellingen gereset, maar je foto's en video's blijven bestaan. Bij Samsung en andere merken verschillen de menunamen iets."
     },
     {
       "title": "Controleer machtigingen en apps die de camera in gebruik hebben",
-      "body": "Controleer bij de <b>Machtigingen</b> van de Camera-app of de camera is toegestaan. Als een app voor videobellen, de zaklamp of een QR-scanner de camera vasthoudt, kan de Camera-app mogelijk niet openen. Sluit die apps helemaal af via het scherm met recente apps en open de camera daarna opnieuw."
+      "body": "Controleer bij de <b>Rechten</b> van de Camera-app of de camera is toegestaan. Als een app voor videobellen, de zaklamp of een QR-scanner de camera vasthoudt, kan de Camera-app mogelijk niet openen. Sluit die apps helemaal af via het scherm met recente apps en open de camera daarna opnieuw."
     },
     {
       "title": "Gebruik de veilige modus om een storende app te vinden",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Werk het systeem en de apps bij",
-      "body": "Zoek bij <b>Instellingen › Software-update</b> (de naam verschilt per merk) naar een nieuwe versie en werk de Camera-app bij in de Play Store. Camerafouten worden soms door updates verholpen."
+      "body": "Zoek bij <b>Instellingen › Systeemupdates</b> (de naam verschilt per merk) naar een nieuwe versie en werk de Camera-app bij in de Play Store. Camerafouten worden soms door updates verholpen."
     },
     {
       "title": "Test elke lens",

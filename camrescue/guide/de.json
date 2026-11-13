@@ -8,7 +8,7 @@
   "h1_main": "„Kamera fehlgeschlagen“ und „Keine Verbindung zur Kamera“:",
   "h1_accent": "So beheben Sie es",
   "intro": [
-    "„Warnung: Kamera fehlgeschlagen“ bei Samsung, „Verbindung zur Kamera nicht möglich“, ein schwarzer Bildschirm in der Kamera oder eine Kamera-App, die immer wieder abstürzt: Das kommt bei Android-Handys häufig vor. Liegt die Ursache in der Software, können Sie es oft selbst beheben.",
+    "„Warnung: Kamerafehler“ (oder „Kamera fehlgeschlagen“) bei Samsung, „Verbindung zur Kamera nicht möglich“, ein schwarzer Bildschirm in der Kamera oder eine Kamera-App, die immer wieder abstürzt: Das kommt bei Android-Handys häufig vor. Liegt die Ursache in der Software, können Sie es oft selbst beheben.",
     "Gehen Sie die Schritte von leicht nach schwer durch. Sobald die Kamera wieder funktioniert, können Sie aufhören."
   ],
   "howto_name": "So beheben Sie „Kamera fehlgeschlagen“ und „Keine Verbindung zur Kamera“ bei Android",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Cache und Speicher der Kamera-App leeren",
-      "body": "Öffnen Sie <b>Einstellungen › Apps</b>, wählen Sie die App <b>Kamera</b>, öffnen Sie <b>Speicher</b> und tippen Sie auf <b>Cache leeren</b>. Hilft das nicht, tippen Sie auf <b>Daten löschen</b> (bei Samsung: Speicher leeren oder Daten löschen). Dabei werden die Kameraeinstellungen zurückgesetzt, Ihre Fotos und Videos bleiben erhalten. Die Menünamen unterscheiden sich je nach Hersteller etwas."
+      "body": "Öffnen Sie <b>Einstellungen › Apps</b>, wählen Sie die App <b>Kamera</b>, öffnen Sie <b>Speicherplatz</b> und tippen Sie auf <b>Cache leeren</b>. Hilft das nicht, tippen Sie auf <b>Daten löschen</b>. Dabei werden die Kameraeinstellungen zurückgesetzt, Ihre Fotos und Videos bleiben erhalten. Die Menünamen unterscheiden sich je nach Hersteller etwas."
     },
     {
       "title": "Berechtigungen und Apps prüfen, die die Kamera blockieren",

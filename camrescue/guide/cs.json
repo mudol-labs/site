@@ -8,7 +8,7 @@
   "h1_main": "„Selhání fotoaparátu“ a „Nelze se připojit k fotoaparátu“:",
   "h1_accent": "jak to opravit",
   "intro": [
-    "Upozornění „Selhání fotoaparátu“ na telefonech Samsung, hláška „Nelze se připojit k fotoaparátu“, černá obrazovka ve fotoaparátu nebo aplikace Fotoaparát, která pořád padá, jsou na Androidu časté potíže. Pokud je příčina v softwaru, často to jde opravit vlastními silami.",
+    "Hláška „Upozornění: Chyba fotoaparátu“ (nebo „Selhání fotoaparátu“) na telefonech Samsung, hláška „Nelze se připojit k fotoaparátu“, černá obrazovka ve fotoaparátu nebo aplikace Fotoaparát, která pořád padá, jsou na Androidu časté potíže. Pokud je příčina v softwaru, často to jde opravit vlastními silami.",
     "Projděte kroky od nejsnazších k nejtěžším. Jakmile fotoaparát znovu funguje, můžete skončit."
   ],
   "howto_name": "Jak opravit „Selhání fotoaparátu“ a „Nelze se připojit k fotoaparátu“ na Androidu",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Vymažte mezipaměť a data aplikace Fotoaparát",
-      "body": "Otevřete <b>Nastavení › Aplikace</b>, vyberte <b>Fotoaparát</b>, otevřete <b>Úložiště</b> a klepněte na <b>Vymazat mezipaměť</b>. Pokud to nepomůže, klepněte na <b>Vymazat data</b> (na telefonech Samsung se může jmenovat „Vymazat úložiště“ nebo „Vymazat data“). Nastavení fotoaparátu se vrátí na výchozí, ale fotky a videa se nesmažou. U jiných značek se názvy nabídek mírně liší."
+      "body": "Na většině telefonů s Androidem otevřete <b>Nastavení › Aplikace</b>, vyberte <b>Fotoaparát</b>, otevřete <b>Úložiště a mezipaměť</b> a klepněte na <b>Vymazat mezipaměť</b>. Pokud to nepomůže, klepněte na <b>Vymazat úložiště</b>. Nastavení fotoaparátu se vrátí na výchozí, ale fotky a videa se nesmažou. U telefonů Samsung a jiných značek se názvy nabídek mírně liší."
     },
     {
       "title": "Zkontrolujte oprávnění a aplikace, které fotoaparát blokují",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Aktualizujte systém a aplikace",
-      "body": "V <b>Nastavení › Aktualizace softwaru</b> (název se liší podle výrobce) zkontrolujte, zda je dostupná nová verze, a aktualizujte aplikaci Fotoaparát v Obchodě Play. Chyby fotoaparátu někdy opraví aktualizace."
+      "body": "V <b>Nastavení › Aktualizace systému</b> (název se liší podle výrobce) zkontrolujte, zda je dostupná nová verze, a aktualizujte aplikaci Fotoaparát v Obchodě Play. Chyby fotoaparátu někdy opraví aktualizace."
     },
     {
       "title": "Vyzkoušejte každý objektiv",

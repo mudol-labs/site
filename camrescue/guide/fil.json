@@ -8,7 +8,7 @@
   "h1_main": "“Camera failed” at “Hindi makakonekta sa camera”:",
   "h1_accent": "paano ayusin",
   "intro": [
-    "Ang “Warning: Camera failed” sa mga Samsung phone, “Can't connect to the camera”, black screen sa camera, o camera app na paulit-ulit na humihinto ay karaniwang problema sa Android. Kung software ang sanhi, madalas ay kaya mo itong ayusin mag-isa.",
+    "Ang “May Babala: Nabigo ang camera” (o “Warning: Camera failed”) sa mga Samsung phone, “Can't connect to the camera”, black screen sa camera, o camera app na paulit-ulit na humihinto ay karaniwang problema sa Android. Kung software ang sanhi, madalas ay kaya mo itong ayusin mag-isa.",
     "Sundan ang mga hakbang na ito mula sa pinakamadali hanggang sa pinakamahirap. Huminto na kapag gumana na ulit ang camera."
   ],
   "howto_name": "Paano ayusin ang “Camera failed” at “Can't connect to camera” sa Android",
@@ -20,11 +20,11 @@
     },
     {
       "title": "I-clear ang cache at storage ng Camera app",
-      "body": "Buksan ang <b>Settings > Apps</b>, piliin ang <b>Camera</b> app, buksan ang <b>Storage</b>, at i-tap ang <b>Clear cache</b>. Kung hindi pa rin gumana, i-tap ang <b>Clear data</b> (sa mga Samsung phone, maaaring Clear storage o Clear data). Magre-reset ang mga setting ng camera pero hindi buburahin ang mga litrato at video mo. Medyo nag-iiba ang pangalan ng menu sa bawat brand."
+      "body": "Buksan ang <b>Mga Setting > Mga app</b>, piliin ang <b>Camera</b> app, buksan ang <b>Storage</b>, at i-tap ang <b>I-clear ang cache</b>. Kung hindi pa rin gumana, i-tap ang <b>I-clear ang data</b>. Magre-reset ang mga setting ng camera pero hindi buburahin ang mga litrato at video mo. Medyo nag-iiba ang pangalan ng menu sa bawat brand."
     },
     {
       "title": "Suriin ang permissions at ang mga app na gumagamit ng camera",
-      "body": "Sa <b>Permissions</b> ng Camera app, tiyaking pinapayagan ang Camera. Kung may video call app, flashlight, o QR scanner na gumagamit ng camera, maaaring hindi mabuksan ang Camera app. Isara nang tuluyan ang mga iyon mula sa recent apps screen, tapos buksan ulit ang camera."
+      "body": "Sa <b>Mga pahintulot</b> ng Camera app, tiyaking pinapayagan ang Camera. Kung may video call app, flashlight, o QR scanner na gumagamit ng camera, maaaring hindi mabuksan ang Camera app. Isara nang tuluyan ang mga iyon mula sa recent apps screen, tapos buksan ulit ang camera."
     },
     {
       "title": "Gamitin ang safe mode para hanapin ang app na sumasalungat",
@@ -32,7 +32,7 @@
     },
     {
       "title": "I-update ang system at mga app",
-      "body": "Sa <b>Settings > Software update</b> (nag-iiba ang pangalan depende sa brand), tingnan kung may bagong bersyon, at i-update din ang Camera app sa Play Store. Minsan naaayos ang camera error sa pamamagitan ng update."
+      "body": "Sa <b>Mga Setting > Update ng software</b> (nag-iiba ang pangalan depende sa brand), tingnan kung may bagong bersyon, at i-update din ang Camera app sa Play Store. Minsan naaayos ang camera error sa pamamagitan ng update."
     },
     {
       "title": "Subukan ang bawat lens",

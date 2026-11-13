@@ -20,7 +20,7 @@
     },
     {
       "title": "Hapus cache dan penyimpanan aplikasi Kamera",
-      "body": "Buka <b>Pengaturan > Aplikasi</b>, pilih aplikasi <b>Kamera</b>, buka <b>Penyimpanan</b>, lalu ketuk <b>Hapus cache</b>. Jika belum berhasil, ketuk <b>Hapus data</b> (di ponsel Samsung bisa berupa Hapus penyimpanan atau Hapus data). Ini mengatur ulang pengaturan kamera, tetapi tidak menghapus foto dan video Anda. Nama menu sedikit berbeda antarmerek."
+      "body": "Buka <b>Pengaturan > Aplikasi</b>, pilih aplikasi <b>Kamera</b>, buka <b>Penyimpanan</b>, lalu ketuk <b>Hapus memori</b>. Jika belum berhasil, ketuk <b>Hapus data</b>. Ini mengatur ulang pengaturan kamera, tetapi tidak menghapus foto dan video Anda. Nama menu sedikit berbeda antarmerek."
     },
     {
       "title": "Periksa izin dan aplikasi yang sedang memakai kamera",

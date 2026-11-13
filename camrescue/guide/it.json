@@ -8,7 +8,7 @@
   "h1_main": "“Errore fotocamera” e “Impossibile connettersi alla fotocamera”:",
   "h1_accent": "come risolvere",
   "intro": [
-    "“Avviso: errore della fotocamera” su Samsung, “Impossibile connettersi alla fotocamera”, schermo nero nella fotocamera o app fotocamera che si chiude continuamente: sono problemi frequenti su Android. Se la causa è il software, spesso puoi risolvere da solo.",
+    "“Avviso: Errore fotocamera” (o “Avviso: errore della fotocamera”) su Samsung, “Impossibile connettersi alla fotocamera”, schermo nero nella fotocamera o app fotocamera che si chiude continuamente: sono problemi frequenti su Android. Se la causa è il software, spesso puoi risolvere da solo.",
     "Segui questi passaggi dal più facile al più difficile. Fermati appena la fotocamera torna a funzionare."
   ],
   "howto_name": "Come risolvere “Errore fotocamera” e “Impossibile connettersi alla fotocamera” su Android",
@@ -20,11 +20,11 @@
     },
     {
       "title": "Svuota la cache e l'archiviazione dell'app Fotocamera",
-      "body": "Apri <b>Impostazioni › App</b>, scegli l'app <b>Fotocamera</b>, apri <b>Archiviazione</b> e tocca <b>Cancella cache</b>. Se non basta, tocca <b>Cancella dati</b> (su Samsung: Cancella archiviazione o Cancella dati). Le impostazioni della fotocamera vengono ripristinate, ma foto e video non vengono eliminati. I nomi dei menu cambiano un po' a seconda della marca."
+      "body": "Apri <b>Impostazioni › Applicazioni</b>, scegli l'app <b>Fotocamera</b>, apri <b>Spazio di archiviazione</b> e tocca <b>Svuota cache</b>. Se non basta, tocca <b>Cancella dati</b>. Le impostazioni della fotocamera vengono ripristinate, ma foto e video non vengono eliminati. I nomi dei menu cambiano un po' a seconda della marca."
     },
     {
       "title": "Controlla i permessi e le app che occupano la fotocamera",
-      "body": "Nei <b>Permessi</b> dell'app Fotocamera, verifica che la fotocamera sia consentita. Se un'app di videochiamata, la torcia o uno scanner QR sta usando la fotocamera, l'app Fotocamera potrebbe non aprirsi. Chiudi completamente queste app dalla schermata delle app recenti e riapri la fotocamera."
+      "body": "Nei <b>Autorizzazioni</b> dell'app Fotocamera, verifica che la fotocamera sia consentita. Se un'app di videochiamata, la torcia o uno scanner QR sta usando la fotocamera, l'app Fotocamera potrebbe non aprirsi. Chiudi completamente queste app dalla schermata delle app recenti e riapri la fotocamera."
     },
     {
       "title": "Usa la modalità provvisoria per trovare un'app in conflitto",
