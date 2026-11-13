@@ -20,7 +20,7 @@
     },
     {
       "title": "Kamera uygulamasının önbelleğini ve verilerini temizleyin",
-      "body": "<b>Ayarlar › Uygulamalar</b> bölümünü açın, <b>Kamera</b> uygulamasını seçin, <b>Depolama</b>'yı açın ve <b>Önbelleği temizle</b>'ye dokunun. İşe yaramazsa <b>Verileri temizle</b>'ye dokunun (Samsung telefonlarda: Depolamayı temizle ya da Verileri temizle). Bu, kamera ayarlarını sıfırlar ama fotoğraf ve videolarınızı silmez. Menü adları markaya göre biraz değişebilir."
+      "body": "Çoğu Android telefonda <b>Ayarlar › Uygulamalar</b> bölümünü açın, <b>Kamera</b> uygulamasını seçin, <b>Depolama alanı ve önbellek</b> bölümünü açın ve <b>Önbelleği temizle</b>'ye dokunun. İşe yaramazsa <b>Depolama alanını temizle</b>'ye dokunun. Bu, kamera ayarlarını sıfırlar ama fotoğraf ve videolarınızı silmez. Samsung ve diğer markalarda menü adları biraz değişebilir."
     },
     {
       "title": "İzinleri ve kamerayı meşgul eden uygulamaları kontrol edin",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Sistemi ve uygulamaları güncelleyin",
-      "body": "<b>Ayarlar › Yazılım güncelleme</b> bölümünden (adı markaya göre değişir) yeni sürüm olup olmadığına bakın ve Kamera uygulamasını Play Store'dan güncelleyin. Kamera hataları bazen güncellemelerle düzelir."
+      "body": "<b>Ayarlar › Sistem güncellemeleri</b> bölümünden (adı markaya göre değişir) yeni sürüm olup olmadığına bakın ve Kamera uygulamasını Play Store'dan güncelleyin. Kamera hataları bazen güncellemelerle düzelir."
     },
     {
       "title": "Her lensi ayrı ayrı deneyin",

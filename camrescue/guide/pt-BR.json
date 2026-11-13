@@ -8,7 +8,7 @@
   "h1_main": "“Falha na câmera” e “Não é possível conectar-se à câmera”:",
   "h1_accent": "como resolver",
   "intro": [
-    "“Aviso: falha na câmera” em celulares Samsung, “Não é possível conectar-se à câmera”, tela preta na câmera ou app de câmera que fecha toda hora: são problemas comuns no Android. Quando a causa é o software, muitas vezes dá para resolver sozinho.",
+    "“Aviso: Erro na câmera” (ou “Aviso: falha na câmera”) em celulares Samsung, “Não é possível conectar-se à câmera”, tela preta na câmera ou app de câmera que fecha toda hora: são problemas comuns no Android. Quando a causa é o software, muitas vezes dá para resolver sozinho.",
     "Siga os passos do mais fácil ao mais difícil. Pare assim que a câmera voltar a funcionar."
   ],
   "howto_name": "Como resolver “Falha na câmera” e “Não é possível conectar-se à câmera” no Android",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Limpe o cache e o armazenamento do app Câmera",
-      "body": "Abra <b>Configurações › Apps</b>, escolha o app <b>Câmera</b>, abra <b>Armazenamento</b> e toque em <b>Limpar cache</b>. Se não resolver, toque em <b>Limpar dados</b> (em celulares Samsung: Limpar armazenamento ou Limpar dados). Isso redefine as configurações da câmera, mas não apaga suas fotos e vídeos. Os nomes dos menus variam um pouco conforme a marca."
+      "body": "Na maioria dos celulares Android, abra <b>Configurações › Apps</b>, escolha o app <b>Câmera</b>, abra <b>Armazenamento e cache</b> e toque em <b>Limpar cache</b>. Se não resolver, toque em <b>Limpar armazenamento</b>. Isso redefine as configurações da câmera, mas não apaga suas fotos e vídeos. Em celulares Samsung e de outras marcas, os nomes dos menus variam um pouco."
     },
     {
       "title": "Confira as permissões e os apps que estão usando a câmera",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Atualize o sistema e os apps",
-      "body": "Em <b>Configurações › Atualização de software</b> (o nome varia conforme a marca), procure uma nova versão e atualize o app Câmera na Play Store. Às vezes as atualizações corrigem erros da câmera."
+      "body": "Em <b>Configurações › Atualizações do sistema</b> (o nome varia conforme a marca), procure uma nova versão e atualize o app Câmera na Play Store. Às vezes as atualizações corrigem erros da câmera."
     },
     {
       "title": "Teste cada lente",

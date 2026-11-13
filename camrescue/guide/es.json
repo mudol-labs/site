@@ -8,7 +8,7 @@
   "h1_main": "«Error de cámara» y «No se puede conectar a la cámara»:",
   "h1_accent": "cómo solucionarlo",
   "intro": [
-    "«Advertencia: error de la cámara» en un Samsung, «No se puede conectar a la cámara», pantalla negra en la cámara o una app de cámara que se cierra una y otra vez: son problemas habituales en Android. Si la causa es el software, muchas veces puedes arreglarlo tú mismo.",
+    "«Aviso: Error de la cámara» (o «Advertencia: error de la cámara») en un Samsung, «No se puede conectar a la cámara», pantalla negra en la cámara o una app de cámara que se cierra una y otra vez: son problemas habituales en Android. Si la causa es el software, muchas veces puedes arreglarlo tú mismo.",
     "Sigue estos pasos de lo más fácil a lo más difícil. Para en cuanto la cámara vuelva a funcionar."
   ],
   "howto_name": "Cómo solucionar «Error de cámara» y «No se puede conectar a la cámara» en Android",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Borra la caché y el almacenamiento de la app Cámara",
-      "body": "Abre <b>Ajustes › Aplicaciones</b>, elige la app <b>Cámara</b>, abre <b>Almacenamiento</b> y pulsa <b>Borrar caché</b>. Si no basta, pulsa <b>Borrar datos</b> (en Samsung: Borrar almacenamiento o Borrar datos). Esto restablece los ajustes de la cámara, pero no borra tus fotos ni vídeos. Los nombres de los menús varían un poco según la marca."
+      "body": "Abre <b>Ajustes › Aplicaciones</b>, elige la app <b>Cámara</b>, abre <b>Almacenamiento</b> y pulsa <b>Borrar caché</b>. Si no basta, pulsa <b>Borrar datos</b>. Esto restablece los ajustes de la cámara, pero no borra tus fotos ni vídeos. Los nombres de los menús varían un poco según la marca."
     },
     {
       "title": "Comprueba los permisos y las apps que estén usando la cámara",

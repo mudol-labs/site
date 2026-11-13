@@ -20,7 +20,7 @@
     },
     {
       "title": "Kosongkan cache dan storan apl Kamera",
-      "body": "Buka <b>Tetapan > Aplikasi</b>, pilih apl <b>Kamera</b>, buka <b>Storan</b> dan ketik <b>Kosongkan cache</b>. Jika tidak berhasil, ketik <b>Kosongkan data</b> (pada telefon Samsung mungkin Kosongkan storan atau Kosongkan data). Ini menetapkan semula tetapan kamera tetapi tidak memadam foto dan video anda. Nama menu agak berbeza antara jenama."
+      "body": "Pada kebanyakan telefon Android, buka <b>Tetapan > Apl</b>, pilih apl <b>Kamera</b>, buka <b>Storan & cache</b> dan ketik <b>Kosongkan cache</b>. Jika tidak berhasil, ketik <b>Kosongkan storan</b>. Ini menetapkan semula tetapan kamera tetapi tidak memadam foto dan video anda. Pada Samsung dan jenama lain, nama menu mungkin agak berbeza."
     },
     {
       "title": "Semak kebenaran dan apl yang sedang menggunakan kamera",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Kemas kini sistem dan apl",
-      "body": "Dalam <b>Tetapan > Kemas kini perisian</b> (namanya berbeza mengikut jenama), semak versi baharu, dan kemas kini apl Kamera di Play Store. Ralat kamera kadangkala dibetulkan melalui kemas kini."
+      "body": "Dalam <b>Tetapan > Kemas kini sistem</b> (namanya berbeza mengikut jenama), semak versi baharu, dan kemas kini apl Kamera di Play Store. Ralat kamera kadangkala dibetulkan melalui kemas kini."
     },
     {
       "title": "Uji setiap lensa",

@@ -20,11 +20,11 @@
     },
     {
       "title": "Tyhjennä Kamera-sovelluksen välimuisti ja tiedot",
-      "body": "Avaa <b>Asetukset > Sovellukset</b>, valitse <b>Kamera</b>-sovellus, avaa <b>Tallennustila</b> ja napauta <b>Tyhjennä välimuisti</b>. Jos se ei auta, napauta <b>Tyhjennä tiedot</b>. Tämä palauttaa kameran asetukset oletuksiin, mutta ei poista kuviasi tai videoitasi. Valikkojen nimet vaihtelevat hieman merkeittäin."
+      "body": "Useimmissa Android-puhelimissa avaa <b>Asetukset > Sovellukset</b>, valitse <b>Kamera</b>-sovellus, avaa <b>Tallennustila ja välimuisti</b> ja napauta <b>Tyhjennä välimuisti</b>. Jos se ei auta, napauta <b>Tyhjennä tallennustila</b>. Tämä palauttaa kameran asetukset oletuksiin, mutta ei poista kuviasi tai videoitasi. Samsungin ja muiden merkkien valikkojen nimet voivat poiketa hieman."
     },
     {
       "title": "Tarkista käyttöoikeudet ja kameraa pitävät sovellukset",
-      "body": "Varmista Kamera-sovelluksen <b>Käyttöoikeudet</b>-kohdassa, että kameran käyttö on sallittu. Jos videopuhelusovellus, taskulamppu tai QR-lukija pitää kameraa varattuna, Kamera-sovellus ei välttämättä avaudu. Sulje ne kokonaan viimeisimpien sovellusten näkymästä ja avaa kamera uudelleen."
+      "body": "Varmista Kamera-sovelluksen <b>Luvat</b>-kohdassa, että kameran käyttö on sallittu. Jos videopuhelusovellus, taskulamppu tai QR-lukija pitää kameraa varattuna, Kamera-sovellus ei välttämättä avaudu. Sulje ne kokonaan viimeisimpien sovellusten näkymästä ja avaa kamera uudelleen."
     },
     {
       "title": "Etsi ristiriitainen sovellus vikasietotilassa",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Päivitä järjestelmä ja sovellukset",
-      "body": "Tarkista uusi versio kohdasta <b>Asetukset > Ohjelmistopäivitys</b> (nimi vaihtelee merkeittäin) ja päivitä myös Kamera-sovellus Play Kaupasta. Päivitykset korjaavat joskus kameravirheitä."
+      "body": "Tarkista uusi versio kohdasta <b>Asetukset > Järjestelmäpäivitykset</b> (nimi vaihtelee merkeittäin) ja päivitä myös Kamera-sovellus Play Kaupasta. Päivitykset korjaavat joskus kameravirheitä."
     },
     {
       "title": "Testaa jokainen linssi",

@@ -33,3 +33,10 @@ JSON 이 있는 언어만 HTML 을 만들고 `sitemap.xml` 도 다시 써요. JS
 `intro[2]`, `howto_name`, `howto_description`, `steps[7]{title, body}`, `app_name`, `app_tagline`, `cta_title`, `cta_intro`,
 `features[4]`, `cta_note`, `play_button`, `video_title`, `faq_title`, `faq[4]{q, a}`, `back_home`.
 글 안에서는 `<b>…</b>` 만 쓸 수 있고, JSON-LD(HowTo, FAQPage)에는 같은 글이 태그 없이 들어가요.
+
+## 메뉴 이름과 카메라 오류 문구
+
+안내 글의 설정 메뉴 이름(설정·앱·저장공간·캐시/데이터 삭제·권한·소프트웨어 업데이트)과 삼성 카메라 오류 문구는
+`tools/verified_ui_strings.json` 에서 가져왔어요. 2026-11-13 에 삼성(Galaxy S24, One UI)과 Pixel 의 설정·카메라 APK 에서 뽑은 실제 문자열이에요.
+삼성이 이 언어를 넣지 않은 경우는 순정 안드로이드 설정 APK 의 이름이고, 그런 언어는 "대부분의 안드로이드 폰" 기준으로 적었어요.
+앞으로 글을 고칠 때도 이 파일의 문자열을 그대로 쓰고, 메뉴 이름을 새로 지어내지 마세요.

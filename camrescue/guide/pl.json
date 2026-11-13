@@ -8,7 +8,7 @@
   "h1_main": "„Błąd aparatu” i „Nie można połączyć się z aparatem”:",
   "h1_accent": "jak to naprawić",
   "intro": [
-    "Ostrzeżenie „Błąd aparatu” na telefonach Samsung, komunikat „Nie można połączyć się z aparatem”, czarny ekran w aparacie albo aplikacja Aparat, która ciągle się zawiesza, to częste problemy na Androidzie. Jeśli przyczyna leży w oprogramowaniu, często da się to naprawić samemu.",
+    "Komunikat „Ostrzeżenie: Błąd kamery” (lub „Błąd aparatu”) na telefonach Samsung, komunikat „Nie można połączyć się z aparatem”, czarny ekran w aparacie albo aplikacja Aparat, która ciągle się zawiesza, to częste problemy na Androidzie. Jeśli przyczyna leży w oprogramowaniu, często da się to naprawić samemu.",
     "Wykonuj kolejne kroki, od najłatwiejszych do najtrudniejszych. Gdy aparat zacznie działać, możesz przestać."
   ],
   "howto_name": "Jak naprawić „Błąd aparatu” i „Nie można połączyć się z aparatem” na Androidzie",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Wyczyść pamięć podręczną i dane aplikacji Aparat",
-      "body": "Otwórz <b>Ustawienia › Aplikacje</b>, wybierz <b>Aparat</b>, wejdź w <b>Pamięć</b> i stuknij <b>Wyczyść pamięć podręczną</b>. Jeśli to nie pomoże, stuknij <b>Wyczyść dane</b> (w telefonach Samsung może to być „Wyczyść pamięć” lub „Wyczyść dane”). Ustawienia aparatu zostaną zresetowane, ale zdjęcia i filmy nie zostaną usunięte. W telefonach innych marek nazwy opcji mogą się nieco różnić."
+      "body": "W większości telefonów z Androidem otwórz <b>Ustawienia › Aplikacje</b>, wybierz <b>Aparat</b>, wejdź w <b>Pamięć wewnętrzna i podręczna</b> i stuknij <b>Wyczyść pamięć podręczną</b>. Jeśli to nie pomoże, stuknij <b>Wyczyść pamięć wewnętrzną</b>. Ustawienia aparatu zostaną zresetowane, ale zdjęcia i filmy nie zostaną usunięte. W telefonach Samsung i innych marek nazwy opcji mogą się nieco różnić."
     },
     {
       "title": "Sprawdź uprawnienia i aplikacje blokujące aparat",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Zaktualizuj system i aplikacje",
-      "body": "W <b>Ustawienia › Aktualizacja oprogramowania</b> (nazwa zależy od producenta) sprawdź, czy jest nowa wersja, i zaktualizuj aplikację Aparat w Sklepie Play. Błędy aparatu czasem naprawiają aktualizacje."
+      "body": "W <b>Ustawienia › Aktualizacje systemu</b> (nazwa zależy od producenta) sprawdź, czy jest nowa wersja, i zaktualizuj aplikację Aparat w Sklepie Play. Błędy aparatu czasem naprawiają aktualizacje."
     },
     {
       "title": "Przetestuj każdy obiektyw",
