@@ -10,7 +10,7 @@ Mudol Labs 앱들의 공개 웹 페이지예요. GitHub Pages(`mudol-labs/site`,
 
 | 경로 | 내용 | 쓰는 곳 |
 |---|---|---|
-| `index.html` | Mudol Labs 소개, 찰나 카메라(CamRescue) 소개와 Play 링크 | 홈 |
+| `index.html` | Mudol Labs 소개, 찰나 카메라(CamRescue) 소개와 Play 링크, 아래쪽에 세 앱의 개인정보처리방침 링크 | 홈 |
 | `camrescue/privacy.html` | CamRescue 개인정보처리방침 | Play Console 개인정보처리방침 URL |
 | `hypeboard/privacy.html` | Hypeboard 개인정보처리방침 | Play Console 개인정보처리방침 URL |
 | `sleep/privacy.html` | SleepSonar(슬립소나) 개인정보처리방침 | Play Console 개인정보처리방침 URL |

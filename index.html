@@ -107,6 +107,8 @@
           background: var(--brand-grad); -webkit-background-clip: text; background-clip: text; color: transparent }
 
   footer { padding: 40px 0 56px; color: var(--muted); font-size: .85rem; text-align: center }
+  footer .policies { margin: 0 0 .5rem }
+  footer .policies a { text-decoration: underline; text-underline-offset: 2px }
 
   /* 보이는 언어만 남기고 나머지는 숨긴다 (보이는 쪽은 원래 레이아웃 그대로) */
   html:not([lang="ko"]) [data-ko], html[lang="ko"] [data-en] { display: none !important }
@@ -239,7 +241,13 @@
 </main>
 
 <footer>
-  <div class="wrap">© 2026 Mudol Labs</div>
+  <div class="wrap">
+    <p class="policies"><span data-en>Privacy policies</span><span data-ko>개인정보처리방침</span>:
+      <a href="camrescue/privacy.html"><span data-en>CamRescue</span><span data-ko>찰나 카메라</span></a> ·
+      <a href="hypeboard/privacy.html"><span data-en>Hypeboard</span><span data-ko>하이프보드</span></a> ·
+      <a href="sleep/privacy.html"><span data-en>SleepSonar</span><span data-ko>슬립소나</span></a></p>
+    © 2026 Mudol Labs
+  </div>
 </footer>
 
 <script>
